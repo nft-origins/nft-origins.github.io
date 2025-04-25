@@ -1,0 +1,953 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="NFT, Ethereum NFTs, Ai Art, GAN, 0xmon, 0xmons, Sudoswap" name="keywords" />
+
+    <title>0xmons Onchain In Early 2021</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css"
+        rel="stylesheet" />
+    <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+
+    <link href="assets/favicon.ico" rel="icon" type="image/jpeg" />
+    <link href="../../styles.css" rel="stylesheet" />
+
+    <style>
+        @media (max-width: 640px) {
+
+            .gridjs-td[data-column-id='series'],
+            .gridjs-th[data-column-id='series'],
+            .gridjs-td[data-column-id='epithets'],
+            .gridjs-th[data-column-id='epithets'],
+            .gridjs-td[data-column-id='description'],
+            .gridjs-th[data-column-id='description'] {
+                display: none !important;
+            }
+
+        }
+
+        .gridjs-container {
+
+            overflow-x: auto;
+
+        }
+    </style>
+</head>
+
+<body class="p-1 m-4">
+    <div class="row pb-2 align-items-center">
+        <div class="col">
+            <h1>0xmons Onchain In Early 2021</h1>
+        </div>
+    </div>
+
+    <div class="pb-2">
+        <a href="../" class="github-btn">
+            <svg height="20" width="20" style="fill: black;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <path
+                    d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H4c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h16c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-7-4l2.5-3.5 3.5 4.5H6l4-5z" />
+            </svg>
+            View more timelines here
+        </a>
+    </div>
+
+    <div class="pb-4">
+        <a href="https://github.com/dsgriffin/nft-origins/tree/main/timelines/0xmons-onchain-in-early-2021"
+            class="github-btn">
+            <svg height="20" width="20" style="fill: black;" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+            </svg>
+            View this timelines' source code (data, onchain images etc.) on GitHub
+        </a>
+    </div>
+
+    <div class="pb-3">
+        <h6>
+            Only 83 0xmons had their full GAN animation artworks <a
+                href='https://web.archive.org/web/20240909141756/https://blog.0xmons.xyz/79081566310'
+                target='_blank'>put onchain in early 2021</a>
+            before <a
+                href="https://web.archive.org/web/20230327021332/https://opensea.io/assets/ethereum/0x2a648cb23d3adf1bb171fabc0119ea3eb951841f/0">Nahiko
+                released XOR (first neural network onchain) on the 9th August 2021</a>,
+            making them the earliest onchain AI artworks.
+        </h6>
+    </div>
+
+    <div id="wrapper" class="pb-4"></div>
+
+    <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+    <script>
+        new gridjs.Grid({
+            columns: [
+                { name: 'Artwork', id: 'artwork', width: '10%' },
+                { name: 'Onchain & Linked Datetimes', id: 'datetime', width: '17.5%' },
+                { name: 'Name', id: 'name', width: '12.5%' },
+                { name: 'Series', id: 'series', width: '7.5%' },
+                { name: 'Epithets', id: 'epithets', width: '15%' },
+                { name: 'Description', id: 'description', width: '35%' },
+            ],
+            data: [
+                {
+                    "artwork": gridjs.html("<img alt='Huacas' height='125px' src='assets/huacas.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x296658fbfaa2fe717dba8d2b05682457920be629a3145a1dde271b306effd969' target='_blank'>2021-01-30 04:42:54</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x29ab59e67ce7ce0e6c5c8acf4eb38c52b3ef43dc380a3979fbc412fb8b3f7c5a' target='_blank'>2021-01-30 04:42:54</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/11' target='_blank'>Huacas</a>"),
+                    "series": "1",
+                    "epithets": "The Magician Who Lived Through Eternity",
+                    "description": "A mystic scholar who may be from another world entirely. He is the only Ancient God left alive in the modern world. Many of his writings have mysteriously found their ways into libraries and studies across the world."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='X'l-rho' height='125px' src='assets/xl-rho.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xcc08c6081f09fc2f13f667e6e1a7923356787f34f83cbb24661f966756fa13ee' target='_blank'>2021-02-19 20:34:23</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xa6e0167b9dc04f69e0548da8c84f70bba2acb61329e28184a4155218e2d1e779' target='_blank'>2021-02-19 20:34:50</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/13' target='_blank'>X'l-rho</a>"),
+                    "series": "1",
+                    "epithets": "A Downed One",
+                    "description": "A gigantic living mass of debris, rock and ships from the endless sea which Zä-thrathe drags barges from her mind into the material world and gulps down into the endless sea."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Yatha' height='125px' src='assets/yatha.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xff4dabf7703987429bbdd241aec0e755952c2cfde8c001e602e22fdbcdeebdf3' target='_blank'>2021-02-20 03:35:06</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xa7384a12bb080fe3f04e6e114e666065d1b7fa5bb3ef6193a28e3667fd90cb53' target='_blank'>2021-02-20 03:35:06</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/59' target='_blank'>Yatha</a>"),
+                    "series": "1",
+                    "epithets": "Guardian of the Unholy Secret",
+                    "description": "A gargantuan entity of living shadows encased in a mass of dancing, gibbering bodies. She guards the Temple of Ages and the knowledge of the Everlasting Things. The God of the Moon is her master."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Genesis' height='125px' src='assets/genesis.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xe39a28d8e8e7e8085e24ae938b80f42b18a5be74522937636f50a17167b64146' target='_blank'>2021-02-22 20:29:51</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xdc08ed86d735a0c312b26441537e4b1fcac6581f8eaa5a3ee9c9ef64c52cb7e2' target='_blank'>2021-02-22 20:29:51</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/0' target='_blank'>Genesis</a>"),
+                    "series": "0",
+                    "epithets": "-",
+                    "description": ""
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Özymiann' height='125px' src='assets/ozymiann.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x2d730f0db987f464aca6aac2966e91e0a2bbc04392e3d9be12311b874f46eafe' target='_blank'>2021-02-27 01:04:29</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xce3945b9448ba8911b29d466f06477b3d9d32f961feed909159d9d0037d6d5bf' target='_blank'>2021-02-27 01:04:54</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/145' target='_blank'>Özymiann</a>"),
+                    "series": "0",
+                    "epithets": "Atlas of the Eighth Continent",
+                    "description": "The fabled Eighth Continent rests on their back. They are said to carry the soul of a nascent world on a perilous journey. Özymiann is one of the few Old Ones that can be sensed from the Material Plane due to its immense life energy. A passing notice can cure minor ailments, but a long meditation on its existence may induce terramorphesis."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Westallmudoe' height='125px' src='assets/westallmudoe.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xa2d0ccd6bb8d6b215519e4e99037348ab587839b88d4c6a4af22936b4861ee30' target='_blank'>2021-02-27 01:05:22</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xa7b441047a9ca6204eb367df12d495f5e75a6411bbc168932c08fa36537ca425' target='_blank'>2021-02-27 01:05:42</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/146' target='_blank'>Westallmudoe</a>"),
+                    "series": "0",
+                    "epithets": "The Lone Observer Where Corners Meet",
+                    "description": "The fabled Eighth Continent rests on their back. They are said to carry the soul of a nascent world on a perilous journey. Özymiann is one of the few Old Ones that can be sensed from the Material Plane due to its immense life energy. A passing notice can cure minor ailments, but a long meditation on its existence may induce terramorphesis."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='El'mh' height='125px' src='assets/el-mh.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x2a49edb6bd1d5cbb655b71c4d1a647596f1bd8735c875103ec23d4d24390b852' target='_blank'>2021-02-27 01:19:48</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xf910db8efbf553bb4867a989d79223eea2d57f6b97a5668acb47b1227e4d32c3' target='_blank'>2021-02-27 01:19:48</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/147' target='_blank'>El'mh</a>"),
+                    "series": "0",
+                    "epithets": "Scion of the Shifting Sands",
+                    "description": "A gigantic monstrosity whose very tips are sensed as immense pyramids. The true body of El'mh is said to be locked deep under the ground. It appears to be a fan of constrictive order, and it prefers mortals to pay it respects through large monuments. A long standing tale tells of a deep grudge between El'mh and Wökr; Huacas describes it as 'essential'."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Naaaaxs' height='125px' src='assets/naaaaxs.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x576ca3e9ea16293425a16c451d014b6c77179a7a14b74431ec7c1f4faee72202' target='_blank'>2021-02-27 01:20:41</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xdd655c520b492034fa82837b80944f8fef9934cbc9649c634d9bfb29cea518d3' target='_blank'>2021-02-27 01:20:41</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/148' target='_blank'>Naaaaxs</a>"),
+                    "series": "0",
+                    "epithets": "It That Submerges",
+                    "description": "Dwelling in the depths of the unconscious mind, Naaaaxs is a primordial memetic predator. He spreads through the persistence of dualistic ontologies. The Absolving Church has made it their goal to eradicate this potent force, but their efforts to suppress knowledge on Naaaaxs only bolster his reach. Unsuspecting victims are pulled directly into their own id, which consumes them."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Xálagor' height='125px' src='assets/xalagor.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x59984b378cc0e8453497933f63cec3d0a57f67d39e042a9fff59555b61aa4e60' target='_blank'>2021-03-01 12:01:41</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x761436d4ea60ad5d2cea46ee91409d01dc84d4ba95e29b6a38d71990fb36226f' target='_blank'>2021-08-02 12:28:40</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/128' target='_blank'>Xálagor</a>"),
+                    "series": "1",
+                    "epithets": "The Conjurer of Obscurity",
+                    "description": "A gigantic, slug-like creature with a human face and ten toes on each foot. It was once a god of Varae, but it was killed and its body was split into two halves, and one half became darkness, while the other became light. It renewed its chtonic power in the Gulf of Rhot."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Her'foi' height='125px' src='assets/her-foi.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x580b58fae86d7379bcee331121e2a0dab65c30efcde8eb7c15ea75658eeba187' target='_blank'>2021-03-30 07:13:57</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x1f9aca7976faf06b80930707754f2009254a32e8dcce8412894157d059385b8f' target='_blank'>2021-03-30 07:13:57</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/125' target='_blank'>Her'foi</a>"),
+                    "series": "1",
+                    "epithets": "The Endless",
+                    "description": "An ancient, malevolent, and nameless goddess who seeks to destroy the world. She manifested at the end of the last world-ending cataclysm, and battles C'zshuai for control of the universe."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Fäli' height='125px' src='assets/fali.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x313265e9c666630d9096196c74d21a3211e2e3ca307727fbd3db88786eada872' target='_blank'>2021-04-02 17:31:58</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xba0651e7f18c65e0115839a869ab7e3a3d71c0c7d7230db294e2fc7a1ef98e04' target='_blank'>2021-04-02 17:37:51</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/150' target='_blank'>Fäli</a>"),
+                    "series": "2",
+                    "epithets": "The Chilling Dread",
+                    "description": "A cruel and unforgiving power who takes delight in the misery and suffering of others. Appears in the winter as a dark stain among the clouds."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Ragonmaui' height='125px' src='assets/ragonmaui.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x31545dc2f9d9ced9613fb8e98f44c32706eef2f71d721f4e233983b2273f3dd7' target='_blank'>2021-04-04 02:35:44</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x21338cac3e7a34fab2c8226022bab7ac2afd5a38d0972ff74ab70a753167f645' target='_blank'>2021-04-04 02:35:44</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/204' target='_blank'>Ragonmaui</a>"),
+                    "series": "2",
+                    "epithets": "Euclid's Abomination",
+                    "description": "A powerful being that dwells in a strange translucent octahedron with eight faces. Its body is mostly void, but it possesses an intelligent mind, which recognizes almost all living beings, and can talk telepathically to them. It can 'align' anyone who comes near it, but it does not exert any power recognizable across most spectra."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Abraxas' height='125px' src='assets/abraxas.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xc858d23b5bdbf6dd0a138c3ca51ed543771518095734c0f0071a21e465f12f2f' target='_blank'>2021-04-15 07:07:10</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x353a333d1ec1966cdb46790a4a98c7e3d8a3b5cd32068ecadbd92565dee2ddc9' target='_blank'>2021-04-15 07:07:10</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/133' target='_blank'>Abraxas</a>"),
+                    "series": "2",
+                    "epithets": "Giver of Unending Life",
+                    "description": "A deity said to be awoken by the people of the Q ero in the current age. She possesses control over the realms of life, death, space, and time, and is regarded as the mother of all the gods. She is also the Demiurge, creator of our world, who used eight forces including light and sound to create this reality."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Ksllith' height='125px' src='assets/ksllith.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x627cc3809182ab836d0734db9e56c4fdd87a2b6c10703377b25b6e6984c086bf' target='_blank'>2021-04-15 07:07:50</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xc61ae8c472a26bb47f75b698bbc58e87aa3c981f04a82ba0cce0e6964ec3fb27' target='_blank'>2021-04-15 07:08:19</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/336' target='_blank'>Ksllith</a>"),
+                    "series": "2",
+                    "epithets": "The Glorious Predator",
+                    "description": "A great, red-eyed beast, covered in golden fur with a long, white mane. It is said to have come from the void before time began, and certain early paintings depict its hunt."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Yhthogtha' height='125px' src='assets/yhthogtha.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xc35fa58fba6915fa6c0c0546e5fc471e586cd98e87f8bfa11ffad58c01985d5e' target='_blank'>2021-04-15 07:09:22</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x0c9c59df96308e179638dab215de421d43cc3b0f5ab950975f684ef0e2551b65' target='_blank'>2021-04-15 07:09:22</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/51' target='_blank'>Yhthogtha</a>"),
+                    "series": "1",
+                    "epithets": "The Unwaking One",
+                    "description": "A monstrous great slumbering entity, said to be imprisoned underneath the ocean floor of the Gulf of Rhot. Legends say that he is so enormous that his breathing causes tidal waves, and that one day, roused by his servants, he will devour the world."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Quxoph' height='125px' src='assets/quxoph.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x2ce3e397f2db6e0173e63096bbd79b123c26b24da11a6999df9027ada1d33e8c' target='_blank'>2021-04-15 07:25:32</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x3c49b3c0395a11bd8700621e969b3f53fd823ca3c7c7970d61b319383fcaff30' target='_blank'>2021-04-15 07:25:32</a>"`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/86' target='_blank'>Quxoph</a>"),
+                    "series": "1",
+                    "epithets": "The Darkest Darkness",
+                    "description": "Appearing as a huge dripping monstrosity. It is said to be the oldest entity, and the source of all other Great Old Ones. The night comes from its breath."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Crethagu' height='125px' src='assets/crethagu.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x4d0a81299aa72f6569d2a5f2d50baacd6b063babfa44c4bc381c6f1f43f2b0d2' target='_blank'>2021-04-15 07:41:23</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x1c2e1a5ebe2a8f29a9ae227dc62a69b8960ffbb5172112e8592d0237d7cd450f' target='_blank'>2021-04-15 07:41:23</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/15' target='_blank'>Crethagu</a>"),
+                    "series": "1",
+                    "epithets": "She Who Wins the Struggle, The Mother of Conquerors",
+                    "description": "A 'mother' of conquest, spoken of in the deep corridors of antiquity. She has conquered innumerable kingdoms, and is said to have either fathered or given birth to a new race of conquerors every few centuries. It is not known where she currently resides, but it is always said that there is no one greater than her in all the world."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Isistl' height='125px' src='assets/isistl.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x82d41b2301763cf61f843b5ac1148b588b4d46cd9fb3051a08951cbf17e652ec' target='_blank'>2021-04-16 04:53:46</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xac629b66cf59fea8b453952ba12c2bafb899edd2915e485ed5d2b94af4a55dd4' target='_blank'>2021-04-16 10:16:00</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/202' target='_blank'>Isistl</a>"),
+                    "series": "2",
+                    "epithets": "Heaven's Roar",
+                    "description": "A creature of the Inner Planes, ruled by the cold element of electricity. It has the body of a colossal tiger and the wings of an eagle. The power it exudes is terrifying, and it can create thunder and lightning. It appears in the shape of an enormous tiger with a lightning bolt crashing from its forehead. It interacts with other deities in the Volta Pantheon."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Horset' height='125px' src='assets/horset.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x1b4c2e867b38d42943212129f2705117e181ef4dbd459646dd5a3e0965545457' target='_blank'>2021-04-17 07:04:01</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x62db24583ec9691ab94b6b0a87803d6528e3b3448876661a8f06947dad8adfd9' target='_blank'>2021-04-17 07:07:25</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/237' target='_blank'>Horset</a>"),
+                    "series": "2",
+                    "epithets": "The Wildest Rat",
+                    "description": "A gigantic, black, furred figure, often described as having a rodent's head. He is said to be a servant of the Leviathan, and specializes in luring men astray by changing his form into that of a beautiful woman, or a great bird, or some other enticing creature."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Nadiss' height='125px' src='assets/nadiss.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x5fa840f6b11a08c02024ada957f208168bd6a1614634168d82e4982ff3fd6829' target='_blank'>2021-04-23 22:19:04</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xdc46ad2ab0beb224681443f5fb6335d84ae0882f2db7667e47b77538f520a8c1' target='_blank'>2021-04-23 22:23:36</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/297' target='_blank'>Nadiss</a>"),
+                    "series": "2",
+                    "epithets": "Withering Spring",
+                    "description": "A freezing heart-shaped spirit. At first, it was a god who served the Gods of the Aether, but after the death of the Gods' patron deity, it entered the realm of the Abyss of Woe, where it was cursed by Chax-Hlae. Its ultimate goal is to reunite with the Gods of the Aether, but it is unable to reach them for now."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='K'rmigu' height='125px' src='assets/k-rmigu.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x833ad10dcabf68b174a92d484d1c57e969bfe080cf67e5a7e2f0d2f53328f113' target='_blank'>2021-04-23 23:38:55</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xb86549f0db250b040e4079ef81869bb9e0c4fbb3f0ee0446f2caf583e2889184' target='_blank'>2021-04-23 23:40:08</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/240' target='_blank'>K'rmigu</a>"),
+                    "series": "2",
+                    "epithets": "The Insatiable One",
+                    "description": "A creature made of oily black spheres which writhe together to create a shapeless mass, which constantly emits a foul odor and exudes an eerie, luminescent light. It is said to be an entity of pure chaos and death, which exists simply to consume."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Dvir' height='125px' src='assets/dvir.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x3e29f54b1e14d5775b4f9dc6f9c3ef0ea35faf5f331a9ae9e7e7036868001a04' target='_blank'>2021-04-24 03:27:43</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xb764bb718bcef6e64a18858a318593947144019b24932eaae8e1e4ecf409caa0' target='_blank'>2021-04-24 03:27:43</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/200' target='_blank'>Dvir</a>"),
+                    "series": "2",
+                    "epithets": "Child of the Wild",
+                    "description": "A small, smooth, and yet very powerful entity who watches over the walls of Alchemena and the City of Stars. Originally a child of the Void, Dvir fell into a deep despair after the First Cataclysm, and so dedicated himself to safeguarding the Night Gods. The barrier between his and the Pitch Gods' realms is almost non-existent, but he takes great pains to keep it that way."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='El Diab' height='125px' src='assets/el-diab.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x62e6c342f9fc20d8b1d6fc30c4ee6516b603421876366ac6a399ab208d97fce9' target='_blank'>2021-04-24 03:44:46</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x2a2f58783dd3ba17b62a752888e084420a2a5bc8d0f5b671a6cc7152952247c7' target='_blank'>2021-04-24 03:47:49</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/208' target='_blank'>El Diab</a>"),
+                    "series": "2",
+                    "epithets": "The Patron of Resilience",
+                    "description": "A demonic, faceless figure clad in dark robes. Said to be the patron of a tribe of nine hundred elves with bluish skin, which live in the distant western mountains."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Mla'grgh' height='125px' src='assets/mla-grgh.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x210b7ac275c69983da2d4c4c06c2c5d6ee0bb70c0eac5da1f1cd102adfcbc455' target='_blank'>2021-04-24 04:25:46</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xed76bf32588c089bca9b065921c93bc5cfe9236a8faec98035b049b59df4052b' target='_blank'>2021-04-24 04:26:14</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/138' target='_blank'>Mla'grgh</a>"),
+                    "series": "2",
+                    "epithets": "The Gaunt One",
+                    "description": "A shadowy figure, said to be a malevolent entity which dwells in the caverns of Yankuk, and which was once worshiped by the ancient Q ero. It is said that his calling card is immense, black hoof-like fingerprints which appear after the rain in Yankuk."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Ngaro' height='125px' src='assets/ngaro.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x7913e3b25b005f719c50185b5895ff8b9f60c1f4c4da76cf604361973a3b910c' target='_blank'>2021-05-07 12:53:15</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x98565f67875e5fb908bcdf0ea2694c38a4611148c2194578fcfb4153887e6ef0' target='_blank'>2021-04-24 12:53:15</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/182' target='_blank'>Ngaro</a>"),
+                    "series": "2",
+                    "epithets": "The Undying",
+                    "description": "One of the most elusive of the beings of the Vast, Ngaro's existence is extremely difficult to locate and even more difficult to destroy. Ngaro feeds on the soul of those who die, and any that are close enough to him are not safe from his powerful energies. He is a towering creature, with more or less the body of a wolf, but possessing the face of a lion."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Ub-Zeeg' height='125px' src='assets/ub-zeeg.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x3cf4a768c783143eba45d1e43ca2b8f3726621dd02d9bab044c08e43c04f5643' target='_blank'>2021-05-19 23:34:40</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xfb679cefc515b9e5acbd6525691235c80897a973c845f3d4b1f775888901dc7a' target='_blank'>2021-06-20 04:42:51</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/62' target='_blank'>Ub-Zeeg</a>"),
+                    "series": "1",
+                    "epithets": "Goddess of the Earth's Pain",
+                    "description": "A colossal, four-legged entity covered in fissures and cracks like an old statue from which age has leached all wisdom. She does not speak and expresses herself only through her actions. She appeared after the shattering of the Etherial Barrier."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Dluthos' height='125px' src='assets/dluthos.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x0ee9cca349b1e116b152124353901373f379a2c1a92bd5652cbddf96a401fcd4' target='_blank'>2021-05-30 12:52:29</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x023e2eab367db113f8a9040e587fbfa5629b2452d3d874614046877e25f804c8' target='_blank'>2021-05-20 12:58:20</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/99' target='_blank'>Dluthos</a>"),
+                    "series": "1",
+                    "epithets": "Magic's First Master",
+                    "description": "A powerful wizard who is said to have been born from the corpse of another wizard, and to have killed the World Dragon in a previous world-ending cataclysm. He was then killed by Ornan Unsca, who mutilated his corpse and attached it to a brooding cairn."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Kchhk-tïr' height='125px' src='assets/kchhk-tir.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xafd4c852969d1a9b2e6af2143886744115ee1330154609ad7cc5252fcc16ba98' target='_blank'>2021-06-06 23:35:32</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x9c48759e73a673c80ba8bd3213b83bc91215de7cab08925c90cf830da70edfee' target='_blank'>2021-06-06 23:35:54</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/77' target='_blank'>Kchhk-tïr</a>"),
+                    "series": "1",
+                    "epithets": "What Lurks Among the Trees",
+                    "description": "A long, thin creature said to have a humanoid body with a mass of antlers at the top, and a serpentine head. It possesses many tendrils which it uses to ensnare and kill the unwary. If one is to cut them off, the tendrils will grow back stronger and angrier."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Sibil' height='125px' src='assets/sibil.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xf02127d8519f9ba09f1912d42753d1de2054fb008666ef1e6f1c46eb4cabaf60' target='_blank'>2021-06-06 23:40:38</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xd1944488958df73d6b534c7ad7e19cbfdf8213cd21342e15d2b26b1611e94673' target='_blank'>2021-06-06 23:40:38</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/307' target='_blank'>Sibil</a>"),
+                    "series": "2",
+                    "epithets": "Mage of Many Faces",
+                    "description": "She is known as the most powerful of the Phantoona, a mage of ancient repute and a rival of Thal in skill. She is said to have originally dwelled among the Night Gods, but was driven into exile by a human king who stole her magic. She now wanders in the wilderness of the Vast, awaiting her next encounter."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Thori 'eleke' height='125px' src='assets/thori-eleke.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`
+                        ⛓️  <a href='https://etherscan.io/tx/0x8d85d000017098f5664f6e74c3c6cb6d32d823f81b3ab56f2421db33e55c8e04' target='_blank'>2021-06-13 07:57:14</a>
+                        <br />
+                        🔗  <span class='text-danger'>Art not linked to NFT <a href='https://etherscan.io/tx/0x8f08225f0a65be93fee7163095fffc58fec3a1c2a18f24068bb5a26566fa08f5' target='_blank'>(attempt fail)</a><span>
+                    `),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/166' target='_blank'>Thori 'eleke</a>"),
+                    "series": "2",
+                    "epithets": "Flame from the Stars",
+                    "description": "This being is considered the natural child of two Celestial Iridescents and has the ability to create fire by touching a subject. When it is absorbed by its victim, it soon becomes filled with hot vapor. The fire will then fill the victim's body, where it can only burn for a short time, then liquefy the body, causing it to shatter into atoms and vapor."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Könmaa' height='125px' src='assets/konmaa.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x01b5e2a75fcc52d1d50d06db53058484ed7c6ff7dd1b8650729a55138ae1513c' target='_blank'>2021-06-13 11:18:17</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xbd84d53daa6d53614d534550dd53c0193ec770278bd5a750de9cdf3ab90bc05c' target='_blank'>2021-06-13 11:18:17</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/106' target='_blank'>Könmaa</a>"),
+                    "series": "1",
+                    "epithets": "The Final Bridge",
+                    "description": "A mass of immortal, malevolent spirits with the ability to infect living beings and turn them into spirits as well. They manifest as spindly, black figures, and are known to dwell on the astral plane, though they may be summoned to the physical world for brief periods of time."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Ubys' height='125px' src='assets/ubys.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x7ad5e5b7d6cc5429b64a3240bbce33bcc2736f160b42476e9bc8629fc5436bbb' target='_blank'>2021-06-15 17:04:51</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xa2fe5dc3c055f305458eba03215a19dcfc13c8a0a39cce4416640b6e9fd52f83' target='_blank'>2021-06-15 19:50:03</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/175' target='_blank'>Ubys</a>"),
+                    "series": "2",
+                    "epithets": "Keeper of the East",
+                    "description": "As the most ancient of the six chief celestial beings, Ubys rules over the East of the Vast. He holds dominion over the stars, and although his function is to carry out the decrees of the celestial sphere, he will sometimes break his own principles if it will benefit the vaster good."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Yü-Koth' height='125px' src='assets/yu-koth.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x74338e75b95524ec2a3a868ab0258a6f49467c4f6678b9a256dc18e5f0e7ff7b' target='_blank'>2021-06-16 06:12:18</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x8107ec518cc7f92e92a49fb898eaae7794bf8af2352ea8a86bb3185916c8252d' target='_blank'>2021-06-16 06:12:43</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/6' target='_blank'>Yü-Koth</a>"),
+                    "series": "2",
+                    "epithets": "Sending of Six",
+                    "description": "A gigantic green tortoise with a long tail and many legs. Its shell is covered in glowing stars and meteors. Every decade, it adds a new star, birthed from human souls."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Khakh' height='125px' src='assets/khakh.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xede143ddb3819b40e841808a5487c1f78f6d7bc3492b6d158a2ffadf370f24e1' target='_blank'>2021-06-16 06:27:44</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x0e4a8031610c404c5e49ee98b2d71572dbfc19b3158516f69b1d91d0db46e7f5' target='_blank'>2021-06-16 06:27:44</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/9' target='_blank'>Khakh</a>"),
+                    "series": "1",
+                    "epithets": "The World Serpent, The Father of Serpents",
+                    "description": "A colossal red serpent with multiple eyes and a slavering mouth, surrounded by numerous shadowy serpents. He is one of the ancient Gods, who has awoken twice before to begin world-ending cataclysms. He sleeps beneath the Gulf of Rhot."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Dzä' height='125px' src='assets/dza.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xff27e9d3c88df2b86d450d2f3cde506824e23a1cf897c45a94b407baee1f68fe' target='_blank'>2021-06-18 05:28:18</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x1640ec921f26a150aee4a2c88232268d4c8e561035c24f00b5b3fe761fb4b1ef' target='_blank'>2021-06-18 05:28:25</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/170' target='_blank'>Dzä</a>"),
+                    "series": "2",
+                    "epithets": "The Old Woman in the Sky",
+                    "description": "The Great Judge of Fate, said to have created the Unnamed Lands with her right hand. She is a giant woman said to be made of stone, who holds a tablet in one hand and a pen in the other, and wears a crown of stars. She is accompanied by two flaming figures, one green and one red."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Zois' height='125px' src='assets/zois.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x7589296c3c8118121b564ca16b16faf89dc7b950a70e4eebd1f71ba8e4439d6a' target='_blank'>2021-06-18 06:22:16</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x6fbcadc9c1a17ab5317595f927da803bfe5cef80ac72a4f053e3f3493b60f328' target='_blank'>2021-06-18 06:24:33</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/152' target='_blank'>Zois</a>"),
+                    "series": "2",
+                    "epithets": "The Despoiler of Fate",
+                    "description": "A god of the outer plane, perhaps not even a deity at all. According to tales told in the distant lands of Ruhänz, he is an entity that revels in violence. One tale is that he kills those who worship him without any form of apparent cause."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Zhüthä' height='125px' src='assets/zhutha.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x8032c75a320e895b86342d01b4361cd6e59c59856fd18a2c0964fd82b3221cd8' target='_blank'>2021-06-18 11:22:58</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xa1b3e77afbb8039d607b29dee8f546755771c4b75009a42e696cab3c590bf88d' target='_blank'>2021-06-18 11:48:40</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/93' target='_blank'>Zhüthä</a>"),
+                    "series": "1",
+                    "epithets": "Chariot of G'yathnä",
+                    "description": "A living vehicle, ridden by G'yathnä when she appears before humankind. Appears as a writhing mass of leaves and ice with two thin wings."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Vüthüs' height='125px' src='assets/vuthus.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x563514f6088dcdf711c69162e20223d4fdf24cbf0769df3415c65b9c14f2988c' target='_blank'>2021-06-19 13:24:08</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xaa5fcfae254ecf08f7fcaa147b2c5f493938dc307f75732a1711dc7485717d74' target='_blank'>2021-06-19 13:24:08</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/313' target='_blank'>Vüthüs</a>"),
+                    "series": "2",
+                    "epithets": "Butcher of Fates",
+                    "description": "A savage, cruel entity who is said to be the embodiment of chaos, and the deity most responsible for the state of the world. He manifests in a shapeless mass of dark, green-black slime; he is said to have six disembodied arms with long claws."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Pashnu' height='125px' src='assets/pashnu.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x5202774216a683f6224d96d04c9108c2f63717e4b1c28424d92718678c15013c' target='_blank'>2021-06-19 13:27:08</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x99d14e1ad91d8d85162f4e641ee4b095cc2f9309c63bb0c4f9c1318349fd6770' target='_blank'>2021-06-19 13:29:29</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/302' target='_blank'>Pashnu</a>"),
+                    "series": "2",
+                    "epithets": "Ambassador of the Comets",
+                    "description": "One of the oldest beings in Cygnus Prime, she is an enigmatic being known for her calm nature and her seemingly omniscient knowledge of the countless paths of the universe. She possesses the ability to generate inter-dimensional portals that transport other beings between her planes of existence. She is one of the few who has seen the ruins of the Prothean world of Heliopolis, and she has gathered what little data has been preserved on that world in order to form a theory regarding the creation of the Protheans."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Ak-Lhaa' height='125px' src='assets/ak-lhaa.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x03c9f361d82353b003494979f436653d965c80466739e5fe9a0acc3b891c20f8' target='_blank'>2021-06-20 02:52:37</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xd33338fc2837573484bb6efebdadbfd61d08abc79e5f5a7a503808da13f8d97f' target='_blank'>2021-06-20 02:57:06</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/174' target='_blank'>Ak-Lhaa</a>"),
+                    "series": "2",
+                    "epithets": "The Hairy Demon of Pestilence",
+                    "description": "A humanoid figure with no distinct features or organs that is covered in hair. It is the messenger, servant, and herald of G'yathnä. It is said to spread disease with its touch. Goop is said to be composed of the sickly ichors which flow from it."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Davaat' height='125px' src='assets/davaat.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`
+                        ⛓️  <a href='https://etherscan.io/tx/0x2099defd3fa4d3b2a7df97301b9ef01f221a2baeddfecab3a40307b81d7dc699' target='_blank'>2021-06-20 04:22:46</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x12f03c42ec87978f27692ce028fdc49003ce0951a402b9a86d91967d1ea88760' target='_blank'>2021-06-20 04:22:46</a>
+                    `),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/323' target='_blank'>Davaat</a>"),
+                    "series": "2",
+                    "epithets": "The Slumbering Enemy",
+                    "description": "The serpent who sleeps in the ruins of Teld. She is frequently seen there in the shape of a red fluid that seeps from the ground, noxious in taste and odor. She drinks this fluid and lives off her own existence, in a virtuous cycle. Some say that she still wields great power and will one day be reborn, though others insist that she will sleep forever."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Ghitlagh' height='125px' src='assets/ghitlagh.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x93dedd8aad1e45ad8308f865d0bd3dd6c46f154290f2562506aecc3c52b4a85c' target='_blank'>2021-06-20 04:49:16</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x7d845ad448b521ca89dde7e7253c5ea84c6ce26ad644d5b3cd1dc2166947f8ff' target='_blank'>2021-06-20 04:49:20</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/332' target='_blank'>Ghitlagh</a>"),
+                    "series": "2",
+                    "epithets": "The One Who Stops the World",
+                    "description": "A suit-wearing, frog-like creature with no head and six long striped tentacles. It is said to be the mightiest and most powerful of all the Suspected Entities. It was also thought to be dormant, but it has recently made itself known through radio waves."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Vulgnash' height='125px' src='assets/vulgnash.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x9f55621ded99029496f04599b75d2522a1368e4f8d459e7eff6ab24bd6687582' target='_blank'>2021-06-20 05:50:55</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x3a945725c115c0d9788f0374f4d67ec3926e94fbf2c38225a6be9ec563072b88' target='_blank'>2021-06-20 05:51:37</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/231' target='_blank'>Vulgnash</a>"),
+                    "series": "2",
+                    "epithets": "The Dire Mercy",
+                    "description": "A large, black-winged raven-like creature with a single yellow eye and a long swooping black beak. It is said to hunt for souls of those who die with regret, hatred, or anger in their hearts."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Sirrism' height='125px' src='assets/sirrism.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x54a1cfeb6bbf03a7ba8ebccd01ae5790cc8fc3eefb6bf1c5f5f2178cd53849fc' target='_blank'>2021-06-20 14:30:55</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xe0ef60e12971cee467ef0fbf55f30d9c70ec1b225b8371ca0875952eedadb3de' target='_blank'>2021-06-20 14:30:55</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/156' target='_blank'>Sirrism</a>"),
+                    "series": "2",
+                    "epithets": "Signet of Darkness",
+                    "description": "A deep, dark, circular being that floats in the ceiling of an immense cavern, cloaked in shadows. The Abyssal Ensemble is said to be imprisoned within it."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Thal' height='125px' src='assets/thal.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x292f8b2a8df8d6e6bd0e1dbabe18a1f204f35a76c30f5756a9417c55702fa433' target='_blank'>2021-06-20 14:36:58</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x543751728037dfb166d8a643556c6c3ce926badc010c14670ebb637a2bf47c3f' target='_blank'>2021-06-20 14:36:58</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/184' target='_blank'>Thal</a>"),
+                    "series": "2",
+                    "epithets": "The Tempest",
+                    "description": "An enigmatic being with one enormous eye, most often said to be the eye of the Great Storm itself. Its most common name in the Vast is 'The Thunder God', and it is generally held to be the largest of the beings which dwell in the Primal Sarcophagus."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Ornan Unsca' height='125px' src='assets/ornan-unsca.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xb307a0bd372445068a1eb950a1358ad5337ee87e219ee036742374d19fa5c8e6' target='_blank'>2021-06-20 18:06:28</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x079cde72d6eea60d31e28555d95e1e6f1dab7b06eac26a44f2855b68d9f20372' target='_blank'>2021-06-24 05:11:24</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/42' target='_blank'>Ornan Unsca</a>"),
+                    "series": "1",
+                    "epithets": "The Mad Mage",
+                    "description": "A depraved wizard who has done terrible things in her pursuit of power. It is believed that Ornan Unsca has been undead since before recorded history, and that she may have been born from the corpse of the legendary wizard Dluthos. She is the leader of the Cult of Zhar & Lloigor."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Zhuryä' height='125px' src='assets/zhurya.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x4cdad4d62799f596738c3ac989e3ba78edfc103c39e7fcf72c366324ee1d8b89' target='_blank'>2021-06-20 21:36:20</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x32e0e9b43387ec1837747177d801d3f85a5fa2b2244fd4db084e08f8008f3865' target='_blank'>2021-06-20 21:36:20</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/178' target='_blank'>Zhuryä</a>"),
+                    "series": "2",
+                    "epithets": "The Fate Weaver",
+                    "description": "A being which resides in the space near the Blind Star, and is said to be the soul sister of the World Serpent. She is a powerful being, but with very little knowledge of the world outside her own. She can change someone's path."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Iniellarl'imu' height='125px' src='assets/iniellarl-imu.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xd904cc185b52f4a4879705a2db2d154f20ee01483642c62f0c9f486c0eef3f3c' target='_blank'>2021-06-20 21:40:16</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x68d2ab9386574bbfb7b08e0c8cc2b168c5f3ba1932dfe4e29807230ea83a5745' target='_blank'>2021-06-20 21:40:16</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/317' target='_blank'>Iniellarl'imu</a>"),
+                    "series": "2",
+                    "epithets": "The One Above",
+                    "description": "A sentient being which transcends space and time. She dwells in the ancient body of a cleric who sacrificed herself for the temple of an entity which no one seems to remember. She has the power to perceive and manipulate the very fabric of the Pod's makeup. The only thing that keeps the Arbiters of the War in the Sky from defeating her is the remaining strands of her consciousness, which also anchor her."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Raska' height='125px' src='assets/raska.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xd5f86c6fd83a78a433701a6893af3bdfb5a4fe5affe2d3d5c1bfc180bbc1b4bd' target='_blank'>2021-06-21 06:26:18</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xe982d480ff7252417368f2d6d1f2fe9b845ef6d0ae3d6c5982568c618c0988f6' target='_blank'>2021-06-21 06:26:18</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/300' target='_blank'>Raska</a>"),
+                    "series": "2",
+                    "epithets": "The Scarlet Mistress",
+                    "description": "An ancient, fiery crone with blood-red skin and stark white hair. She has gem-like eyes which burn like fire. Raska rules over the subterranean realm of Nur and controls the dead."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Yorae' height='125px' src='assets/yorae.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x8567fb3bef6b7ae0d93a6623b278a5a8a9f880fd47807ecd0444e2e163a7402e' target='_blank'>2021-06-23 23:27:21</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xe2b540ac60a87b71c373f35973bb19c9d2cfc660ce4437962afbe979fe740531' target='_blank'>2021-06-23 23:27:23</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/18' target='_blank'>Yorae</a>"),
+                    "series": "1",
+                    "epithets": "The Mystery That Walks",
+                    "description": "A scarlet, shifting humanoid that always looks to be made of smoke and haze, with a single, glowing eye. It is always seen carrying an oversized scythe adorned with frantic whispers."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Alchera' height='125px' src='assets/alchera.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xcb7498e30c9f6455127f9c9876ad53e85a157a0b04335403f75becd3c8d63e81' target='_blank'>2021-06-23 23:28:50</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xc26a84d1ba0e4247af3d38bb81ef585105c7d6231fc703d6180d304a3154e48b' target='_blank'>2021-06-23 23:28:50</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/239' target='_blank'>Alchera</a>"),
+                    "series": "2",
+                    "epithets": "The Great Mother",
+                    "description": "The creator of all life. It is said to reside in some realm beyond human understanding. It created itself from the Void, and then created the first sentient beings, the Nüwaddi, as part of its own being."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Betchai' height='125px' src='assets/betchai.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xc0709bf587937a18bd8d4fc4b3d02d5c9bcccf1afc8a3b3b1353d44b0f52bcd9' target='_blank'>2021-06-24 05:11:33</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x35659e33e0096286fce31296bb420e734737b87731bdfa9180a16bff2353373b' target='_blank'>2021-06-24 05:11:33</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/268' target='_blank'>Betchai</a>"),
+                    "series": "2",
+                    "epithets": "The Friend of the Children",
+                    "description": "One of the Pitch Gods, Betchai has always lived and taught in the lands of night. But these days she resides within a blazing waterfall in the Pit of Hate, surrounded by a ring of pitch and tar. The legend of Betchai has it that she appeared to protect the children of that village, but the Pitch Gods have cast her out. She now works as a guide to the Cave of Fear, the innermost realm of the Pit."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Mystänth'yu' height='125px' src='assets/mystanth-yu.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x2edbc848d163fc00f3fa0ca6d49d2155d4fccad73abf03c7dcb7ca428214d52f' target='_blank'>2021-06-24 05:11:33</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xa189abe4fd18140f345c754a883bc120976c9a4bf4b1664887c98c9b816f637a' target='_blank'>2021-06-24 05:11:33</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/298' target='_blank'>Mystänth'yu</a>"),
+                    "series": "2",
+                    "epithets": "The Entangled One",
+                    "description": "Said to be the first person to have ever died. Her soul became an entity of its own, one which created and controlled the Misery-Tide. Now, spirits flock to her waves, carried by the force of her sorrow."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Elincrei' height='125px' src='assets/elincrei.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x129c3b7c8562d56f1b7b98017b50e23fdb9b9598926c1b48686a7d954bedb57f' target='_blank'>2021-06-24 05:38:49</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x91869abd28eb868ac77587aec1705381a858ccf5fb6f8f5291c0885dc65f1057' target='_blank'>2021-06-24 05:38:49</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/284' target='_blank'>Elincrei</a>"),
+                    "series": "2",
+                    "epithets": "Storm of the Moon",
+                    "description": "Her head is the true crater of the Red Moon, which has been raining down blood for millennia. She rules the highest levels of command in the Lunar Association, and her massive shadow has a destructive effect on anyone who approaches it. If anyone without a ritual approaches her, they are likely to be transformed into a blood-sodden corpse."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Rüäz-Lhüth' height='125px' src='assets/ruaz-lhuth.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xc86d7e28778b375553d12544bdf4d0f2db1bffc8dd3063d0abf2a13da196ac08' target='_blank'>2021-06-24 05:38:49</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x0c6494c6d723d978282965c70e993a325b15fbe55fbe1763251fbff1c2cfe9cf' target='_blank'>2021-06-24 05:38:49</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/248' target='_blank'>Rüäz-Lhüth</a>"),
+                    "series": "2",
+                    "epithets": "Spinning Wheels of the Dark, The Blue Purple of Eternity",
+                    "description": "The world was once a void made of abstract force, but after aeons of such existence, it began sputtering and pulsing with life when two great stars, one white and one purple, fell into the void. These stars were Rüäz and Lhüth. Rüäz was charged with life, and Lhüth with death. They dwelt together, until one day Lhüth saw a human being and attempted to destroy it. Rüäz intervened and rescued the human, and they soon parted ways. Rüäz remained in the void while Lhüth went away to roam the universe."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='T'nkthu' height='125px' src='assets/t-nkthu.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x6e4947080e537b08ced3bf3a7cb335988b0462d5e702fc9dfc04da3ad52c5927' target='_blank'>2021-06-24 05:45:37</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xf3e7fadbf8c3fc29d081eeb1116d725191b7ee80d44e93b20cedf05fbc8dcced' target='_blank'>2021-06-24 05:46:30</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/136' target='_blank'>T'nkthu</a>"),
+                    "series": "2",
+                    "epithets": "The Phantasm of the Unseen",
+                    "description": "A god-like entity, said to be inexorably drawn to the sound of laughter. It was said to have been buried underneath the ice at the South Pole before the coming of the Flametopians."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Soriyia' height='125px' src='assets/soriyia.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x93b5691e700186aff2b544afacca3252002d54940a8fd5126822b32dfa89a72c' target='_blank'>2021-06-24 05:57:37</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x435761acebaf4ef81c4e2aac2fa59ad069ac1ded89bae5b43ebb876366269be8' target='_blank'>2021-06-24 05:57:37</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/318' target='_blank'>Soriyia</a>"),
+                    "series": "2",
+                    "epithets": "The Sagely One",
+                    "description": "The wise queen of the Hoununkees, Soriyia is one of the greatest benefactors of the Vast. She takes a great interest in the research of the realm, encouraging experimentation and trying to determine the proper methods of mitigating the slow collapse of its borders."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Stari'bla' height='125px' src='assets/stari-bla.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xf6860ea47a34ba1cfb63f890f84b2cf8cf83155259cab81c76be77cb1ca2730d' target='_blank'>2021-06-24 06:02:09</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xd521f7dd65fee6445020fab9a63b77673fd78d9ffd3a066c3ae15c11e694cc63' target='_blank'>2021-06-24 06:02:09</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/97' target='_blank'>Stari'bla</a>"),
+                    "series": "1",
+                    "epithets": "The Black Sun",
+                    "description": "A sentient star with no light, said to exist within the deepest part of the universe. Within the Blind Star is the realm of Cchzchchhaa, the World Dragon."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Cptzchshuai' height='125px' src='assets/cptzchshuai.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x4ac019a17ad77903b9ebff99666ccc2671c56e72ed299bf27109c06b0c495c45' target='_blank'>2021-06-24 06:46:00</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x58d9e3a6ef3e7ab5ce7198ed520f6d79cf3366d77c15bc2ecf608ec1dbd56530' target='_blank'>2021-06-24 07:09:04</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/100' target='_blank'>Cptzchshuai</a>"),
+                    "series": "1",
+                    "epithets": "Leviathan of the Deep",
+                    "description": "A gigantic beast which dwells in the depths of the Gulf of Rhot. Said to have been exiled from the realm of the Gods for his terrible acts. It is often described as being an evil equal to or greater than Zathroth, and they are said to be locked in a struggle with one another as the Leviathan lures men to their deaths through its servants, such as Gh'nag-gh'a and C'zhur-Gh'ull-Lhaa, whereas Zathroth attempts to destroy life by corrupting every living thing."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='An'sac' height='125px' src='assets/an-sac.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xe739fe11be0a1469a7c62d57413b016a23247692832605ceff13e02947a5de57' target='_blank'>2021-06-24 11:42:05</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x1f32b2c5f5cbeaae2786645953129d056973e0a291ccc69c6273ebcc07a75344' target='_blank'>2021-06-24 11:46:48</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/158' target='_blank'>An'sac</a>"),
+                    "series": "2",
+                    "epithets": "One Who Persists",
+                    "description": "The oldest being of all the Aetherials. She does not age, and has been seen to hover at the edge of reality, the only being in existence that was able to accomplish such a feat. She spends most of her time within the Orb of All, where she watches, and also makes appearances on high altars, the surface of dark worlds, and in the skies. She is considered to be the ultimate force in the Aether, since she can enter the heavens or exit to approach the mortal plane."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Zhai' height='125px' src='assets/zhai.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xbaeae7eb857d2f69525e57b98f016404f303bd254c38fd00eb48825906349cd7' target='_blank'>2021-06-26 10:41:25</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xc61ca4a6d28ef95effff4a5759718f5595fc9306806b7303e62f6c3e85c15129' target='_blank'>2021-06-26 10:42:07</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/314' target='_blank'>Zhai</a>"),
+                    "series": "2",
+                    "epithets": "The Giftbringer",
+                    "description": "The Giftbringer is one of Alchera's most mysterious beings. He is a pale, one-eyed man wearing a dark robe and a mask of shadows. This mask often conceals his face, but when the mask of shadows is removed, he is said to be an ancient being, the embodiment of Alchera's good will, but one that takes no joy in it."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Bwgenlun' height='125px' src='assets/bwgenlun.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x50fef636738c58bc78745a0b36e7794e645c6e5015af752789ed5a02f308bc5c' target='_blank'>2021-06-26 10:45:13</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xbd389520392c3d1b6785fc3f3f58f1b02800c9d04299b13880d685ba8936cb18' target='_blank'>2021-06-26 10:45:13</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/116' target='_blank'>Bwgenlun</a>"),
+                    "series": "1",
+                    "epithets": "Giant of Shadow",
+                    "description": "A colossal being of shadow with several human-like faces growing out of what seems to be its stomach, and one huge face on the back of its head. It is said to have 'bloomed forth from the Black Moon' and to have shattered the moon into lumps of black glass."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Zgrgl' height='125px' src='assets/zgrgl.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x2532465430775ef17c990474301dd35e2469ff891b088bff89f27eded96bf87c' target='_blank'>2021-06-26 10:48:20</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xc72b0e448fa05f8ef5b7cc804e5088a9336b4953953e53135080205fe9aa9c0c' target='_blank'>2021-06-26 10:48:20</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/73' target='_blank'>Zgrgl</a>"),
+                    "series": "1",
+                    "epithets": "The Rainbow Worm",
+                    "description": "An immensely long worm with a huge, gaping mouth at one end, and multiple, heaving abdomens at the other end. Its skin is said to be rainbow-colored. It is capable of devouring the world and Ntánu Uryayar, the Burning Mountain, in one bite, and has been prophesied to do so by Huacas after the coming of the Fleet of Worlds."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Kerenzi' height='125px' src='assets/kerenzi.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xc722190e9d781e84d4ec8a3fa8a2dd8997779078727386852e733a179f6a875d' target='_blank'>2021-06-26 10:51:40</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x374f912e6086cd5a99b57bc530c1f03235c7f6cfd228c5c19d373bbc384f99d1' target='_blank'>2021-06-26 10:51:40</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/259' target='_blank'>Kerenzi</a>"),
+                    "series": "2",
+                    "epithets": "The Giving Spirit",
+                    "description": "Originally a powerful deity, Kerenzi forsook her throne to serve the mortals of Noras. She is said to have brought gifts of much joy to the young and to have given them all she had in her power. After the Fall of Noras she now resides with the Hoununkees in the day world."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Bth'gth' height='125px' src='assets/bth-gth.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xc21c723919f1d624d69b087eb8da733dee1420770e96d25de7be653aaf072bf5' target='_blank'>2021-06-26 10:51:53</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x6683a0291fe510bc1496ef1c35ae2eb533090674bd8973801fb3b41b7b5537ab' target='_blank'>2021-06-26 10:52:26</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/52' target='_blank'>Bth'gth</a>"),
+                    "series": "1",
+                    "epithets": "The Hungering One",
+                    "description": "Said to be a colossal monstrosity with shapeless appendages which it uses to feed on any things in its reach. It is thought to be offsprung from Cchzshuai's rage and pain when he was expelled from the realms of the gods."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='H'Inaphi' height='125px' src='assets/h-inaphi.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x3b7e7995fff497bc7f4867953c63c7fb097f6a1dfc7f43d2254fac154272f59a' target='_blank'>2021-06-27 04:40:47</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x7f30115fb046593b0977ac8f8ab29166ad13874fb8470d341e8c774f3acaab77' target='_blank'>2021-06-27 04:40:59</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/260' target='_blank'>H'Inaphi</a>"),
+                    "series": "1",
+                    "epithets": "Imposter of the Deep",
+                    "description": "A being that dwells at the bottom of the ocean. He is said to be the source of the violent, mysterious storms that buffet the Inner Worlds. His true identity has yet to be ascertained, and every attempt by the Other's servants to draw him out have failed."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Jielung-Shi' height='125px' src='assets/jielung-shi.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xfbf4348ede339f16af9041f442e906e722358ee2f6eb5a93a58fe53e92e004e9' target='_blank'>2021-06-29 05:37:11</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x48b79cff3499dca435a8b85da905dc1fd8c0a93f2c72d0f0405ba461e3397bb8' target='_blank'>2021-06-29 05:38:48</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/151' target='_blank'>Jielung-Shi</a>"),
+                    "series": "2",
+                    "epithets": "The World Dragon",
+                    "description": "A legendary creature of immense power which once served as the guardian of the universe. It is said to be located in a celestial void called O's Maw, and that it came to Earth in the form of a great serpent. It is believed that Dluthos slew it, and its body turned to stone upon death, becoming the column of stone at the center of Xavala."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Slaaaof' height='125px' src='assets/slaaaof.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x3940e5114ff17cc22eeccdc105c32409eebf97ecebd65876045a1392c0d899cf' target='_blank'>2021-07-01 06:43:40</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xa160aa284f05f869e8bec7242234ef917c57df79d9b7632b178ef5d51215ed3c' target='_blank'>2021-07-01 06:43:43</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/33' target='_blank'>Slaaaof</a>"),
+                    "series": "1",
+                    "epithets": "The Greateaters",
+                    "description": "Elongated entities which move through the cracks of the earth to devour humans. They are said to have no eyes or mouths, and to be blind and deaf. They can morph their bodies into any shape they desire. It is said that Sthümä, the ruler of the Black Moon, may have created them for this purpose."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Ar'ac' height='125px' src='assets/ar-ac.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x653d3ce4fb162fa8cd67bc57e5a27b93c54d7b55f60e00ed13ead1a2565e1c5a' target='_blank'>2021-07-04 09:42:42</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x4159f71a522b9e282c911d834c2be8a9d66e7d7f8bda0584e69ff9ab0b33dec9' target='_blank'>2021-07-04 09:42:42</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/277' target='_blank'>Ar'ac</a>"),
+                    "series": "2",
+                    "epithets": "Ether-Shaper of the Pitch",
+                    "description": "A great, black, devilish entity with a bizarre, insectoid appearance. It is said to be able to reshape reality through its etheric web, and any living creature it touches falls into catatonic stupor."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Anu-avadh & Atharvadh' height='125px' src='assets/anu-avadh-and-atharvadh.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x05c2f0c25d8d6859f2f556e94a866bce3eb633700cfbd852215bad1eda2fd9fa' target='_blank'>2021-07-04 19:14:40</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x92a7ec20b15a17765de66e805ef2888f46c5dbd4fc83c4371ec9af92f68d749e' target='_blank'>2021-07-04 19:14:40</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/64' target='_blank'>Anu-avadh & Atharvadh</a>"),
+                    "series": "1",
+                    "epithets": "The Twin Princes of the Sun",
+                    "description": "Conjoined brothers, one golden and one silver, who are masters of the sun and the moon. They are said to visit the realm of men every new year to impart their wisdom to the children."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Quyllur Mitschun' height='125px' src='assets/quyllur-mitschun.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x45dd7b340a1998db42812b9932dfa35dad7f97aa19584e0e20efbceabd25da9a' target='_blank'>2021-07-06 05:11:09</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xe31823bfacff577a050ad1e0b4cf5950253fb3a0a04c74bfe856662a211f4603' target='_blank'>2021-07-06 05:26:18</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/198' target='_blank'>Quyllur Mitschun</a>"),
+                    "series": "2",
+                    "epithets": "The Crawling Stone God",
+                    "description": "A unique deity which lives within the hill of Qurakukayuq. It is made up of many stones, which shift and crawl across one another. Gargantuan in size, it has an enormous mouth lined with whole rows of needle-like teeth, and shining yellow eyes."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Loz'ege' height='125px' src='assets/loz-ege.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x378e2b902bb4787ad9582c74d8850dab51f8b82c209ab7a69b6606dd45b9d6c7' target='_blank'>2021-07-06 06:29:36</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x94ba22deb3ff709c4bd07d10afcd3d587d1b45436673e49c33f33f9ea99f56b9' target='_blank'>2021-07-06 06:29:36</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/325' target='_blank'>Loz'ege</a>"),
+                    "series": "2",
+                    "epithets": "Weaver of the Web That Broods in the Crater",
+                    "description": "A colossal entity that could assume the form of a spider when it emerged from the abyss, with the ability to shape and alter reality. At the time of its death, it had been weakening for millennia due to Huacas's predictions, and now it is in a state of 'slow dissolution'."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Cimakh' height='125px' src='assets/cimakh.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x382856a479cf0f48e290a46559d35ec56dfc005d39407256b2960387012ad9a8' target='_blank'>2021-07-06 06:58:13</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x6b620bc5d0f1d98735e8cf7266ea93381edf8b1c2acfc096a0d4850166d21e1a' target='_blank'>2021-07-06 06:58:32</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/215' target='_blank'>Cimakh</a>"),
+                    "series": "1",
+                    "epithets": "Oblivion's Embrace",
+                    "description": "An entity of great power, one of the gods of Ruhänz. Part of  her core was lost when the god's physical body was split into many pieces. Her core Entity was cast into the Credo Crater, leaving her legacy forgotten for eons."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Sigyn' height='125px' src='assets/sigyn.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xc9531ab4863c4849a333230fb9c8156772728da8bb982bf6574bbe3abe43f998' target='_blank'>2021-07-06 08:07:12</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x8038b1491dcfae14045743868ca9a18ab6d80ff67061dce7e3dc24475341307d' target='_blank'>2021-07-06 08:07:22</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/211' target='_blank'>Sigyn</a>"),
+                    "series": "2",
+                    "epithets": "Shield of Truth",
+                    "description": "A being of the spirit world, it has no true form, but appears in any form it deems fit. Many observers of its actions are astonished by its power which seems unfit for its small stature. In the past, its power was channeled into sigils inscribed on weapons and armor, which it considers tribute."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Sha 'nalara' height='125px' src='assets/sha-nalara.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xc3d61c546cf688e36e182b8046b25aa8354fc0e76c1a0a363cc1cee3dae78826' target='_blank'>2021-07-06 15:57:10</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x0ce09862a5faecf1fc0f254f0f924e16e74c19d64703b0be585931e874c0b3f0' target='_blank'>2021-07-06 16:20:32</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/210' target='_blank'>Sha 'nalara</a>"),
+                    "series": "2",
+                    "epithets": "Invisible Blue",
+                    "description": "She can appear as any one of a number of things, depending on the vision of its keeper. On occasion, she can be seen performing the worship rituals of the Demesne of Temeria. She is described as an often skinless and disembodied being, resembling a blue humanoid when viewed from the side."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Chaofraz' height='125px' src='assets/chaofraz.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x4311f238b7a1b80dc04bdfac1b9187d179c6b4d998dace5c1ce358ee670fb19d' target='_blank'>2021-07-10 06:29:34</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xdbcdc663e99383515b23de61b5ba1abf41b8f2c3a99c354e2b7cd2190fe6b0a0' target='_blank'>2021-07-10 06:30:44</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/217' target='_blank'>Chaofraz</a>"),
+                    "series": "2",
+                    "epithets": "Master of Hunger and Despair",
+                    "description": "A colossal entity said to have the power to bring famine to the earth. It is said to be visible from the Core World, and usually takes the form of a vast, black serpentine creature with three heads."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Iä-Ngai' height='125px' src='assets/ia-ngai.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x15c460e27e462e6a62896d8fbb16bda812e3bd92e0fcf5da4d767e13ea782e01' target='_blank'>2021-07-11 13:27:28</a>
+                        <br />
+                        🔗  <span class='text-danger'>Art not linked to NFT (no attempt)</span>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/8' target='_blank'>Iä-Ngai</a>"),
+                    "series": "1",
+                    "epithets": "Sordid Gnawer of the Moon",
+                    "description": "A small, shining creature with unblinking eyes and a small agape mouth. It is said to come from the depths of space. Can bring luck or misfortune depending on time of day."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Tag'ai' height='125px' src='assets/tag-ai.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xc125646ce6a3cc928aecc08c4ee68e5e341ca18d5ab62cca5a012442ed3f2e8a' target='_blank'>2021-07-12 08:10:45</a>
+                        <br />
+                        🔗  <span class='text-danger'>Art not linked to NFT <a href='https://etherscan.io/tx/0x4f85c2d43c56aba3d4c6194ca838bf654234b72c93a89ee4545a704d850539d4' target='_blank'>(attempt fail)</a><span>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/235' target='_blank'>Tag'ai</a>"),
+                    "series": "2",
+                    "epithets": "The Indigo Demon",
+                    "description": "An entity of a dark ice. The entity wears an emblazoned white circle upon his forehead, and it is said that this mark can bring about any curse or misfortune one may imagine. Having used the object it wears on its head to travel from place to place, it is often described as a floating, spherical globe, with a pair of bright blue eyes that seem to look directly into the souls of those who look upon it."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Zhign'na-Mga' height='125px' src='assets/zhign-na-mga.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x94a9f719960c11c78e944b71a7bf001147724e513de84e4172706a31e0a005d8' target='_blank'>2021-07-12 20:11:45</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x321a56ce4be99888785c1917b584501b6a3c721e68bb54b934fd3b27a4f62a82' target='_blank'>2021-07-12 20:11:50</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/288' target='_blank'>Zhign'na-Mga</a>"),
+                    "series": "2",
+                    "epithets": "The Breathing Void",
+                    "description": "A colossal, amorphous, black mass which periodically sucks in all the light and air in a given radius. It is said to be a servant of the Void Mother."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Hräthkk' height='125px' src='assets/hrathkk.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xceac6e036ac261e70696048db8349230df9b503f678eb12ef3372f83bc95450e' target='_blank'>2021-07-24 09:09:48</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x25ec45fc7843bbd290549d1f0afd4e8b25d81f034da544cced40452a9306c425' target='_blank'>2021-07-24 09:09:48</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/104' target='_blank'>Hräthkk</a>"),
+                    "series": "1",
+                    "epithets": "The Dark Wood Demon, The Living Furnace",
+                    "description": "A gigantic black figure surrounded by ghostly flames and thorny tree boughs. Said to resemble a man, but mostly shrouded in shadow, its face is only visible when its eyes burn with anger. It inhabits a vast, haunted forest of dead or dying trees which can be found in many of the world's most isolated landmasses."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Vertris' height='125px' src='assets/vertris.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xdbaedc3e7830e163fdb64af7212f15aa049caf8db1803dc94be313f8bfba2973' target='_blank'>2021-07-24 09:12:32</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x71a896df2d97a4fd9007be23f1a68d3e80efc4caa13f1f552149180450803291' target='_blank'>2021-07-24 09:12:52</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/185' target='_blank'>Vertris</a>"),
+                    "series": "2",
+                    "epithets": "A Taste of the Fiery Past",
+                    "description": "A monstrous creature who hides in the limits of the Moag by constantly jumping and shooting fire from its hands. Those struck by its flames find themselves dislodged from time. Chronology bends when it erupts."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Khepri' height='125px' src='assets/khepri.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0x6e121f5e3407b8082996dad245281cd345ef5e8a7d8b412bd19dd2f508d4e14e' target='_blank'>2021-08-02 01:27:00</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0x76604c7f2f9de591c05c5e0555abf5cf2c87bb21d2e7fb012c78385589d019d6' target='_blank'>2021-08-02 01:28:25</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/266' target='_blank'>Khepri</a>"),
+                    "series": "2",
+                    "epithets": "The Elemental Warden",
+                    "description": "An entity of fire and ice, it was forged in the fires of the Void. As a Celestial, it is bound to the Hyades star cluster. It is a dark, forbidding, heavenly entity that is a frequent protector of sentient races, but its cruelty to aggressors knows no bounds."
+                },
+                {
+                    "artwork": gridjs.html("<img alt='Kus' height='125px' src='assets/kus.gif' width='125px'/>"),
+                    "datetime": gridjs.html(`⛓️  <a href='https://etherscan.io/tx/0xf2c3b36041bbc56fd9e973eea01c76015cf2fd04f829cdfead862714efec26db' target='_blank'>2021-08-05 22:54:49</a>
+                        <br />
+                        🔗  <a href='https://etherscan.io/tx/0xd4ae22a444a118988c0ad46bf73e115f5aade345a35c684474648d70b994ef23' target='_blank'>2021-08-05 22:59:13</a>`),
+                    "name": gridjs.html("<a href='https://opensea.io/item/ethereum/0x0427743df720801825a5c82e0582b1e915e0f750/219' target='_blank'>Kus</a>"),
+                    "series": "2",
+                    "epithets": "The Silver One",
+                    "description": "The Silver One is said to be an elder god, long ago bound to the mountains by magic. It is said that it protects those who seek its help, but will only speak to those who walk with it in its native form. It was not seen for many years after it fell under the sway of the Night Gods, but it has returned and is said to be powerful enough to challenge them."
+                }
+            ].map(item => [
+                item.artwork,
+                item.datetime,
+                item.name,
+                item.series,
+                item.epithets,
+                item.description
+            ]),
+            search: true,
+            pagination: {
+                limit: 100,
+                summary: true
+            },
+            style: {
+                table: {
+                    width: '100%',
+                }
+            }
+        }).render(document.getElementById("wrapper"));
+    </script>
+</body>
+
+</html>

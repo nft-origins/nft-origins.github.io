@@ -1,0 +1,90 @@
+[
+    {
+        "file": "<img alt='OLGA' height='85px' src='assets/OLGA.png' style='image-rendering: pixelated;' width='85px'/>",
+        "datetime": "<a href='https://horizon.market/explorer/tx/627ae48d6b4cffb2ea734be1016dedef4cee3f8ffefaea5602dd58c696de6b74' target='_blank'>2015-08-11 20:43:21</a>",
+        "name": "OLGA",
+        "supply": "1 🔒",
+        "project": "Kaleidoscope XCP",
+        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
+        "file_type": "png",
+        "status": "⚠️",
+        "notes": "The asset is not onchain but a broadcast (made from the same address) exists that specifies the image. While the broadcast doesn't mention the OLGA asset it includes, in Russian, 'Моя дорогая вечная Ольга' (My dear eternal Olga). See <a href='https://web.archive.org/web/20241124034106/https://jpjanssen.com/faq-about-olga/' target='_blank'>OLGA FAQ</a>."
+    },
+    {
+        "file": "<img alt='CCSATOSHI' height='85px' src='assets/CCSATOSHI.png' style='image-rendering: pixelated;' width='85px'/>",
+        "datetime": "<a href='https://horizon.market/explorer/tx/4c19b8f1b4dcefa27490d2a8d4b5afea2350d0b75640e402519e8aa2a628397a' target='_blank'>2021-09-28 10:52:21</a>",
+        "name": "CCSATOSHI",
+        "supply": "14 🔒",
+        "project": "Faux SoGs",
+        "author": "<a href='https://x.com/C0rnh0li0' target='_blank'>Cornholio</a>",
+        "file_type": "png",
+        "status": "✅",
+        "notes": "Inspired by JP's OLGA broadcast. Originally issued as a 1/1, an extra 13 were issued on the 3rd May 2023. See <a href='https://web.archive.org/web/20240622145322/https://www.fauxsogs.wtf/series/9' target='_blank'>Faux SoGs</a>."
+    },
+    {
+        "file": "<img alt='THENAKAMOTOS.2' height='85px' src='assets/THENAKAMOTOS2.png' style='image-rendering: pixelated; display: block;-webkit-user-select: none;' width='85px'/>",
+        "datetime": "<a href='https://horizon.market/explorer/tx/9f19de022df7401cce53fc661d6dee06eeedb71bbac0db775c31d3bdd5109ba8' target='_blank'>2022-05-07 20:27:12</a>",
+        "name": "THENAKAMOTOS.2",
+        "supply": "0",
+        "project": "The Nakamotos Club",
+        "author": "<a href='https://x.com/quentinbdb' target='_blank'>ffmad.xcp</a>",
+        "file_type": "png",
+        "status": "✅",
+        "notes": "See <a href='https://web.archive.org/web/20241219165641/https://thenakamotos.club/' target='_blank'>The Nakamotos Club</a>."
+    },
+    {
+        "file": "<img alt='THENAKAMOTOS.3' height='85px' src='assets/THENAKAMOTOS3.png' style='image-rendering: pixelated; display: block;-webkit-user-select: none;' width='85px'/>",
+        "datetime": "<a href='https://horizon.market/explorer/tx/4a8f45f0e7c1b27bbb7080ca897969ffd97b7a650bfa9bfe535f44da71abd399' target='_blank'>2022-05-08 06:05:52</a>",
+        "name": "THENAKAMOTOS.3",
+        "supply": "0",
+        "project": "The Nakamotos Club",
+        "author": "<a href='https://x.com/quentinbdb' target='_blank'>ffmad.xcp</a>",
+        "file_type": "png",
+        "status": "✅",
+        "notes": "See <a href='https://web.archive.org/web/20241219165641/https://thenakamotos.club/' target='_blank'>The Nakamotos Club</a>."
+    },
+    {
+        "file": "<img alt='THENAKAMOTOS.1' height='85px' src='assets/THENAKAMOTOS1.png' style='image-rendering: pixelated; display: block;-webkit-user-select: none;' width='85px'/>",
+        "datetime": "<a href='https://horizon.market/explorer/tx/8b7a62bbe00d18d191dd6e5505df0bc70190b9220f4fc82d5b2dd198d767c04d' target='_blank'>2022-05-08 14:48:30</a>",
+        "name": "THENAKAMOTOS.1",
+        "supply": "0",
+        "project": "The Nakamotos Club",
+        "author": "<a href='https://x.com/quentinbdb' target='_blank'>ffmad.xcp</a>",
+        "file_type": "png",
+        "status": "✅",
+        "notes": "See <a href='https://web.archive.org/web/20241219165641/https://thenakamotos.club/' target='_blank'>The Nakamotos Club</a>."
+    },
+    {
+        "file": "<img alt='TESTPEP' height='85px' src='assets/TESTPEP.svg' width='85px'/>",
+        "datetime": "<a href='https://horizon.market/explorer/tx/513d07b558f9a1948c9d42dd1a88df1fbdb3206ad67f0a8f6a1dc2defbd6ef73' target='_blank'>2022-11-02 00:36:19</a>",
+        "name": "TESTPEP",
+        "supply": "50 🔒",
+        "project": "?",
+        "author": "<a href='https://x.com/ChainLeftist' target='_blank'>ChainLeft</a>",
+        "file_type": "svg",
+        "status": "✅",
+        "notes": "Appears to have been a PEPERMANENT-related experiment."
+    },
+    {
+        "file": "<img alt='PEPERMANENT' height='85px' src='assets/PEPERMANENT.svg' width='85px'/>",
+        "datetime": "<a href='https://horizon.market/explorer/tx/2c0e91077eceb451ed8d5f27255144061e974357ec650d75bf528155ee7009b5' target='_blank'>2022-11-23 02:25:48</a>",
+        "name": "PEPERMANENT",
+        "supply": "69 🔒",
+        "project": "Fake Rares",
+        "author": "<a href='https://x.com/ChainLeftist' target='_blank'>ChainLeft</a>",
+        "file_type": "svg",
+        "status": "✅",
+        "notes": "See <a href='https://mirror.xyz/chainleft.eth/Z76zkKbgBkR0k9zuKeBUAOguWxQ9iLGiot1LVlZKyqs'>Release Notes: PEPERMANENT</a>."
+    },
+    {
+        "file": "<img alt='EVAS' height='85px' src='assets/EVAS.png' style='image-rendering: pixelated;' width='85px'/>",
+        "datetime": "<a href='https://horizon.market/explorer/tx/360b79a039b3a1d715adfb8edf0c2776605beb688ae3d99ce57de30ebe1c7583' target='_blank'>2022-12-14 11:00:59</a>",
+        "name": "EVAS",
+        "supply": "100 🔒",
+        "project": "ArtOnchain",
+        "author": "<a href='https://x.com/masteronchain' target='_blank'>MasterOnchain</a>",
+        "file_type": "png",
+        "status": "✅",
+        "notes": "Put onchain just hours before the first Ordinals Inscription (#0) was inscribed. See <a href='https://web.archive.org/web/20240928013434/https://artonchain.net/' target='_blank'>ArtOnchain</a>."
+    }
+]

@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="NFT, Bitcoin NFTs, Counterparty, Bitcoin, XCP, Faux SoGs, Fake Rares" name="keywords" />
+
+    <title>First Onchain Bitcoin NFTs (2014-2022)</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajsax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css"
+        rel="stylesheet" />
+    <link href="https://cdn.datatables.net/2.1.8/css/dataTables.bootstrap5.css" rel="stylesheet" />
+
+    <link href="assets/favicon.ico" rel="icon" type="image/jpeg" />
+    <link href="../../styles.css" rel="stylesheet" />
+</head>
+
+<body class="p-1 m-4">
+    <div class="row pb-2 align-items-center">
+        <div class="col">
+            <h1>First Onchain Bitcoin NFTs (2014-2022)</h1>
+        </div>
+    </div>
+
+    <div class="pb-2">
+        <a href="../" class="github-btn">
+            <svg height="20" width="20" style="fill: white;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <path
+                    d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H4c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h16c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-7-4l2.5-3.5 3.5 4.5H6l4-5z" />
+            </svg>
+            View more timelines here
+        </a>
+    </div>
+
+    <div class="pb-4">
+        <a href="https://github.com/dsgriffin/nft-origins/tree/main/timelines/first-onchain-bitcoin-nfts"
+            class="github-btn">
+            <svg height="20" width="20" style="fill: white;" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+            </svg>
+            View this timelines' source code (data, onchain images etc.) on GitHub
+        </a>
+    </div>
+
+    <div class="pb-3">
+        <h6>
+            Before the first Ordinals inscription (14th December 2022) there was already a small batch of entirely
+            onchain Bitcoin NFTs. Here they are.
+        </h6>
+    </div>
+
+    <table id="data-table" class="table display" style="width:100%">
+        <thead class="text-center">
+            <tr>
+                <th>File</th>
+                <th>Onchain Datetime</th>
+                <th>Asset Name</th>
+                <th>Supply</th>
+                <th>Project</th>
+                <th>Author</th>
+                <th>Type</th>
+                <th></th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+
+        <tbody class="align-middle">
+            <!-- JSON Table Insert -->
+        </tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.bootstrap5.js"></script>
+    <script>
+        $(document).ready(() => {
+            // Handle Datatables light/dark mode
+            let prefers = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            let html = document.querySelector('html');
+
+            html.classList.add(prefers);
+            html.setAttribute('data-bs-theme', prefers);
+
+            // Set up Datatables with data
+            const jsonFilePath = 'data.json';
+
+            fetch(jsonFilePath)
+                .then(response => response.json())
+                .then(data => {
+                    const tableBody = $('#data-table tbody');
+
+                    data.forEach(row => {
+                        const tableRow = `
+                            <tr>
+                                <td>${row.file}</td>
+                                <td>${row.datetime}</td>
+                                <td>${row.name}</td>
+                                <td>${row.supply}</td>
+                                <td>${row.project}</td>
+                                <td>${row.author}</td>
+                                <td>${row.file_type}</td>
+                                <td>${row.status}</td>
+                                <td>${row.notes}</td>
+                            </tr>
+                        `;
+
+                        tableBody.append(tableRow);
+                    });
+
+                    $('#data-table').DataTable({
+                        paging: false,
+                        responsive: true,
+                        order: [[1, 'asc']],
+                        columnDefs: [
+                            { width: '10%', targets: 2 },
+                            { width: '15%', targets: 4 },
+                            { width: '10%', targets: 5 },
+                        ]
+                    });
+                })
+                .catch(error => console.error('Error loading JSON:', error));
+        });
+    </script>
+</body>
+
+</html>

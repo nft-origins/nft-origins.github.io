@@ -1,0 +1,52 @@
+[
+    {
+        "file": "<img alt='Huacas by 0xmons' height='125px' src='assets/0xmons-huacas.gif' width='125px'/>",
+        "datetime": "<a href='https://etherscan.io/tx/0x296658fbfaa2fe717dba8d2b05682457920be629a3145a1dde271b306effd969' target='_blank'>2021-01-30 04:42:54</a> <br /> to <br /> <a href='https://etherscan.io/tx/0xf2c3b36041bbc56fd9e973eea01c76015cf2fd04f829cdfead862714efec26db' target='_blank'>2021-08-05 22:54:49</a>",
+        "project": "0xmons",
+        "supply": "83/341",
+        "onchain": "artwork(s) [calldata] ✅ <br /> neural network [none] ❌",
+        "author": "<a href='https://x.com/0xmons' target='_blank'>0xmons</a>",
+        "file_type": "gif",
+        "notes": "<a href='https://nftorigins.com/timelines/0xmons-onchain-in-early-2021/' target='_blank'>Only 83 out of the total supply of 341 0xmons</a> had their full animated artworks put onchain between January 2021 and August 2021."
+    },
+    {
+        "file": "<img alt='XOR by Nahiko' height='125px' src='assets/xor.png' width='125px'/>",
+        "datetime": "<a href='https://etherscan.io/tx/0xc1f5fd6c92d47b9afc3301da35dabcd91d0958a10a1fe108e9a66c3ccf16b69b' target='_blank'>2021-08-09 12:42:56</a>",
+        "project": "XOR",
+        "supply": "1",
+        "onchain": "artwork(s) [ipfs] ❌ <br /> neural network [contract] ✅",
+        "author": "<a href='https://x.com/Nahiiko' target='_blank'>Nahiko</a>",
+        "file_type": "png",
+        "notes": "The first smart contract with an onchain neural network."
+    },
+    {
+        "file": "<img alt='Story #0 by AuthorMe' height='125px' src='' width='125px'/>",
+        "datetime": "<a href='https://etherscan.io/tx/0xc1f5fd6c92d47b9afc3301da35dabcd91d0958a10a1fe108e9a66c3ccf16b69b' target='_blank'>2021-08-09 12:42:56</a>",
+        "project": "Author Me",
+        "supply": "15/7500",
+        "onchain": "artwork(s) [contract] ✅ <br /> neural network [none] ❌",
+        "author": "<a href='https://x.com/authorme_nft' target='_blank'>AuthorMe</a>",
+        "file_type": "svg",
+        "notes": ""
+    },
+    {
+        "file": "<img alt='byteGAN 0 by Van Arman' height='125px' src='assets/bytegans-0.gif' width='125px'/>",
+        "datetime": "<a href='https://etherscan.io/tx/0xf0258a57a5965198c5b3e058a2292e088f7e189c2eee672c2f174e6f493d6953' target='_blank'>2023-02-17 20:39:59</a>",
+        "project": "byteGANs",
+        "supply": "1111",
+        "onchain": "artwork(s) [contract] ✅ <br /> neural network [none] ❌",
+        "author": "<a href='https://x.com/VanArman' target='_blank'>VanArman</a>",
+        "file_type": "gif",
+        "notes": ""
+    },
+    {
+        "file": "<img alt='InChainPepeGAN by LifeOnChain' height='125px' src='assets/inchainpepegan.gif' style='image-rendering: pixelated; display: block;-webkit-user-select: none;' width='125px'/>",
+        "datetime": "<a href='https://etherscan.io/tx/0xb9f8fe4dc00c31b9422c1baa1539147e3af6d53d893b5ae1e0d12ec4e9ad1abb' target='_blank'>2023-03-27 14:46:47</a>",
+        "project": "InChainPepeGAN",
+        "supply": "999",
+        "onchain": "artwork(s) [contract] ✅ <br /> neural network [contract] ✅",
+        "author": "<a href='https://x.com/LifeOnChain_NFT' target='_blank'>LifeOnChain</a>",
+        "file_type": "gif",
+        "notes": "The first smart contract with GIFs generated in-chain. See article <a href='https://mirror.xyz/0x4DB9f44eF11AC71b67eCC1CB272f4CcAfCE0058c/FxFvSW8KDZHFUiy6AzwEXthL58lysW48eVj7QKB0T08' target='_blank'>How far can on-chain AI go?</a> by LifeOnChain."
+    }
+]
