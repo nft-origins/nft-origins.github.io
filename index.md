@@ -11,12 +11,10 @@ For example, semi-fungible Bitcoin collectibles were first popularized by Spells
 
 The key point is that **NFTs are ownable, tradable tokens that represent something**.
 
-The entries in these timelines therefore go by the earliest date where the NFT itself fully existed; it could be owned, it could be traded (except soulbound tokens) & it represented something.
+The entries in these timelines therefore go by the earliest date where the NFT itself fully existed; it could be owned, it could be traded (except soulbound tokens) & it represented something.  
+
 
 ## Timelines
 
 [View All NFT Origins Timelines](./timelines/)
 
-## Research
-
-[View All NFT Origins Research](./research/)
