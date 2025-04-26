@@ -3,6 +3,8 @@ layout: default
 title: NFT Origins
 ---
 
+## About
+
 In the strict sense, an NFT is a unique 1/1 token representing ownership of something (art etc).
 
 In common usage, however, it's used to refer to any kind of tokenized asset, nonfungible or not, that is viewed as collectible & represents ownership of something more than just the token itself.
@@ -16,5 +18,5 @@ The entries in these timelines therefore go by the earliest date where the NFT i
 
 ## Timelines
 
-[View All NFT Origins Timelines](./timelines/)
+[View all timelines](./timelines/)
 
