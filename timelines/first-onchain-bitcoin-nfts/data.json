@@ -6,8 +6,7 @@
         "supply": "1 🔒",
         "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
         "type": "png",
-        "status": "⚠️",
-        "notes": "The asset is not onchain but a broadcast (made from the same address) exists that specifies the image. While the broadcast doesn't mention the OLGA asset it includes, in Russian, 'Моя дорогая вечная Ольга' (My dear eternal Olga). See <a href='https://web.archive.org/web/20241124034106/https://jpjanssen.com/faq-about-olga/' target='_blank'>OLGA FAQ</a>."
+        "notes": "⚠️ The asset is not onchain but a broadcast (made from the same address) exists that specifies the image. While the broadcast doesn't mention the OLGA asset it includes, in Russian, 'Моя дорогая вечная Ольга' (My dear eternal Olga). See <a href='https://web.archive.org/web/20241124034106/https://jpjanssen.com/faq-about-olga/' target='_blank'>OLGA FAQ</a>."
     },
     {
         "file": "<img alt='CCSATOSHI' src='assets/CCSATOSHI.png' style='image-rendering: pixelated;' class='artwork' />",
@@ -16,8 +15,7 @@
         "supply": "14 🔒",
         "author": "<a href='https://x.com/C0rnh0li0' target='_blank'>Cornholio</a>",
         "type": "png",
-        "status": "✅",
-        "notes": "Inspired by JP's OLGA broadcast. Originally issued as a 1/1, an extra 13 were issued on the 3rd May 2023. See <a href='https://web.archive.org/web/20240622145322/https://www.fauxsogs.wtf/series/9' target='_blank'>Faux SoGs</a>."
+        "notes": "✅ Inspired by JP's OLGA broadcast. Originally issued as a 1/1, an extra 13 were issued on the 3rd May 2023. See <a href='https://web.archive.org/web/20240622145322/https://www.fauxsogs.wtf/series/9' target='_blank'>Faux SoGs</a>."
     },
     {
         "file": "<img alt='THENAKAMOTOS.2' src='assets/THENAKAMOTOS2.png' style='image-rendering: pixelated; display: block;-webkit-user-select: none;' class='artwork' />",
@@ -26,8 +24,7 @@
         "supply": "0",
         "author": "<a href='https://x.com/quentinbdb' target='_blank'>ffmad.xcp</a>",
         "type": "png",
-        "status": "✅",
-        "notes": "See <a href='https://web.archive.org/web/20241219165641/https://thenakamotos.club/' target='_blank'>The Nakamotos Club</a>."
+        "notes": "✅ See <a href='https://web.archive.org/web/20241219165641/https://thenakamotos.club/' target='_blank'>The Nakamotos Club</a>."
     },
     {
         "file": "<img alt='THENAKAMOTOS.3' src='assets/THENAKAMOTOS3.png' style='image-rendering: pixelated; display: block;-webkit-user-select: none;' class='artwork' />",
@@ -36,8 +33,7 @@
         "supply": "0",
         "author": "<a href='https://x.com/quentinbdb' target='_blank'>ffmad.xcp</a>",
         "type": "png",
-        "status": "✅",
-        "notes": "See <a href='https://web.archive.org/web/20241219165641/https://thenakamotos.club/' target='_blank'>The Nakamotos Club</a>."
+        "notes": "✅ See <a href='https://web.archive.org/web/20241219165641/https://thenakamotos.club/' target='_blank'>The Nakamotos Club</a>."
     },
     {
         "file": "<img alt='THENAKAMOTOS.1' src='assets/THENAKAMOTOS1.png' style='image-rendering: pixelated; display: block;-webkit-user-select: none;' class='artwork' />",
@@ -46,8 +42,7 @@
         "supply": "0",
         "author": "<a href='https://x.com/quentinbdb' target='_blank'>ffmad.xcp</a>",
         "type": "png",
-        "status": "✅",
-        "notes": "See <a href='https://web.archive.org/web/20241219165641/https://thenakamotos.club/' target='_blank'>The Nakamotos Club</a>."
+        "notes": "✅ See <a href='https://web.archive.org/web/20241219165641/https://thenakamotos.club/' target='_blank'>The Nakamotos Club</a>."
     },
     {
         "file": "<img alt='TESTPEP' src='assets/TESTPEP.svg' class='artwork' />",
@@ -56,8 +51,7 @@
         "supply": "50 🔒",
         "author": "<a href='https://x.com/ChainLeftist' target='_blank'>ChainLeft</a>",
         "type": "svg",
-        "status": "✅",
-        "notes": "Appears to have been a PEPERMANENT-related experiment."
+        "notes": "✅ Appears to have been a PEPERMANENT-related experiment."
     },
     {
         "file": "<img alt='PEPERMANENT' src='assets/PEPERMANENT.svg' class='artwork' />",
@@ -66,8 +60,7 @@
         "supply": "69 🔒",
         "author": "<a href='https://x.com/ChainLeftist' target='_blank'>ChainLeft</a>",
         "type": "svg",
-        "status": "✅",
-        "notes": "See <a href='https://mirror.xyz/chainleft.eth/Z76zkKbgBkR0k9zuKeBUAOguWxQ9iLGiot1LVlZKyqs'>Release Notes: PEPERMANENT</a>."
+        "notes": "✅ See <a href='https://mirror.xyz/chainleft.eth/Z76zkKbgBkR0k9zuKeBUAOguWxQ9iLGiot1LVlZKyqs'>Release Notes: PEPERMANENT</a>."
     },
     {
         "file": "<img alt='EVAS' src='assets/EVAS.png' style='image-rendering: pixelated;' class='artwork' />",
@@ -76,7 +69,6 @@
         "supply": "100 🔒",
         "author": "<a href='https://x.com/masteronchain' target='_blank'>MasterOnchain</a>",
         "type": "png",
-        "status": "✅",
-        "notes": "Put onchain just hours before the first Ordinals Inscription (#0) was inscribed. See <a href='https://web.archive.org/web/20240928013434/https://artonchain.net/' target='_blank'>ArtOnchain</a>."
+        "notes": "✅ Put onchain just hours before the first Ordinals Inscription (#0) was inscribed. See <a href='https://web.archive.org/web/20240928013434/https://artonchain.net/' target='_blank'>ArtOnchain</a>."
     }
 ]

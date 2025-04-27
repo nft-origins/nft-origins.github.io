@@ -12,10 +12,26 @@
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css"
         rel="stylesheet" />
-    <link href="https://cdn.datatables.net/2.1.8/css/dataTables.bootstrap5.css" rel="stylesheet" />
+    <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
 
     <link href="assets/favicon.ico" rel="icon" type="image/jpeg" />
     <link href="../../styles.css" rel="stylesheet" />
+
+    <style>
+        @media (max-width: 640px) {
+
+            .gridjs-td[data-column-id='supply'],
+            .gridjs-th[data-column-id='supply'],
+            .gridjs-td[data-column-id='author'],
+            .gridjs-th[data-column-id='author'],
+            .gridjs-td[data-column-id='type'],
+            .gridjs-th[data-column-id='type'],
+            .gridjs-td[data-column-id='notes'],
+            .gridjs-th[data-column-id='notes'] {
+                display: none !important;
+            }
+        }
+    </style>
 </head>
 
 <body class="p-1 m-4">
@@ -55,81 +71,46 @@
         </h6>
     </div>
 
-    <table id="data-table" class="table display" style="width:100%">
-        <thead class="text-center">
-            <tr>
-                <th>File</th>
-                <th>Hashed Datetime</th>
-                <th>Asset Name(s)</th>
-                <th>Supply</th>
-                <th>Hash</th>
-                <th>Project</th>
-                <th>Hash Author</th>
-                <th>Type</th>
-                <th></th>
-                <th>Notes</th>
-            </tr>
-        </thead>
+    <div id="wrapper" class="pb-4"></div>
 
-        <tbody class="align-middle">
-            <!-- JSON Table Insert -->
-        </tbody>
-    </table>
-
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
-    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.bootstrap5.js"></script>
+    <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
     <script>
-        $(document).ready(() => {
-            // Handle Datatables light/dark mode
-            let prefers = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-            let html = document.querySelector('html');
-
-            html.classList.add(prefers);
-            html.setAttribute('data-bs-theme', prefers);
-
-            // Set up Datatables with data
-            const jsonFilePath = 'data.json';
-
-            fetch(jsonFilePath)
-                .then(response => response.json())
-                .then(data => {
-                    const tableBody = $('#data-table tbody');
-
-                    data.forEach(row => {
-                        const tableRow = `
-                            <tr>
-                                <td>${row.file}</td>
-                                <td>${row.datetime}</td>
-                                <td>${row.names}</td>
-                                <td>${row.supply}</td>
-                                <td>${row.hash}</td>
-                                <td>${row.project}</td>
-                                <td>${row.author}</td>
-                                <td>${row.file_type}</td>
-                                <td>${row.status}</td>
-                                <td>${row.notes}</td>
-                            </tr>
-                        `;
-
-                        tableBody.append(tableRow);
-                    });
-
-                    $('#data-table').DataTable({
-                        paging: false,
-                        responsive: true,
-                        order: [[1, 'asc']],
-                        columnDefs: [
-                            { width: '8%', targets: 4 },
-                            { width: '8%', targets: 5 },
-                            { width: '8%', targets: 6 },
-                            { width: '4%', targets: 7 }
-                        ]
-                    });
-                })
-                .catch(error => console.error('Error loading JSON:', error));
-        });
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                new gridjs.Grid({
+                    columns: [
+                        { name: 'File', id: 'file', width: '7.5%', formatter: (cell) => gridjs.html(cell) },
+                        { name: 'Hashed Datetime', id: 'datetime', width: '10%', formatter: (cell) => gridjs.html(cell) },
+                        { name: 'Name(s)', id: 'names', width: '15%', formatter: (cell) => gridjs.html(cell) },
+                        { name: 'Supply', id: 'supply', width: '7.5%' },
+                        { name: 'Hash', id: 'hash', width: '7.5%' },
+                        { name: 'Project & Author', id: 'project_author', width: '12.5%', formatter: (cell) => gridjs.html(cell) },
+                        { name: 'Type', id: 'type', width: '7.5%' },
+                        { name: 'Notes', id: 'notes', width: '25%', formatter: (cell) => gridjs.html(cell) },
+                    ],
+                    data: data.map(item => [
+                        item.file,
+                        item.datetime,
+                        item.names,
+                        item.supply,
+                        item.hash,
+                        item.project_author,
+                        item.type,
+                        item.notes
+                    ]),
+                    search: true,
+                    pagination: {
+                        limit: 150,
+                        summary: true
+                    },
+                    style: {
+                        table: {
+                            width: '100%',
+                        }
+                    }
+                }).render(document.getElementById("wrapper"));
+            });
     </script>
 </body>
 

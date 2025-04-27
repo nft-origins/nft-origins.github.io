@@ -5,11 +5,9 @@
         "names": "SPOON",
         "supply": "1",
         "hash": "SHA-512 (Base58)",
-        "project": "?",
-        "author": "?",
-        "file_type": "N/A",
-        "status": "❗️",
-        "notes": "Linked hash is a <a href='https://web.archive.org/web/20240615174705/https://wiki.bitmessage.org/index.php/Public_key_to_bitmessage_address' target='_blank'>Bitmessage Address</a>, not a file."
+        "project_author": "?",
+        "type": "N/A",
+        "notes": "❗️ Linked hash is a <a href='https://web.archive.org/web/20240615174705/https://wiki.bitmessage.org/index.php/Public_key_to_bitmessage_address' target='_blank'>Bitmessage Address</a>, not a file."
     },
     {
         "file": "N/A",
@@ -17,11 +15,9 @@
         "names": "LOLZ + 7 Named Assets",
         "supply": "1000",
         "hash": "SHA-512 (Base58)",
-        "project": "?",
-        "author": "?",
-        "file_type": "N/A",
-        "status": "❗️",
-        "notes": "Linked hashes are <a href='https://web.archive.org/web/20240615174705/https://wiki.bitmessage.org/index.php/Public_key_to_bitmessage_address' target='_blank'>Bitmessage Addresses</a>, not files. All hashed with the same Bitmessage address on the same day, earliest one is the timestamp linked."
+        "project_author": "?",
+        "type": "N/A",
+        "notes": "❗️ Linked hashes are <a href='https://web.archive.org/web/20240615174705/https://wiki.bitmessage.org/index.php/Public_key_to_bitmessage_address' target='_blank'>Bitmessage Addresses</a>, not files. All hashed with the same Bitmessage address on the same day, first is the timestamp linked."
     },
     {
         "file": "<img alt='KETF' height='95px' src='assets/ketf.jpg' width='80px'/>",
@@ -29,11 +25,9 @@
         "names": "KETF",
         "supply": "1 🔒",
         "hash": "RIPEMD-160",
-        "project": "Steal This Art",
-        "author": "<a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
-        "file_type": "jpg",
-        "status": "✅",
-        "notes": "This token was 'stolen' by <a href='https://bitcointalk.org/index.php?action=profile;u=354177' target='_blank'>ebx</a> who wrote a Python script to solve the puzzle. See full description & puzzle solution at <a href='https://web.archive.org/web/20150301172933/https://www.reddit.com/r/Bitcoin/comments/2x09wb/steal_this_art_crack_its_key/' target='_blank'>Steal this art. Crack its key</a>."
+        "project_author": "<a href='https://web.archive.org/web/20150301172933/https://www.reddit.com/r/Bitcoin/comments/2x09wb/steal_this_art_crack_its_key/' target='_blank'>Steal This Art</a> <br /> <a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
+        "type": "jpg",
+        "notes": "✅ This token was 'stolen' by <a href='https://bitcointalk.org/index.php?action=profile;u=354177' target='_blank'>ebx</a> who wrote a Python script to solve the puzzle and claim it."
     },
     {
         "file": "<img alt='A1672758370327094000' height='95px' src='assets/A1672758370327094000.jpg' width='80px'/>",
@@ -41,11 +35,9 @@
         "names": "A1672758370327094000",
         "supply": "1 🔒",
         "hash": "RIPEMD-160",
-        "project": "Bitcoin 2.0",
-        "author": "<a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
-        "file_type": "jpg",
-        "status": "✅",
-        "notes": "Sold for $50 in February 2015. See <a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a>."
+        "project_author": "<a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a> <br /> <a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
+        "type": "jpg",
+        "notes": "✅ Sold for $50 in February 2015."
     },
     {
         "file": "<img alt='A347162147702845600' height='95px' src='assets/A347162147702845600.jpg' width='80px'/>",
@@ -53,11 +45,9 @@
         "names": "A347162147702845600",
         "supply": "1 🔒",
         "hash": "RIPEMD-160",
-        "project": "Bitcoin 2.0",
-        "author": "<a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
-        "file_type": "jpg",
-        "status": "✅",
-        "notes": "Sold for $50 in February 2015. See <a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a>."
+        "project_author": "<a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a> <br /> <a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
+        "type": "jpg",
+        "notes": "✅ Sold for $50 in February 2015."
     },
     {
         "file": "<img alt='A1268036952489992000' height='95px' src='assets/A1268036952489992000.jpg' width='80px'/>",
@@ -65,11 +55,9 @@
         "names": "A1268036952489992000",
         "supply": "1 🔒",
         "hash": "RIPEMD-160",
-        "project": "Bitcoin 2.0",
-        "author": "<a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
-        "file_type": "jpg",
-        "status": "✅",
-        "notes": "Token + physical reside with artist as of 2025. See <a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a>."
+        "project_author": "<a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a> <br /> <a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
+        "type": "jpg",
+        "notes": "✅"
     },
     {
         "file": "<img alt='A7714010038065172000' height='95px' src='assets/A7714010038065172000.jpg' width='80px'/>",
@@ -77,11 +65,9 @@
         "names": "A7714010038065172000",
         "supply": "1 🔒",
         "hash": "RIPEMD-160",
-        "project": "Bitcoin 2.0",
-        "author": "<a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
-        "file_type": "jpg",
-        "status": "✅",
-        "notes": "Token + physical reside with artist as of 2025. See <a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a>."
+        "project_author": "<a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a> <br /> <a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
+        "type": "jpg",
+        "notes": "✅"
     },
     {
         "file": "<img alt='A16665771309720693000' height='95px' src='assets/A16665771309720693000.jpg' width='80px'/>",
@@ -89,11 +75,9 @@
         "names": "A16665771309720693000",
         "supply": "1 🔒",
         "hash": "RIPEMD-160",
-        "project": "Bitcoin 2.0",
-        "author": "<a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
-        "file_type": "jpg",
-        "status": "✅",
-        "notes": "Token + physical reside with artist as of 2025. See <a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a>."
+        "project_author": "<a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a> <br /> <a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
+        "type": "jpg",
+        "notes": "✅"
     },
     {
         "file": "<img alt='A2482034434046493000' height='95px' src='assets/A2482034434046493000.jpg' width='80px'/>",
@@ -101,11 +85,9 @@
         "names": "A2482034434046493000",
         "supply": "1 🔒",
         "hash": "RIPEMD-160",
-        "project": "Bitcoin 2.0",
-        "author": "<a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
-        "file_type": "jpg",
-        "status": "✅",
-        "notes": "Token + physical reside with artist as of 2025. See <a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a>."
+        "project_author": "<a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a> <br /> <a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
+        "type": "jpg",
+        "notes": "✅"
     },
     {
         "file": "<img alt='A10757775179751730000' height='95px' src='assets/A10757775179751730000.jpg' width='80px'/>",
@@ -113,11 +95,9 @@
         "names": "A10757775179751730000",
         "supply": "1 🔒",
         "hash": "RIPEMD-160",
-        "project": "Bitcoin 2.0",
-        "author": "<a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
-        "file_type": "jpg",
-        "status": "✅",
-        "notes": "Token + physical reside with artist as of 2025. See <a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a>."
+        "project_author": "<a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a> <br /> <a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
+        "type": "jpg",
+        "notes": "✅"
     },
     {
         "file": "<img alt='A2382890405647249000' height='95px' src='assets/A2382890405647249000.jpg' width='80px'/>",
@@ -125,11 +105,9 @@
         "names": "A2382890405647249000",
         "supply": "1 🔒",
         "hash": "RIPEMD-160",
-        "project": "Bitcoin 2.0",
-        "author": "<a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
-        "file_type": "jpg",
-        "status": "✅",
-        "notes": "Token + physical reside with artist as of 2025. See <a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a>."
+        "project_author": "<a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a> <br /> <a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
+        "type": "jpg",
+        "notes": "✅"
     },
     {
         "file": "<img alt='A5276228097108709000' height='95px' src='assets/A5276228097108709000.jpg' width='80px'/>",
@@ -137,11 +115,9 @@
         "names": "A5276228097108709000",
         "supply": "1 🔒",
         "hash": "RIPEMD-160",
-        "project": "Bitcoin 2.0",
-        "author": "<a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
-        "file_type": "jpg",
-        "status": "✅",
-        "notes": "Token + physical reside with artist as of 2025. See <a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a>."
+        "project_author": "<a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a> <br /> <a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
+        "type": "jpg",
+        "notes": "✅"
     },
     {
         "file": "<img alt='A520544706094163650' height='95px' src='assets/A520544706094163650.jpg' width='80px'/>",
@@ -149,11 +125,9 @@
         "names": "A520544706094163650",
         "supply": "1 🔒",
         "hash": "RIPEMD-160",
-        "project": "Bitcoin 2.0",
-        "author": "<a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
-        "file_type": "jpg",
-        "status": "✅",
-        "notes": "Token + physical reside with artist as of 2025. See <a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a>."
+        "project_author": "<a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a> <br /> <a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
+        "type": "jpg",
+        "notes": "✅"
     },
     {
         "file": "<img alt='A12286573536304806000' height='95px' src='assets/A12286573536304806000.jpg' width='80px'/>",
@@ -161,11 +135,9 @@
         "names": "A12286573536304806000",
         "supply": "1 🔒",
         "hash": "RIPEMD-160",
-        "project": "Bitcoin 2.0",
-        "author": "<a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
-        "file_type": "jpg",
-        "status": "✅",
-        "notes": "Token + physical reside with artist as of 2025. See <a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a>."
+        "project_author": "<a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a> <br /> <a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
+        "type": "jpg",
+        "notes": "✅"
     },
     {
         "file": "<img alt='A11433176278603567000' height='95px' src='assets/A11433176278603567000.jpg' width='80px'/>",
@@ -173,11 +145,9 @@
         "names": "A11433176278603567000",
         "supply": "1 🔒",
         "hash": "RIPEMD-160",
-        "project": "Bitcoin 2.0",
-        "author": "<a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
-        "file_type": "jpg",
-        "status": "✅",
-        "notes": "Token + physical reside with artist as of 2025. See <a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a>."
+        "project_author": "<a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a> <br /> <a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
+        "type": "jpg",
+        "notes": "✅"
     },
     {
         "file": "<img alt='A305220116359788860' height='95px' src='assets/A305220116359788860.jpg' width='80px'/>",
@@ -185,11 +155,9 @@
         "names": "A305220116359788860",
         "supply": "1 🔒",
         "hash": "RIPEMD-160",
-        "project": "Bitcoin 2.0",
-        "author": "<a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
-        "file_type": "jpg",
-        "status": "✅",
-        "notes": "Token + physical reside with artist as of 2025. See <a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a>."
+        "project_author": "<a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a> <br /> <a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
+        "type": "jpg",
+        "notes": "✅"
     },
     {
         "file": "<img alt='A4727714767834463000' height='95px' src='assets/A4727714767834463000.jpg' width='80px'/>",
@@ -197,11 +165,9 @@
         "names": "A4727714767834463000",
         "supply": "1 🔒",
         "hash": "RIPEMD-160",
-        "project": "Bitcoin 2.0",
-        "author": "<a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
-        "file_type": "jpg",
-        "status": "✅",
-        "notes": "Token + physical reside with artist as of 2025. See <a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a>."
+        "project_author": "<a href='https://web.archive.org/web/20220125090135/https://bitcointalk.org/index.php?topic=954740' target='_blank'>Bitcoin 2.0</a> <br /> <a href='https://x.com/weex' target='_blank'>David Sterry (Weex)</a>",
+        "type": "jpg",
+        "notes": "✅"
     },
     {
         "file": "",
@@ -209,11 +175,9 @@
         "names": "Nothing",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nothing",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "N/A",
-        "status": "✅",
-        "notes": "Electronically signed 20th July 2013 23:29:33 CEST. See <a href='https://web.archive.org/web/20230927005538/https://www.stephanvogler.com/en/2015/03/01/nothing/' target='_blank'>Nothing</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927005538/https://www.stephanvogler.com/en/2015/03/01/nothing/' target='_blank'>Nothing</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "N/A",
+        "notes": "✅ Electronically signed 20th July 2013 23:29:33 CEST."
     },
     {
         "file": "0",
@@ -221,11 +185,9 @@
         "names": "Number 0",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Numbers",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "number",
-        "status": "✅",
-        "notes": "Electronically signed 5th August 2013 21:17:55 CEST. See <a href='https://web.archive.org/web/20240226052416/https://www.stephanvogler.com/en/2015/03/01/numbers/' target='_blank'>Numbers</a>."
+        "project_author": "<a href='https://web.archive.org/web/20240226052416/https://www.stephanvogler.com/en/2015/03/01/numbers/' target='_blank'>Numbers</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "number",
+        "notes": "✅ Electronically signed 5th August 2013 21:17:55 CEST."
     },
     {
         "file": "1",
@@ -233,11 +195,9 @@
         "names": "Number 1",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Numbers",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "number",
-        "status": "✅",
-        "notes": "Electronically signed 5th August 2013 21:18:45 CEST. See <a href='https://web.archive.org/web/20240226052416/https://www.stephanvogler.com/en/2015/03/01/numbers/' target='_blank'>Numbers</a>."
+        "project_author": "<a href='https://web.archive.org/web/20240226052416/https://www.stephanvogler.com/en/2015/03/01/numbers/' target='_blank'>Numbers</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "number",
+        "notes": "✅ Electronically signed 5th August 2013 21:18:45 CEST."
     },
     {
         "file": "<img alt='Transparent Square' height='85px' src='assets/transparent-square.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -245,11 +205,9 @@
         "names": "Transparent Square",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Squares",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:03:38 CEST. See <a href='https://web.archive.org/web/20231210224332/https://www.stephanvogler.com/en/2015/03/01/squares/' target='_blank'>Squares</a>."
+        "project_author": "<a href='https://web.archive.org/web/20231210224332/https://www.stephanvogler.com/en/2015/03/01/squares/' target='_blank'>Squares</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:03:38 CEST."
     },
     {
         "file": "Everything is a number!",
@@ -257,11 +215,9 @@
         "names": "Everything is a number!",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Numbers",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "text",
-        "status": "✅",
-        "notes": "Electronically signed 22nd March 2015 04:09:07 CET. See <a href='https://web.archive.org/web/20240226052416/https://www.stephanvogler.com/en/2015/03/01/numbers/' target='_blank'>Numbers</a>."
+        "project_author": "<a href='https://web.archive.org/web/20240226052416/https://www.stephanvogler.com/en/2015/03/01/numbers/' target='_blank'>Numbers</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "text",
+        "notes": "✅ Electronically signed 22nd March 2015 04:09:07 CET."
     },
     {
         "file": "<img alt='Black Square' height='85px' src='assets/black-square.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -269,11 +225,9 @@
         "names": "Black Square",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Squares",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:05:31 CEST. See <a href='https://web.archive.org/web/20231210224332/https://www.stephanvogler.com/en/2015/03/01/squares/' target='_blank'>Squares</a>."
+        "project_author": "<a href='https://web.archive.org/web/20231210224332/https://www.stephanvogler.com/en/2015/03/01/squares/' target='_blank'>Squares</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:05:31 CEST."
     },
     {
         "file": "<img alt='White Square' height='85px' src='assets/white-square.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -281,11 +235,9 @@
         "names": "White Square",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Squares",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:06:22 CEST. See <a href='https://web.archive.org/web/20231210224332/https://www.stephanvogler.com/en/2015/03/01/squares/' target='_blank'>Squares</a>."
+        "project_author": "<a href='https://web.archive.org/web/20231210224332/https://www.stephanvogler.com/en/2015/03/01/squares/' target='_blank'>Squares</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:06:22 CEST."
     },
     {
         "file": "<img alt='Nibble 0' height='85px' src='assets/nibble0.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -293,11 +245,9 @@
         "names": "Nibble 0",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nibbles",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:09:48 CEST. See <a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:09:48 CEST."
     },
     {
         "file": "<img alt='Nibble 1' height='85px' src='assets/nibble1.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -305,11 +255,9 @@
         "names": "Nibble 1",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nibbles",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:10:29 CEST. See <a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:10:29 CEST."
     },
     {
         "file": "<img alt='Nibble 2' height='85px' src='assets/nibble2.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -317,11 +265,9 @@
         "names": "Nibble 2",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nibbles",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:11:06 CEST. See <a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:11:06 CEST."
     },
     {
         "file": "<img alt='Nibble 3' height='85px' src='assets/nibble3.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -329,11 +275,9 @@
         "names": "Nibble 3",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nibbles",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:11:57 CEST. See <a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:11:57 CEST."
     },
     {
         "file": "<img alt='Nibble 4' height='85px' src='assets/nibble4.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -341,11 +285,9 @@
         "names": "Nibble 4",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nibbles",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:12:29 CEST. See <a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:12:29 CEST."
     },
     {
         "file": "<img alt='Nibble 5' height='85px' src='assets/nibble5.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -353,11 +295,9 @@
         "names": "Nibble 5",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nibbles",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:13:15 CEST. See <a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:13:15 CEST."
     },
     {
         "file": "<img alt='Nibble 6' height='85px' src='assets/nibble6.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -365,11 +305,9 @@
         "names": "Nibble 6",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nibbles",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:13:50 CEST. See <a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:13:50 CEST."
     },
     {
         "file": "<img alt='Nibble 7' height='85px' src='assets/nibble7.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -377,11 +315,9 @@
         "names": "Nibble 7",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nibbles",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:14:19 CEST. See <a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:14:19 CEST."
     },
     {
         "file": "<img alt='Nibble 8' height='85px' src='assets/nibble8.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -389,11 +325,9 @@
         "names": "Nibble 8",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nibbles",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:14:49 CEST. See <a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:14:49 CEST."
     },
     {
         "file": "<img alt='Nibble 9' height='85px' src='assets/nibble9.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -401,11 +335,9 @@
         "names": "Nibble 9",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nibbles",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:15:21 CEST. See <a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:15:21 CEST."
     },
     {
         "file": "<img alt='Nibble 10' height='85px' src='assets/nibble10.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -413,11 +345,9 @@
         "names": "Nibble 10",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nibbles",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:15:49 CEST. See <a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:15:49 CEST."
     },
     {
         "file": "<img alt='Nibble 11' height='85px' src='assets/nibble11.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -425,11 +355,9 @@
         "names": "Nibble 11",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nibbles",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:16:18 CEST. See <a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:16:18 CEST."
     },
     {
         "file": "<img alt='Nibble 12' height='85px' src='assets/nibble12.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -437,11 +365,9 @@
         "names": "Nibble 12",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nibbles",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:16:49 CEST. See <a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:16:49 CEST."
     },
     {
         "file": "<img alt='Nibble 13' height='85px' src='assets/nibble13.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -449,11 +375,9 @@
         "names": "Nibble 13",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nibbles",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:17:16 CEST. See <a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:17:16 CEST."
     },
     {
         "file": "<img alt='Nibble 14' height='85px' src='assets/nibble14.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -461,11 +385,9 @@
         "names": "Nibble 14",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nibbles",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:17:44 CEST. See <a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:17:44 CEST."
     },
     {
         "file": "<img alt='Nibble 15' height='85px' src='assets/nibble15.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -473,11 +395,9 @@
         "names": "Nibble 15",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nibbles",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:18:12 CEST. See <a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:18:12 CEST."
     },
     {
         "file": "<img alt='All Nibbles' height='85px' src='assets/all-nibbles.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -485,11 +405,9 @@
         "names": "All Nibbles",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Nibbles",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:18:40 CEST. See <a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927024515/https://www.stephanvogler.com/en/2015/03/01/nibbles/' target='_blank'>Nibbles</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:18:40 CEST."
     },
     {
         "file": "<img alt='4x4 Face' height='85px' src='assets/4x4-face.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -497,11 +415,9 @@
         "names": "4x4 Face",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Faces",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:19:24 CEST. See <a href='https://web.archive.org/web/20230927012504/https://www.stephanvogler.com/en/2015/03/01/faces/' target='_blank'>Faces</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927012504/https://www.stephanvogler.com/en/2015/03/01/faces/' target='_blank'>Faces</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:19:24 CEST."
     },
     {
         "file": "<img alt='8x8 Face' height='85px' src='assets/8x8-face.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -509,11 +425,9 @@
         "names": "8x8 Face",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Faces",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:19:55 CEST. See <a href='https://web.archive.org/web/20230927012504/https://www.stephanvogler.com/en/2015/03/01/faces/' target='_blank'>Faces</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927012504/https://www.stephanvogler.com/en/2015/03/01/faces/' target='_blank'>Faces</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:19:55 CEST."
     },
     {
         "file": "<img alt='16x16 Face' height='85px' src='assets/16x16-face.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -521,11 +435,9 @@
         "names": "16x16 Face",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Faces",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:20:23 CEST. See <a href='https://web.archive.org/web/20230927012504/https://www.stephanvogler.com/en/2015/03/01/faces/' target='_blank'>Faces</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927012504/https://www.stephanvogler.com/en/2015/03/01/faces/' target='_blank'>Faces</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:20:23 CEST."
     },
     {
         "file": "<img alt='32x32 Face' height='85px' src='assets/32x32-face.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -533,11 +445,9 @@
         "names": "32x32 Face",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Faces",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:20:54 CEST. See <a href='https://web.archive.org/web/20230927012504/https://www.stephanvogler.com/en/2015/03/01/faces/' target='_blank'>Faces</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927012504/https://www.stephanvogler.com/en/2015/03/01/faces/' target='_blank'>Faces</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:20:54 CEST."
     },
     {
         "file": "<img alt='64x64 Face' height='85px' src='assets/64x64-face.gif' style='image-rendering: pixelated;' width='85px'/>",
@@ -545,11 +455,9 @@
         "names": "64x64 Face",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Faces",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Electronically signed 14th August 2013 23:21:22 CEST. See <a href='https://web.archive.org/web/20230927012504/https://www.stephanvogler.com/en/2015/03/01/faces/' target='_blank'>Faces</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230927012504/https://www.stephanvogler.com/en/2015/03/01/faces/' target='_blank'>Faces</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "gif",
+        "notes": "✅ Electronically signed 14th August 2013 23:21:22 CEST."
     },
     {
         "file": "?",
@@ -557,11 +465,9 @@
         "names": "Secret",
         "supply": "1 🔒",
         "hash": "SHA-256",
-        "project": "Secret",
-        "author": "<a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
-        "file_type": "?",
-        "status": "✅",
-        "notes": "Electronically signed 21st April 2015 23:18:33 CEST. See <a href='https://web.archive.org/web/20230603144249/https://www.stephanvogler.com/en/2015/03/01/secret/' target='_blank'>Secret</a>."
+        "project_author": "<a href='https://web.archive.org/web/20230603144249/https://www.stephanvogler.com/en/2015/03/01/secret/' target='_blank'>Secret</a> <br /> <a href='https://x.com/stephanvogler1' target='_blank'>Stephan Vogler</a>",
+        "type": "?",
+        "notes": "✅ Electronically signed 21st April 2015 23:18:33 CEST."
     },
     {
         "file": "?",
@@ -569,11 +475,9 @@
         "names": "A11853032714534422961 + 2 Numerical Assets",
         "supply": "1000.0",
         "hash": "? (Base16)",
-        "project": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a>",
-        "author": "<a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
-        "file_type": "json",
-        "status": "❗️",
-        "notes": "Unable to locate these hash-matching files. All prefixed with 'NINJA-'. All hashed in 2015, earliest one is the timestamp linked."
+        "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
+        "type": "json",
+        "notes": "❗️ Unable to locate hash-matching files. All prefixed with 'NINJA-'. All hashed in 2015, first is the timestamp linked."
     },
     {
         "file": "?",
@@ -581,11 +485,9 @@
         "names": "A11001199784417885243 + 38 Numerical Assets",
         "supply": "0 - 80000",
         "hash": "SHA-256 (Custom)",
-        "project": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a>",
-        "author": "<a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
-        "file_type": "json",
-        "status": "❗️",
-        "notes": "Unable to locate these hash-matching files. All prefixed with 'TOKNID-'. All hashed in 2015, earliest one is the timestamp linked."
+        "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
+        "type": "json",
+        "notes": "❗️ Unable to locate hash-matching files. All prefixed with 'TOKNID-'. All hashed in 2015, first is the timestamp linked."
     },
     {
         "file": "?",
@@ -593,11 +495,9 @@
         "names": "A11100808756733421597 + 35 Numerical Assets",
         "supply": "1 - 100000",
         "hash": "SHA-256 (Custom)",
-        "project": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a>",
-        "author": "<a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
-        "file_type": "json",
-        "status": "❗️",
-        "notes": "Unable to locate these hash-matching files. All prefixed with 'BVAMW-'. All hashed in 2015 to early 2016, earliest one is the timestamp linked."
+        "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
+        "type": "json",
+        "notes": "❗️ Unable to locate hash-matching files. All prefixed with 'BVAMW-'. All hashed in 2015 to early 2016, first is the timestamp linked."
     },
     {
         "file": "<img alt='CNPCARD' height='95px' src='assets/cnpcard.jpg' width='80px'/>",
@@ -605,11 +505,9 @@
         "names": "CNPCARD",
         "supply": "689 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/cnpcard' target='_blank'>XCP Cards - CNPCARD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/cnpcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='FDCARD' height='95px' src='assets/fdcard.jpg' width='80px'/>",
@@ -617,11 +515,9 @@
         "names": "FDCARD",
         "supply": "300 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/fdcard' target='_blank'>XCP Cards - FDCARD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/fdcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='GEMZCARD' height='95px' src='assets/gemzcard.jpg' width='80px'/>",
@@ -629,11 +525,9 @@
         "names": "GEMZCARD",
         "supply": "418 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/gemzcard' target='_blank'>XCP Cards - GEMZCARD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/gemzcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='GOXCARD' height='95px' src='assets/goxcard.jpg' width='80px'/>",
@@ -641,11 +535,9 @@
         "names": "GOXCARD",
         "supply": "379 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/goxcard' target='_blank'>XCP Cards - GOXCARD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/goxcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='BAZAARCARD' height='95px' src='assets/bazaarcard.jpg' width='80px'/>",
@@ -653,11 +545,9 @@
         "names": "BAZAARCARD",
         "supply": "1000 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/bazaarcard' target='_blank'>XCP Cards - BAZAARCARD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/bazaarcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='ETHXCPCARD' height='95px' src='assets/ethxcpcard.jpg' width='80px'/>",
@@ -665,11 +555,9 @@
         "names": "ETHXCPCARD",
         "supply": "366 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240618140103/https://xcpcards.com/ethxcpcard' target='_blank'>XCP Cards - ETHXCPCARD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/ethxcpcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='LTBCARD' height='95px' src='assets/ltbcard.jpg' width='80px'/>",
@@ -677,11 +565,9 @@
         "names": "LTBCARD",
         "supply": "1000 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/ltbcard' target='_blank'>XCP Cards - LTBCARD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/ltbcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='MINERCARD' height='95px' src='assets/minercard.jpg' width='80px'/>",
@@ -689,11 +575,9 @@
         "names": "MINERCARD",
         "supply": "1200 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/minercard' target='_blank'>XCP Cards - MINERCARD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/minercard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='RIPPLECARD' height='95px' src='assets/ripplecard.jpg' width='80px'/>",
@@ -701,11 +585,9 @@
         "names": "RIPPLECARD",
         "supply": "500 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/ripplecard' target='_blank'>XCP Cards - RIPPLECARD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/ripplecard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='SHUMAICARD' height='95px' src='assets/shumaicard.jpg' width='80px'/>",
@@ -713,11 +595,9 @@
         "names": "SHUMAICARD",
         "supply": "1000 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/shumaicard' target='_blank'>XCP Cards - SHUMAICARD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/shumaicard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='SJCXCARD' height='95px' src='assets/sjcxcard.jpg' width='80px'/>",
@@ -725,11 +605,9 @@
         "names": "SJCXCARD",
         "supply": "557 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/sjcxcard' target='_blank'>XCP Cards - SJCXCARD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/sjcxcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='SWARMCD' height='95px' src='assets/swarmcd.jpg' width='80px'/>",
@@ -737,11 +615,9 @@
         "names": "SWARMCD",
         "supply": "339 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/swarmcd' target='_blank'>XCP Cards - SWARMCD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/swarmcd' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='XAJIBESAAR' height='95px' src='assets/xajibesaar.jpg' width='80px'/>",
@@ -749,11 +625,9 @@
         "names": "XAJIBESAAR",
         "supply": "500 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/xajibesaar' target='_blank'>XCP Cards - XAJIBESAAR</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/XAJIBESAAR' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='XCPCARD' height='95px' src='assets/xcpcard.jpg' width='80px'/>",
@@ -761,11 +635,9 @@
         "names": "XCPCARD",
         "supply": "1000 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/xcpcard' target='_blank'>XCP Cards - XCPCARD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/xcpcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='ZAIFCARD' height='95px' src='assets/zaifcard.jpg' width='80px'/>",
@@ -773,11 +645,9 @@
         "names": "ZAIFCARD",
         "supply": "1000 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/zaifcard' target='_blank'>XCP Cards - ZAIFCARD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/zaifcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='BEARWHALECD' height='95px' src='assets/bearwhalecd.jpg' width='80px'/>",
@@ -785,11 +655,9 @@
         "names": "BEARWHALECD",
         "supply": "430 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/bearwhalecd' target='_blank'>XCP Cards - BEARWHALECD</a>"
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/bearwhalecd' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='BLOCKSIZECD' height='95px' src='assets/blocksizecd.jpg' width='80px'/>",
@@ -797,11 +665,9 @@
         "names": "BLOCKSIZECD",
         "supply": "300 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/blocksizecd' target='_blank'>XCP Cards - BLOCKSIZECD</a>"
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/blocksizecd' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='ETHEREUMCARD' height='95px' src='assets/ethereumcard.jpg' width='80px'/>",
@@ -809,11 +675,9 @@
         "names": "ETHEREUMCARD",
         "supply": "239 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/ethereumcard' target='_blank'>XCP Cards - ETHEREUMCARD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/ethereumcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='GENESISCARD' height='95px' src='assets/genesiscard.jpg' width='80px'/>",
@@ -821,11 +685,9 @@
         "names": "GENESISCARD",
         "supply": "557 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/genesiscard' target='_blank'>XCP Cards - GENESISCARD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/genesiscard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='SATOSHICARD' height='95px' src='assets/satoshicard.jpg' width='80px'/>",
@@ -833,11 +695,9 @@
         "names": "SATOSHICARD",
         "supply": "199 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/satoshicard' target='_blank'>XCP Cards - SATOSHICARD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/satoshicard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='SHAPESHIFTCD' height='95px' src='assets/shapeshiftcd.jpg' width='80px'/>",
@@ -845,11 +705,9 @@
         "names": "SHAPESHIFTCD",
         "supply": "183 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/shapeshiftcd' target='_blank'>XCP Cards - SHAPESHIFTCD</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/shapeshiftcd' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='XAJIARKETAAR' height='95px' src='assets/xajiarketaar.jpg' width='80px'/>",
@@ -857,11 +715,9 @@
         "names": "XAJIARKETAAR",
         "supply": "700 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/xajiarketaar' target='_blank'>XCP Cards - XAJIARKETAAR</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/XAJIARKETAAR' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='XAJIBASILAAR' height='95px' src='assets/xajibasilaar.jpg' width='80px'/>",
@@ -869,11 +725,9 @@
         "names": "XAJIBASILAAR",
         "supply": "2000 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/xajibasilaar' target='_blank'>XCP Cards - XAJIBASILAAR</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/XAJIBASILAAR' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='XAJIJASPAAR' height='95px' src='assets/xajijaspaar.jpg' width='80px'/>",
@@ -881,11 +735,9 @@
         "names": "XAJIJASPAAR",
         "supply": "1000 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/xajijaspaar' target='_blank'>XCP Cards - XAJIJASPAAR</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/XAJIJASPAAR' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='XAJIYEREMAAR' height='95px' src='assets/xajiyeremaar.jpg' width='80px'/>",
@@ -893,11 +745,9 @@
         "names": "XAJIYEREMAAR",
         "supply": "600 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "Spells Of Genesis",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/xajiyeremaar' target='_blank'>XCP Cards - XAJIYEREMAAR</a>."
+        "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/XAJIYEREMAAR' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='WOLVERINE' height='95px' src='assets/wolverine.jpg' width='80px'/>",
@@ -905,11 +755,9 @@
         "names": "WOLVERINE",
         "supply": "300 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "XCP Cards",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/wolverine' target='_blank'>XCP Cards - WOLVERINE</a>."
+        "project_author": "<a href='https://web.archive.org/web/20250217101737/https://jpjanssen.com/weird-n-wild/' target='_blank'>Weird 'n Wild</a> <br /> <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast exists that specifies <a href='https://web.archive.org/web/20250213163714/https://xcpcards.com/wolverine' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='LOCHNESS' height='95px' src='assets/lochness.jpg' width='80px'/>",
@@ -917,11 +765,9 @@
         "names": "LOCHNESS",
         "supply": "100 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "XCP Cards",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/lochness' target='_blank'>XCP Cards - LOCHNESS</a>."
+        "project_author": "<a href='https://web.archive.org/web/20250217101737/https://jpjanssen.com/weird-n-wild/' target='_blank'>Weird 'n Wild</a> <br /> <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast exists that specifies <a href='https://web.archive.org/web/20250213163714/https://xcpcards.com/lochness' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='GRAYWOLF' height='95px' src='assets/graywolf.jpg' width='80px'/>",
@@ -929,11 +775,9 @@
         "names": "GRAYWOLF",
         "supply": "100 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "XCP Cards",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/graywolf' target='_blank'>XCP Cards - GRAYWOLF</a>."
+        "project_author": "<a href='https://web.archive.org/web/20250217101737/https://jpjanssen.com/weird-n-wild/' target='_blank'>Weird 'n Wild</a> <br /> <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast exists that specifies <a href='https://web.archive.org/web/20250213163714/https://xcpcards.com/graywolf' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "<img alt='GENET' height='95px' src='assets/genet.jpg' width='80px'/>",
@@ -941,11 +785,9 @@
         "names": "GENET",
         "supply": "100 🔒",
         "hash": "SHA-256 (Base64)",
-        "project": "XCP Cards",
-        "author": "<a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "The asset is not hashed directly but a broadcast exists that specifies both asset &amp; image hash. See <a href='https://web.archive.org/web/20240605012120/https://xcpcards.com/genet' target='_blank'>XCP Cards - GENET</a>."
+        "project_author": "<a href='https://web.archive.org/web/20250217101737/https://jpjanssen.com/weird-n-wild/' target='_blank'>Weird 'n Wild</a> <br /> <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
+        "type": "jpg",
+        "notes": "⚠️ The asset is not hashed but a broadcast exists that specifies <a href='https://web.archive.org/web/20250213163714/https://xcpcards.com/genet' target='_blank'>both asset &amp; image hash</a>."
     },
     {
         "file": "?",
@@ -953,11 +795,9 @@
         "names": "A6894379437174428000",
         "supply": "100.0",
         "hash": "SHA-1",
-        "project": "?",
-        "author": "?",
-        "file_type": "?",
-        "status": "❗️",
-        "notes": "Unable to locate hash-matching file."
+        "project_author": "?",
+        "type": "?",
+        "notes": "❗️ Unable to locate hash-matching file."
     },
     {
         "file": "?",
@@ -965,11 +805,9 @@
         "names": "SOUP",
         "supply": "100000",
         "hash": "SHA-256 (Custom)",
-        "project": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a>",
-        "author": "<a href='https://x.com/wellerco' target='_blank'>Devon Weller</a>",
-        "file_type": "json",
-        "status": "❗️",
-        "notes": "Unable to locate hash-matching file. A hashed BVAM JSON file with no prefix. Asset & hash are noted in the NPM package <a href='https://www.npmjs.com/package/node-bvam-client' target='_blank'>node-bvam-client</a>."
+        "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/wellerco' target='_blank'>Devon Weller</a>",
+        "type": "json",
+        "notes": "❗️ Unable to locate hash-matching file. A hashed BVAM JSON file with no prefix. Asset & hash are noted in the NPM package <a href='https://www.npmjs.com/package/node-bvam-client' target='_blank'>node-bvam-client</a>."
     },
     {
         "file": "<img alt='CHYNAPEPE' height='95px' src='assets/chynapepe-unhashed.png' width='80px'/>",
@@ -977,11 +815,9 @@
         "names": "CHYNAPEPE",
         "supply": "130 🔒",
         "hash": "MD5",
-        "project": "Rare Pepe",
-        "author": "<a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
-        "file_type": "png",
-        "status": "⚠️",
-        "notes": "Unable to locate hash-matching file. Displaying current asset image instead. There is a <a href='https://www.youtube.com/watch?v=nofo90f7V7A' target='_blank'>2018 Youtube video</a> showing the CHYNAPEPE artwork being uploaded to a MD5 hash checker, where it matches against the onchain hash successfully."
+        "project_author": "<a href='https://rarepepes.com/' target='_blank'>Rare Pepe</a> <br /> <a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
+        "type": "png",
+        "notes": "⚠️ Unable to locate hash-matching file. Displaying current asset image instead. A <a href='https://www.youtube.com/watch?v=nofo90f7V7A' target='_blank'>2018 Youtube video</a> shows CHYNAPEPE being uploaded to a MD5 hash checker, matching against the onchain hash successfully."
     },
     {
         "file": "<img alt='KILLARYPEPE' height='95px' src='assets/killarypepe.png' width='80px'/>",
@@ -989,11 +825,9 @@
         "names": "KILLARYPEPE",
         "supply": "130 🔒",
         "hash": "MD5",
-        "project": "Rare Pepe",
-        "author": "<a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
-        "file_type": "png",
-        "status": "✅",
-        "notes": ""
+        "project_author": "<a href='https://rarepepes.com/' target='_blank'>Rare Pepe</a> <br /> <a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
+        "type": "png",
+        "notes": "✅"
     },
     {
         "file": "<img alt='PEPESUS' height='95px' src='assets/pepesus-unhashed.jpg' width='80px'/>",
@@ -1001,11 +835,9 @@
         "names": "PEPESUS",
         "supply": "184 🔒",
         "hash": "MD5",
-        "project": "Rare Pepe",
-        "author": "?",
-        "file_type": "jpg",
-        "status": "⚠️",
-        "notes": "Unable to locate hash-matching file. Displaying current asset image instead."
+        "project_author": "<a href='https://rarepepes.com/' target='_blank'>Rare Pepe</a> <br /> ?",
+        "type": "jpg",
+        "notes": "⚠️ Unable to locate hash-matching file. Displaying current asset image instead."
     },
     {
         "file": "<img alt='PEPETRADERS' height='95px' src='assets/PEPETRADERS.png' width='80px'/>",
@@ -1013,11 +845,9 @@
         "names": "PEPETRADERS",
         "supply": "11111 🔒",
         "hash": "MD5",
-        "project": "Rare Pepe",
-        "author": "<a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
-        "file_type": "png",
-        "status": "✅",
-        "notes": ""
+        "project_author": "<a href='https://rarepepes.com/' target='_blank'>Rare Pepe</a> <br /> <a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
+        "type": "png",
+        "notes": "✅"
     },
     {
         "file": "<img alt='CPOAPEPE' height='95px' src='assets/cpoapepe.png' width='80px'/>",
@@ -1025,11 +855,9 @@
         "names": "CPOAPEPE",
         "supply": "100 🔒",
         "hash": "MD5",
-        "project": "?",
-        "author": "?",
-        "file_type": "png",
-        "status": "✅",
-        "notes": "QR takes you to the issuers' Bitcoin Address. Asset & hash was saved to <a href='https://web.archive.org/web/20241230231338/https://cryptoproof.info/static/CPOAPEPE.txt' target='_blank'>Cryptoproof.info</a>. See <a href='https://j-dog.net/archive/RarePepeChat/2016-10_59.html#2016-10-25' target='_blank'>Rare Pepe Chat: CPOAPEPE</a>."
+        "project_author": "?",
+        "type": "png",
+        "notes": "✅ QR takes you to the issuers' Bitcoin Address. Asset & hash was saved to <a href='https://web.archive.org/web/20241230231338/https://cryptoproof.info/static/CPOAPEPE.txt' target='_blank'>Cryptoproof.info</a>. See <a href='https://j-dog.net/archive/RarePepeChat/2016-10_59.html#2016-10-25' target='_blank'>Rare Pepe Chat: CPOAPEPE</a>."
     },
     {
         "file": "<img alt='WPPEPE' height='95px' src='assets/WPPEPE.png' width='80px'/>",
@@ -1037,11 +865,9 @@
         "names": "WPPEPE",
         "supply": "1337 🔒",
         "hash": "MD5",
-        "project": "Rare Pepe",
-        "author": "<a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
-        "file_type": "png",
-        "status": "✅",
-        "notes": ""
+        "project_author": "<a href='https://rarepepes.com/' target='_blank'>Rare Pepe</a> <br /> <a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
+        "type": "png",
+        "notes": "✅"
     },
     {
         "file": "?",
@@ -1049,11 +875,9 @@
         "names": "A18423481899410732657 + 8 Mixed Assets",
         "supply": "1.0 - 10000.0",
         "hash": "SHA-256 (Custom)",
-        "project": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a>",
-        "author": "<a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
-        "file_type": "json",
-        "status": "❗️",
-        "notes": "Unable to locate these hash-matching files. All hashed in 2016 to mid 2017, earliest one is the timestamp linked."
+        "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
+        "type": "json",
+        "notes": "❗️ Unable to locate hash-matching files. All hashed in 2016 to mid 2017, first is the timestamp linked."
     },
     {
         "file": "?",
@@ -1061,11 +885,9 @@
         "names": "HAPPYBDAYEP + 6 Named Assets",
         "supply": "1.0 - 1000000.0",
         "hash": "SHA-256 (Custom)",
-        "project": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a>",
-        "author": "<a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
-        "file_type": "json",
-        "status": "❗️",
-        "notes": "Unable to locate these hash-matching files. All hashed in 2016 to early 2017, earliest one is the timestamp linked."
+        "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
+        "type": "json",
+        "notes": "❗️ Unable to locate hash-matching files. All hashed in 2016 to early 2017, first is the timestamp linked."
     },
     {
         "file": "?",
@@ -1073,11 +895,9 @@
         "names": "LITTLECOLOR",
         "supply": "10000 🔒",
         "hash": "SHA-256 (Custom)",
-        "project": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a>",
-        "author": "<a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
-        "file_type": "json",
-        "status": "❗️",
-        "notes": "Unable to locate hash-matching file."
+        "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
+        "type": "json",
+        "notes": "❗️ Unable to locate hash-matching file."
     },
     {
         "file": "?",
@@ -1085,11 +905,9 @@
         "names": "A7573321672166984000",
         "supply": "1",
         "hash": "SHA-256 (Base64)",
-        "project": "?",
-        "author": "?",
-        "file_type": "?",
-        "status": "❗️",
-        "notes": "Unable to locate hash-matching file."
+        "project_author": "?",
+        "type": "?",
+        "notes": "❗️ Unable to locate hash-matching file."
     },
     {
         "file": "<img alt='PEPENUKES' height='95px' src='assets/PEPENUKES.gif' width='80px'/>",
@@ -1097,11 +915,9 @@
         "names": "PEPENUKES",
         "supply": "5000 🔒",
         "hash": "MD5",
-        "project": "Rare Pepe",
-        "author": "?",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": ""
+        "project_author": "<a href='https://rarepepes.com/' target='_blank'>Rare Pepe</a> <br /> ?",
+        "type": "gif",
+        "notes": "✅"
     },
     {
         "file": "?",
@@ -1109,11 +925,9 @@
         "names": "DECOIN + 2 Numerical Assets",
         "supply": "100.0 - 10000000000.0",
         "hash": "SHA-256 (Custom)",
-        "project": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a>",
-        "author": "<a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
-        "file_type": "json",
-        "status": "❗️",
-        "notes": "Unable to locate these hash-matching files. All hashed in 2017, earliest one is the timestamp linked."
+        "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
+        "type": "json",
+        "notes": "❗️ Unable to locate hash-matching files. All hashed in 2017, first is the timestamp linked."
     },
     {
         "file": "?",
@@ -1121,11 +935,9 @@
         "names": "LOVENLIBERTY + 6 Mixed Assets",
         "supply": "1000.0",
         "hash": "SHA-256 (Custom)",
-        "project": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a>",
-        "author": "<a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
-        "file_type": "json",
-        "status": "❗️",
-        "notes": "Unable to locate these hash-matching files. All hashed in 2017, earliest one is the timestamp linked."
+        "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
+        "type": "json",
+        "notes": "❗️ Unable to locate hash-matching files. All hashed in 2017, first is the timestamp linked."
     },
     {
         "file": "?",
@@ -1133,11 +945,9 @@
         "names": "LEPERPRINT + 12 Named Assets",
         "supply": "1.0 - 100000.0",
         "hash": "SHA-256 (Custom)",
-        "project": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a>",
-        "author": "<a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
-        "file_type": "json",
-        "status": "❗️",
-        "notes": "Unable to locate these hash-matching files. All hashed in 2017, earliest one is the timestamp linked."
+        "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
+        "type": "json",
+        "notes": "❗️ Unable to locate hash-matching files. All hashed in 2017, first is the timestamp linked."
     },
     {
         "file": "<img alt='PEPEXIT' height='95px' src='assets/pepexit-unhashed.png' width='80px'/>",
@@ -1145,11 +955,9 @@
         "names": "PEPEXIT",
         "supply": "1000 🔒",
         "hash": "MD5",
-        "project": "Rare Pepe",
-        "author": "?",
-        "file_type": "png",
-        "status": "⚠️",
-        "notes": "Unable to locate hash-matching file. Displaying current asset image instead."
+        "project_author": "<a href='https://rarepepes.com/' target='_blank'>Rare Pepe</a> <br /> ?",
+        "type": "png",
+        "notes": "⚠️ Unable to locate hash-matching file. Displaying current asset image instead."
     },
     {
         "file": "<img alt='PEPEJONES' height='95px' src='assets/PEPEJONES.png' width='80px'/>",
@@ -1157,11 +965,9 @@
         "names": "PEPEJONES",
         "supply": "1214 🔒",
         "hash": "MD5",
-        "project": "Rare Pepe",
-        "author": "<a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
-        "file_type": "png",
-        "status": "✅",
-        "notes": ""
+        "project_author": "<a href='https://rarepepes.com/' target='_blank'>Rare Pepe</a> <br /> <a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
+        "type": "png",
+        "notes": "✅"
     },
     {
         "file": "<img alt='PEPESTYLE' height='95px' src='assets/PEPESTYLE.png' width='80px'/>",
@@ -1169,11 +975,9 @@
         "names": "PEPESTYLE",
         "supply": "420 🔒",
         "hash": "MD5",
-        "project": "Rare Pepe",
-        "author": "<a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
-        "file_type": "png",
-        "status": "✅",
-        "notes": ""
+        "project_author": "<a href='https://rarepepes.com/' target='_blank'>Rare Pepe</a> <br /> <a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
+        "type": "png",
+        "notes": "✅"
     },
     {
         "file": "<img alt='BTFDPEPE' height='95px' src='assets/BTFDPEPE.png' width='80px'/>",
@@ -1181,11 +985,9 @@
         "names": "BTFDPEPE",
         "supply": "29656 🔒",
         "hash": "MD5",
-        "project": "Rare Pepe",
-        "author": "<a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
-        "file_type": "png",
-        "status": "✅",
-        "notes": ""
+        "project_author": "<a href='https://rarepepes.com/' target='_blank'>Rare Pepe</a> <br /> <a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
+        "type": "png",
+        "notes": "✅"
     },
     {
         "file": "<img alt='BUGS' height='95px' src='assets/BUGS.png' style='background-color: hsl(0, 0%, 90%);' width='80px'/>",
@@ -1193,11 +995,9 @@
         "names": "BUGS",
         "supply": "1000.0",
         "hash": "SHA-1 (Custom)",
-        "project": "?",
-        "author": "<a href='https://bitcointalk.org/index.php?action=profile;u=354177' target='_blank'>ebx</a>",
-        "file_type": "json",
-        "status": "✅",
-        "notes": "First to include hashed interactive HTML (an alert dialog pops up). As well as HTML, it includes this creative commons <a href='https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Glider.svg/1024px-Glider.svg.png' target='_blank'>Glider artwork</a>."
+        "project_author": "? <br /> <a href='https://bitcointalk.org/index.php?action=profile;u=354177' target='_blank'>ebx</a>",
+        "type": "json",
+        "notes": "✅ First to include hashed interactive HTML (an alert dialog pops up). As well as HTML, it includes this creative commons <a href='https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Glider.svg/1024px-Glider.svg.png' target='_blank'>Glider artwork</a>."
     },
     {
         "file": "<img alt='ONESUN' height='95px' src='assets/onesun-unhashed.jpg' width='80px'/>",
@@ -1205,11 +1005,9 @@
         "names": "ONESUN",
         "supply": "1",
         "hash": "MD5",
-        "project": "<a href='https://web.archive.org/web/20241227131257/https://bitcointalk.org/index.php?topic=1879968.0' target='_blank'>Rare Meme World</a>",
-        "author": "<a href='https://bitcointalk.org/index.php?action=profile;u=988396'>sorsona</a>",
-        "file_type": "?",
-        "status": "⚠️",
-        "notes": "Unable to locate hash-matching file. Displaying thumbnail image found on Reddit."
+        "project_author": "<a href='https://web.archive.org/web/20241227131257/https://bitcointalk.org/index.php?topic=1879968.0' target='_blank'>Rare Meme World</a> <br /> <a href='https://bitcointalk.org/index.php?action=profile;u=988396'>Sorsona</a>",
+        "type": "?",
+        "notes": "⚠️ Unable to locate hash-matching file. Displaying thumbnail image found on Reddit."
     },
     {
         "file": "?",
@@ -1217,11 +1015,9 @@
         "names": "A17942979392038382000",
         "supply": "1000000 🔒",
         "hash": "MD5",
-        "project": "?",
-        "author": "?",
-        "file_type": "?",
-        "status": "❗️",
-        "notes": "Unable to locate hash-matching file."
+        "project_author": "?",
+        "type": "?",
+        "notes": "❗️ Unable to locate hash-matching file."
     },
     {
         "file": "<img alt='PEPEHODLER' height='95px' src='assets/PEPEHODLER.png' width='80px'/>",
@@ -1229,11 +1025,9 @@
         "names": "PEPEHODLER",
         "supply": "300 🔒",
         "hash": "MD5",
-        "project": "Rare Pepe",
-        "author": "<a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
-        "file_type": "png",
-        "status": "✅",
-        "notes": ""
+        "project_author": "<a href='https://rarepepes.com/' target='_blank'>Rare Pepe</a> <br /> <a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
+        "type": "png",
+        "notes": "✅"
     },
     {
         "file": "<img alt='PEPERAREIPFS' height='95px' src='assets/PEPERAREIPFS.gif' width='80px'/>",
@@ -1241,11 +1035,9 @@
         "names": "PEPERAREIPFS",
         "supply": "100",
         "hash": "SHA-256 (IPFS)",
-        "project": "?",
-        "author": "?",
-        "file_type": "gif",
-        "status": "✅",
-        "notes": "Description includes IPFS CID, which still works as of 2025. I used this to download the artwork and confirm untampered SHA-256 hash."
+        "project_author": "?",
+        "type": "gif",
+        "notes": "✅ Description includes IPFS CID, which still works as of 2025. I used this to download the artwork and confirm untampered SHA-256 hash."
     },
     {
         "file": "<img alt='PBOCPEPE' height='95px' src='assets/PBOCPEPE.png' width='80px'/>",
@@ -1253,10 +1045,8 @@
         "names": "PBOCPEPE",
         "supply": "8888 🔒",
         "hash": "MD5",
-        "project": "Rare Pepe",
-        "author": "<a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
-        "file_type": "png",
-        "status": "✅",
-        "notes": ""
+        "project_author": "<a href='https://rarepepes.com/' target='_blank'>Rare Pepe</a> <br /> <a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
+        "type": "png",
+        "notes": "✅"
     }
 ]
