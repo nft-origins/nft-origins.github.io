@@ -8,13 +8,13 @@ Only 83 0xmons had their full GAN animations onchain before Nahiko released XOR 
 
 [View live timeline](https://nftorigins.com/timelines/0xmons-onchain-in-early-2021/)
 
-## First Hashed Bitcoin NFTs (2014-2017)
+## First Hashed Bitcoin NFTs (2015-2017)
 
 ~99.9% of early Bitcoin NFTs lacked cryptographic proof linking them to the data/art they represented. This table is about the ~0.1%.
 
 [View live timeline](https://nftorigins.com/timelines/first-hashed-bitcoin-nfts/)
 
-## First Onchain Bitcoin NFTs (2014-2022)
+## First Onchain Bitcoin NFTs (2015-2022)
 
 Before the first Ordinals inscription (14th December 2022) there was already a small batch of entirely onchain Bitcoin NFTs. Here they are.
 
