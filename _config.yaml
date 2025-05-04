@@ -1,6 +1,7 @@
 remote_theme: dracula/gh-pages
 plugins:
   - jekyll-remote-theme
+  - jekyll-sitemap
 
 show_downloads: true
 show_header: true
@@ -9,6 +10,8 @@ github:
   owner_name: Griffin
   owner_url: https://github.com/dsgriffin
   repository_url: https://github.com/nft-origins/nft-origins.github.io
+
+url: https://nftorigins.com
 
 title: NFT Origins
 description: Early blockchain collectibles
