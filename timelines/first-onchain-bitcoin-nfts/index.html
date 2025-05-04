@@ -21,8 +21,8 @@
 
             .gridjs-td[data-column-id='supply'],
             .gridjs-th[data-column-id='supply'],
-            .gridjs-td[data-column-id='author'],
-            .gridjs-th[data-column-id='author'],
+            .gridjs-td[data-column-id='project_author'],
+            .gridjs-th[data-column-id='project_author'],
             .gridjs-td[data-column-id='type'],
             .gridjs-th[data-column-id='type'],
             .gridjs-td[data-column-id='notes'],
@@ -83,7 +83,7 @@
                         { name: 'Onchain Datetime', id: 'datetime', width: '12.5%', formatter: (cell) => gridjs.html(cell) },
                         { name: 'Name', id: 'name', width: '10%', formatter: (cell) => gridjs.html(cell) },
                         { name: 'Supply', id: 'supply', width: '7.5%' },
-                        { name: 'Author', id: 'author', width: '10%', formatter: (cell) => gridjs.html(cell) },
+                        { name: 'Projecr & Author', id: 'project_author', width: '10%', formatter: (cell) => gridjs.html(cell) },
                         { name: 'Type', id: 'type', width: '5%' },
                         { name: 'Notes', id: 'notes', width: '30%', formatter: (cell) => gridjs.html(cell) },
                     ],
@@ -92,7 +92,7 @@
                         item.datetime,
                         item.name,
                         item.supply,
-                        item.author,
+                        item.project_author,
                         item.type,
                         item.notes
                     ]),
