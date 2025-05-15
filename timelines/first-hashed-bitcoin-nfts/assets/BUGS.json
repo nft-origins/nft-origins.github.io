@@ -1,0 +1,1 @@
+{"asset": "BUGS", "name": "BUGS", "description": "<script>alert('xss in description');</script>", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Glider.svg/1024px-Glider.svg.png"}
