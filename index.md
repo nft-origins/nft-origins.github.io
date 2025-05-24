@@ -7,7 +7,7 @@ title: NFT Origins
 
 In the strict sense, an NFT is a unique 1/1 token representing ownership of something (art etc).
 
-In common usage, however, it's used to refer to any kind of tokenized asset, nonfungible or not, that is viewed as collectible & represents ownership of something more than just the token itself.
+In common usage, however, it's used to refer to any kind of collectible tokenized asset, nonfungible or not, that is both not a currency and represents ownership of something more than just the token itself.
 
 For example, semi-fungible Bitcoin collectibles were first popularized by Spells of Genesis, before exploding in popularity on Ethereum post-ERC-1155 standard.
 

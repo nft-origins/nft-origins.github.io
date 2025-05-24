@@ -62,8 +62,8 @@
             .then(data => {
                 new gridjs.Grid({
                     columns: [
-                        { name: 'Link', id: 'link', width: '30%', formatter: (cell) => gridjs.html(cell) },
-                        { name: 'Notes', id: 'notes', width: '70%' },
+                        { name: 'Link', id: 'link', width: '40%', formatter: (cell) => gridjs.html(cell) },
+                        { name: 'Notes', id: 'notes', width: '60%' },
                     ],
                     data: data.map(item => [
                         item.link,
