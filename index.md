@@ -15,6 +15,9 @@ The key point is that **NFTs are ownable, tradable tokens that represent somethi
 
 The entries in these timelines therefore go by the earliest date where the NFT itself fully existed; it could be owned, it could be traded (except soulbound tokens) & it represented something.  
 
+## Archived Links
+
+[View all archived links](./archived-links/)
 
 ## Timelines
 
