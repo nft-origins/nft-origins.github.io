@@ -1,4 +1,4 @@
-[< Back To NFT Origins](../)
+[< Back](../)
 
 ## Ascribe (2014-2018)
 
