@@ -2,7 +2,9 @@
 
 Note that each timeline contains an `assets/` folder; I strive to only use the original onchain/hash-matching file for each asset, but there may be the odd exception (it will be mentioned in the "notes" column).
 
-## Bitcoin NFT Timelines  
+# Bitcoin NFT Timelines
+
+---
 
 ### First Hashed Bitcoin NFTs (2015-2017)
 
@@ -22,7 +24,9 @@ Very few NFTs used decentralized image storage in the early days. Here are the B
 
 [View live timeline](https://nftorigins.com/timelines/first-ipfs-bitcoin-nfts/)
 
-## Ethereum NFT Timelines  
+# Ethereum NFT Timelines
+
+---
 
 ### 0xmons Onchain In Early 2021
 
