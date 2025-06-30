@@ -2,6 +2,7 @@ remote_theme: dracula/gh-pages
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 show_downloads: true
 show_header: true
