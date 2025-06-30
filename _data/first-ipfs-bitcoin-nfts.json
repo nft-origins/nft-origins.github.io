@@ -1,6 +1,6 @@
 [
     {
-        "file": "<img alt='PEPERAREIPFS' height='95px' src='assets/PEPERAREIPFS.gif' width='80px'/>",
+        "file": "<img alt='PEPERAREIPFS' height='95px' src='assets/PEPERAREIPFS.gif' class='artwork' width='80px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/dfa251c363508105be262a7ae949a3d19debe4e87926fe1e7bf28a6b409dd969' target='_blank'>2017-05-16 06:52:24</a>",
         "name": "<a href='https://horizon.market/explorer/assets/PEPERAREIPFS' target='_blank'>PEPERAREIPFS</a>",
         "supply": "100",
@@ -10,7 +10,7 @@
         "notes": "✅ IPFS CID still works as of May 2025."
     },
     {
-        "file": "<img alt='WAYAK Icon' height='85px' src='assets/WAYAK-icon.png' width='85px'/>",
+        "file": "<img alt='WAYAK Icon' height='85px' src='assets/WAYAK-icon.png' class='artwork' width='85px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/50f8597e6578ba3ca4ce7744ae1ed8215d88108f70147b25d2ed7b3d6484401a' target='_blank'>2018-11-16 21:05:23</a>",
         "name": "<a href='https://horizon.market/explorer/assets/WAYAK' target='_blank'>WAYAK</a>",
         "supply": "10000000",
