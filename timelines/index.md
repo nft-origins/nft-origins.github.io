@@ -6,9 +6,9 @@ Note that each timeline contains an `assets/` folder; I strive to only use the o
 
 ---
 
-### First Hashed Bitcoin NFTs (2015-2017)
+### First Hashed Bitcoin NFTs (2015-2019)
 
-~99.9% of early Bitcoin NFTs lacked cryptographic proof linking them to the data/art they represented. This table is about the ~0.1%.
+~99% of early Bitcoin NFTs lacked cryptographic proof linking them to the data/art they represented. This table is about the ~1%.
 
 [View live timeline](https://nftorigins.com/timelines/first-hashed-bitcoin-nfts/)
 
