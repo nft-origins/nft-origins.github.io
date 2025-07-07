@@ -792,12 +792,12 @@
     {
         "file": "?",
         "datetime": "<a href='https://horizon.market/explorer/tx/4a06b9889f7553983cd2d4edc196ec9bc9abd52b955885238932c3d718952ead' target='_blank'>2016-09-09 03:52:45</a>",
-        "names": "SOUP",
-        "supply": "100000",
+        "names": "SOUP + A229152867617021630",
+        "supply": "5000.0 - 100000",
         "hash": "SHA-256 (Custom)",
         "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/wellerco' target='_blank'>Devon Weller</a>",
         "type": "json",
-        "notes": "❗️ Unable to locate hash-matching file. A hashed BVAM JSON file with no prefix. Asset & hash are noted in the NPM package <a href='https://www.npmjs.com/package/node-bvam-client' target='_blank'>node-bvam-client</a>."
+        "notes": "❗️ Unable to locate hash-matching files. Hashed BVAM JSON files with no prefix. Both hashed in 2016, first is the timestamp linked. SOUP & its hash are noted in the NPM package <a href='https://www.npmjs.com/package/node-bvam-client' target='_blank'>node-bvam-client</a>."
     },
     {
         "file": "<img alt='CHYNAPEPE by Bench' height='95px' src='assets/chynapepe-unhashed.png' width='80px'/>",
@@ -847,7 +847,7 @@
         "hash": "MD5",
         "project_author": "? <br /> <a href='https://github.com/derrend' target='_blank'>derrend</a>",
         "type": "png",
-        "notes": "✅ QR takes you to the issuers' Bitcoin Address. Asset & hash was saved to <a href='https://web.archive.org/web/20241230231338/https://cryptoproof.info/static/CPOAPEPE.txt' target='_blank'>Cryptoproof.info</a>. See <a href='https://j-dog.net/archive/RarePepeChat/2016-10_59.html#2016-10-25' target='_blank'>Rare Pepe Chat: CPOAPEPE</a>."
+        "notes": "✅ QR takes you to the issuers' Bitcoin Address. Had to be \"mined\" to be obtained, rather than sold, similar to FDCARD. Asset & hash was saved to <a href='https://web.archive.org/web/20241230231338/https://cryptoproof.info/static/CPOAPEPE.txt' target='_blank'>Cryptoproof.info</a>. See <a href='https://j-dog.net/archive/RarePepeChat/2016-10_59.html#2016-10-25' target='_blank'>Rare Pepe Chat: CPOAPEPE</a>."
     },
     {
         "file": "<img alt='WPPEPE' height='95px' src='assets/WPPEPE.png' width='80px'/>",
@@ -913,7 +913,7 @@
         "file": "?",
         "datetime": "<a href='https://horizon.market/explorer/tx/b2d007cb3346079fad763bedaefb9b5c13f818a30f107f05e4431376230723e4' target='_blank'>2017-01-07 08:40:21</a>",
         "names": "DECOIN + 2 Numerical Assets",
-        "supply": "100.0 - 10000000000.0",
+        "supply": "100.0 - 10B",
         "hash": "SHA-256 (Custom)",
         "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
         "type": "json",
@@ -1030,6 +1030,16 @@
         "notes": "✅"
     },
     {
+        "file": "<img alt='1773/1774 Rare Pepes by Joe Looney' height='95px' src='assets/rare-pepes-unhashed.jpeg' width='80px'/>",
+        "datetime": "<a href='https://horizon.market/explorer/tx/0a7fde9001e453b7c6fe28df7143e0eb6a521301f6c88b9ea7d3616e3607d865' target='_blank'>2018-07-14 00:03:55</a>",
+        "names": "1773/1774 Rare Pepes",
+        "supply": "0 - 99B 🔒",
+        "hash": "SHA-256 (Base64)",
+        "project_author": "<a href='https://rarepepes.com/' target='_blank'>Rare Pepe</a> <br /> <a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
+        "type": "N/A",
+        "notes": "⚠️ The assets are not hashed but two broadcasts exist that include <a href='https://github.com/loon3/pepechain' target='_blank'>Merkle Root hashes</a> of the entire set, minus the 2022 artwork of the Matt Furie asset FEELSGOODMAN."
+    },
+    {
         "file": "<img alt='CORNBUDDHA by MightBeMike' height='95px' src='assets/CORNBUDDHA.gif' width='80px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/608ebdd8da8d1ec564b6392d160255ff08f945d357a25f6da7a1bbbd1a106f5e' target='_blank'>2018-09-22 06:34:05</a>",
         "names": "CORNBUDDHA",
@@ -1108,6 +1118,16 @@
         "project_author": "<a href='https://bitcorns.com/' target='_blank'>Bitcorn Crops</a> <br /> <a href='https://x.com/benchbtc' target='_blank'>Bench</a>",
         "type": "?",
         "notes": "⚠️ Unable to locate hash-matching file. Displaying current asset image instead."
+    },
+    {
+        "file": "<img alt='A11181178082779850300 by ?' height='95px' src='assets/A11181178082779850300-unhashed.png' width='80px'/>",
+        "datetime": "<a href='https://horizon.market/explorer/tx/b98f83dae5af4cc91be19976dc3ba72c37e4e8d1947f172cc33bd1465a9e8ed3' target='_blank'>2019-05-21 01:08:42</a>",
+        "names": "A11181178082779850300",
+        "supply": "1",
+        "hash": "SHA-1 (Base64)",
+        "project_author": "? <br /> <a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
+        "type": "png",
+        "notes": "⚠️ The asset is not hashed but a broadcast exists that specifies both the asset name &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used similar process to <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a> but with SHA-1."
     },
     {
         "file": "<img alt='CRYPTOART.Treatise by Theodore \"Duncan\" Krostue (Speak.Tech)' height='95px' src='assets/cryptoart-treatise-unhashed.png' width='80px'/>",
