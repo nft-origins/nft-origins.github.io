@@ -7,7 +7,7 @@
         "hash": "SHA-512 (Base58)",
         "project_author": "? <br /> ?",
         "type": "N/A",
-        "status": "❗️",
+        "status": "🚫",
         "notes": "Linked hashes are <a href='https://web.archive.org/web/20240615174705/https://wiki.bitmessage.org/index.php/Public_key_to_bitmessage_address' target='_blank'>Bitmessage Addresses</a>, not files. All hashed with the same Bitmessage address on the same day, first is the timestamp linked."
     },
     {
@@ -513,7 +513,7 @@
         "hash": "? (Base16)",
         "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
         "type": "json",
-        "status": "❗️",
+        "status": "🚫",
         "notes": "Unable to locate hash-matching files. All prefixed with 'NINJA-'. All hashed in 2015, first is the timestamp linked."
     },
     {
@@ -524,7 +524,7 @@
         "hash": "SHA-256 (Custom)",
         "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
         "type": "json",
-        "status": "❗️",
+        "status": "🚫",
         "notes": "Unable to locate hash-matching files. All prefixed with 'TOKNID-'. All hashed in 2015, first is the timestamp linked."
     },
     {
@@ -535,7 +535,7 @@
         "hash": "SHA-256 (Custom)",
         "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
         "type": "json",
-        "status": "❗️",
+        "status": "🚫",
         "notes": "Unable to locate hash-matching files. All prefixed with 'BVAMW-'. All hashed in 2015 to early 2016, first is the timestamp linked."
     },
     {
@@ -546,7 +546,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/cnpcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -557,7 +557,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/fdcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -568,7 +568,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/gemzcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -579,7 +579,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/goxcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -590,7 +590,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/bazaarcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -601,7 +601,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/ethxcpcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -612,7 +612,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/ltbcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -623,7 +623,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/minercard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -634,7 +634,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/ripplecard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -645,7 +645,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/shumaicard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -656,7 +656,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/sjcxcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -667,7 +667,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/swarmcd' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -678,7 +678,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/XAJIBESAAR' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -689,7 +689,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/xcpcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -700,7 +700,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/zaifcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -711,7 +711,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/bearwhalecd' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -722,7 +722,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/blocksizecd' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -733,7 +733,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/ethereumcard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -744,7 +744,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/genesiscard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -755,7 +755,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/satoshicard' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -766,7 +766,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/shapeshiftcd' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -777,7 +777,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/XAJIARKETAAR' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -788,7 +788,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/XAJIBASILAAR' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -799,7 +799,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/XAJIJASPAAR' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -810,7 +810,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://spellsofgenesis.com' target='_blank'>Spells Of Genesis</a> <br /> <a href='https://everdreamsoft.com/' target='_blank'>EverdreamSoft</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast by <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a> exists that specifies <a href='https://web.archive.org/web/20211230055541/https://jpjanssen.com/xcpcards/XAJIYEREMAAR' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -821,7 +821,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://web.archive.org/web/20250217101737/https://jpjanssen.com/weird-n-wild/' target='_blank'>Weird 'n Wild</a> <br /> <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast exists that specifies <a href='https://web.archive.org/web/20250213163714/https://xcpcards.com/wolverine' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -832,7 +832,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://web.archive.org/web/20250217101737/https://jpjanssen.com/weird-n-wild/' target='_blank'>Weird 'n Wild</a> <br /> <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast exists that specifies <a href='https://web.archive.org/web/20250213163714/https://xcpcards.com/lochness' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -843,7 +843,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://web.archive.org/web/20250217101737/https://jpjanssen.com/weird-n-wild/' target='_blank'>Weird 'n Wild</a> <br /> <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast exists that specifies <a href='https://web.archive.org/web/20250213163714/https://xcpcards.com/graywolf' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -854,7 +854,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://web.archive.org/web/20250217101737/https://jpjanssen.com/weird-n-wild/' target='_blank'>Weird 'n Wild</a> <br /> <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
         "type": "jpg",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The asset is not hashed but a broadcast exists that specifies <a href='https://web.archive.org/web/20250213163714/https://xcpcards.com/genet' target='_blank'>both asset &amp; image hash</a>."
     },
     {
@@ -865,7 +865,7 @@
         "hash": "SHA-1",
         "project_author": "? <br /> ?",
         "type": "?",
-        "status": "❗️",
+        "status": "🚫",
         "notes": "Unable to locate hash-matching file."
     },
     {
@@ -876,7 +876,7 @@
         "hash": "SHA-256 (Custom)",
         "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/wellerco' target='_blank'>Devon Weller</a>",
         "type": "json",
-        "status": "❗️",
+        "status": "🚫",
         "notes": "Unable to locate hash-matching files. Hashed BVAM JSON files with no prefix. Both hashed in 2016, first is the timestamp linked. SOUP & its hash are noted in the NPM package <a href='https://www.npmjs.com/package/node-bvam-client' target='_blank'>node-bvam-client</a>."
     },
     {
@@ -953,7 +953,7 @@
         "hash": "SHA-256 (Custom)",
         "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
         "type": "json",
-        "status": "❗️",
+        "status": "🚫",
         "notes": "Unable to locate hash-matching files. All hashed in 2016 to mid 2017, first is the timestamp linked."
     },
     {
@@ -964,7 +964,7 @@
         "hash": "SHA-256 (Custom)",
         "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
         "type": "json",
-        "status": "❗️",
+        "status": "🚫",
         "notes": "Unable to locate hash-matching files. All hashed in 2016 to early 2017, first is the timestamp linked."
     },
     {
@@ -975,7 +975,7 @@
         "hash": "SHA-256 (Custom)",
         "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
         "type": "json",
-        "status": "❗️",
+        "status": "🚫",
         "notes": "Unable to locate hash-matching file."
     },
     {
@@ -986,7 +986,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "? <br /> ?",
         "type": "?",
-        "status": "❗️",
+        "status": "🚫",
         "notes": "Unable to locate hash-matching file."
     },
     {
@@ -1008,7 +1008,7 @@
         "hash": "SHA-256 (Custom)",
         "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
         "type": "json",
-        "status": "❗️",
+        "status": "🚫",
         "notes": "Unable to locate hash-matching files. All hashed in 2017, first is the timestamp linked."
     },
     {
@@ -1019,7 +1019,7 @@
         "hash": "SHA-256 (Custom)",
         "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
         "type": "json",
-        "status": "❗️",
+        "status": "🚫",
         "notes": "Unable to locate hash-matching files. All hashed in 2017, first is the timestamp linked."
     },
     {
@@ -1030,7 +1030,7 @@
         "hash": "SHA-256 (Custom)",
         "project_author": "<a href='https://web.archive.org/web/20241203105737/https://gist.github.com/loon3/98219e445a3aacf093a2' target='_blank'>BVAM</a> <br /> <a href='https://x.com/adamblevine' target='_blank'>Adam B. Levine</a>",
         "type": "json",
-        "status": "❗️",
+        "status": "🚫",
         "notes": "Unable to locate hash-matching files. All hashed in 2017, first is the timestamp linked."
     },
     {
@@ -1107,7 +1107,7 @@
         "hash": "MD5",
         "project_author": "? <br /> ?",
         "type": "?",
-        "status": "❗️",
+        "status": "🚫",
         "notes": "Unable to locate hash-matching file."
     },
     {
@@ -1140,7 +1140,7 @@
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://rarepepes.com/' target='_blank'>Rare Pepe</a> <br /> <a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
         "type": "N/A",
-        "status": "⚠️",
+        "status": "🔈",
         "notes": "The assets are not hashed but two broadcasts exist that include <a href='https://github.com/loon3/pepechain' target='_blank'>Merkle Root hashes</a> of the entire set, minus the 2022 artwork of the Matt Furie asset FEELSGOODMAN."
     },
     {
@@ -1220,6 +1220,17 @@
         "status": "⚠️",
         "notes": "Unable to locate hash-matching file. Displaying current asset image instead. Part of the <a href='https://mikeward.net/blockchain/yubicorn-bitcoin-challenge/' target='_blank'>Yubikey Bitcoin Challenge</a>. EXIF data of the file used in this table contains the text: \"Search for clues in the original PSD file: <a href='https://ipfs.io/ipfs/QmUfH1PW6QVniP6WbgQZTzmBvXDqE9MMMjjCfNAbamv3su' target='_blank'>ipfs.io/ipfs/QmUfH1PW6QVniP6WbgQZTzmBvXDqE9MMMjjCfNAbamv3su</a>\"."
     },
+        {
+        "file": "<img alt='A11143400116119848309 by Joe Looney' height='95px' src='assets/A11143400116119848309-unhashed.jpeg' width='80px'/>",
+        "datetime": "<a href='https://horizon.market/explorer/tx/fd7d7ee5de0c520671f06fc489a95bf906b3b23048aa14e145659372dd07a33a' target='_blank'>2019-04-14 10:12:19</a>",
+        "names": "A11143400116119848309",
+        "supply": "1",
+        "hash": "SHA-1 (Base64)",
+        "project_author": "? <br /> <a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
+        "type": "jpeg",
+        "status": "⚠️",
+        "notes": "The asset is not hashed but a broadcast exists that specifies both the asset name &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a>-style process but with SHA-1."
+    },
     {
         "file": "<img alt='CORNSHEET by Bench' height='95px' src='assets/CORNSHEET-unhashed.png' width='80px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/c0436fece5d9ebb8dd4c2ec0c5e9aebf27094fc40aa6cf944fd606cdacc9697c' target='_blank'>2019-04-15 00:38:00</a>",
@@ -1240,7 +1251,7 @@
         "project_author": "? <br /> <a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
         "type": "png",
         "status": "⚠️",
-        "notes": "The asset is not hashed but a broadcast exists that specifies both the asset name &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used similar process to <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a> but with SHA-1."
+        "notes": "The asset is not hashed but a broadcast exists that specifies both the asset name &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a>-style process but with SHA-1."
     },
     {
         "file": "<img alt='CRYPTOART.Treatise by Theodore \"Duncan\" Krostue (Speak.Tech)' height='95px' src='assets/cryptoart-treatise-unhashed.png' width='80px'/>",
@@ -1254,7 +1265,7 @@
         "notes": "Unable to locate hash-matching file. Displaying current asset image instead. PDF was originally archived at <a href='https://archive.org/details/cryptoart' target='_blank'>https://archive.org/details/cryptoart</a>."
     },
     {
-        "file": "<img alt='TRIPLEBUDDHA by MightBeMike' height='95px' src='assets/TRIPLEBUDDHA.png' width='80px'/>",
+        "file": "<img alt='TRIPLEBUDDHA by MightBeMike' height='95px' src='assets/TripleBuddha.png' width='80px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/3020d88b90e818c060ea268c474a32111be79321c4324bb8ad73f74a06734dc8' target='_blank'>2019-08-24 21:13:54</a>",
         "names": "TRIPLEBUDDHA",
         "supply": "27 🔒",
