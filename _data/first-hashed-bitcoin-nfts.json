@@ -1439,5 +1439,5 @@
         "type": "mp4",
         "status": "🔈⚠️",
         "notes": "The asset is not hashed but a broadcast exists that specifies both the asset &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a>-style process but with SHA-1."
-    },
+    }
 ]
