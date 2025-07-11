@@ -1254,7 +1254,7 @@
         "notes": "The asset is not hashed but a broadcast exists that specifies both the asset &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a>-style process but with SHA-1."
     },
     {
-        "file": "<img alt='A11160281893842357003 by ?' height='95px' src='assets/A11160281893842357003-unhashed.jpeg' width='95px'/>",
+        "file": "<img alt='A11160281893842357003 by Joe Looney' height='95px' src='assets/A11160281893842357003-unhashed.jpeg' width='95px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/bc208108bb816a6dcf468870b60d19b82bc4207a159eb14fd73b7eee7f8e1712' target='_blank'>2019-04-05 15:49:29</a>",
         "names": "A11160281893842357003",
         "supply": "10 🔒",
@@ -1265,23 +1265,23 @@
         "notes": "The asset is not hashed but a broadcast exists that specifies both the asset &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a>-style process but with SHA-1."
     },
     {
-        "file": "<img alt='A11182073942147038950 by ?' height='95px' src='assets/A11182073942147038950-unhashed.png' width='95px'/>",
+        "file": "<img alt='A11182073942147038950 by Joe Looney' height='95px' src='assets/A11182073942147038950-unhashed.png' width='95px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/6a33a19953ccb2d3d769b11c4129d4313fbfb40055d0cbe87b44ce207965c5dc' target='_blank'>2019-04-07 00:18:01</a>",
         "names": "A11182073942147038950",
         "supply": "10 🔒",
         "hash": "SHA-1 (Base64)",
-        "project_author": "? <br /> ?",
+        "project_author": "? <br /> <a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
         "type": "png",
         "status": "🔈⚠️",
         "notes": "The asset is not hashed but a broadcast exists that specifies both the asset &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a>-style process but with SHA-1."
     },
     {
-        "file": "<img alt='A11143400116119848309 by ?' height='95px' src='assets/A11143400116119848309-unhashed.jpeg' width='95px'/>",
+        "file": "<img alt='A11143400116119848309 by MNL Classic' height='95px' src='assets/A11143400116119848309-unhashed.jpeg' width='95px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/fd7d7ee5de0c520671f06fc489a95bf906b3b23048aa14e145659372dd07a33a' target='_blank'>2019-04-10 06:27:17</a>",
         "names": "A11143400116119848309",
         "supply": "1",
         "hash": "SHA-1 (Base64)",
-        "project_author": "? <br /> ?",
+        "project_author": "? <br /> <a href='https://x.com/mnlClassic' target='_blank'>mnl</a>",
         "type": "jpeg",
         "status": "🔈⚠️",
         "notes": "The asset is not hashed but a broadcast exists that specifies both the asset &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a>-style process but with SHA-1."
@@ -1309,7 +1309,7 @@
         "notes": "Unable to locate hash-matching file. Displaying current asset image instead."
     },
     {
-        "file": "<img alt='A11138897311131796998 by ?' height='95px' src='assets/A11138897311131796998-unhashed.jpeg' width='80px'/>",
+        "file": "<img alt='A11138897311131796998 by Johnny Dollar' height='95px' src='assets/A11138897311131796998-unhashed.jpeg' width='80px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/7f132b84303c0b12442138a6653c21c7c88553c416446e845814be3212743c01' target='_blank'>2019-04-19 19:05:24</a>",
         "names": "A11138897311131796998",
         "supply": "99",
@@ -1320,7 +1320,7 @@
         "notes": "The asset is not hashed but a broadcast exists that specifies both the asset &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a>-style process but with SHA-1."
     },
     {
-        "file": "<img alt='A11130160322110527014 by ?' height='95px' src='assets/A11130160322110527014-unhashed.gif' width='80px'/>",
+        "file": "<img alt='A11130160322110527014 by Mike In Space' height='95px' src='assets/A11130160322110527014-unhashed.gif' width='80px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/46a57d10efee7ac36413d1c9169bafb09f270b09750b759bd7c5820c4c68e1a1' target='_blank'>2019-05-09 19:52:32</a>",
         "names": "A11130160322110527014",
         "supply": "10",
@@ -1336,29 +1336,29 @@
         "names": "A11181178082779850300",
         "supply": "1",
         "hash": "SHA-1 (Base64)",
-        "project_author": "? <br /> <a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
+        "project_author": "? <br /> ?",
         "type": "png",
         "status": "🔈⚠️",
         "notes": "The asset is not hashed but a broadcast exists that specifies both the asset &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a>-style process but with SHA-1."
     },
     {
-        "file": "<img alt='A11119653976447070144 by ?' height='95px' src='assets/A11119653976447070144-unhashed.gif' width='80px'/>",
+        "file": "<img alt='A11119653976447070144 by CIOBO' height='95px' src='assets/A11119653976447070144-unhashed.gif' width='80px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/3dcc128a055b0d21f14aaf45df9f0a195b2e8c8728cc616ab8f37ee5048aeac0' target='_blank'>2019-06-04 20:16:06</a>",
         "names": "A11119653976447070144",
         "supply": "1.0",
         "hash": "SHA-1 (Base64)",
-        "project_author": "? <br /> <a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
+        "project_author": "? <br /> <a href='https://x.com/ciobooo target='_blank'>CIOBO</a>",
         "type": "gif",
         "status": "🔈⚠️",
         "notes": "The asset is not hashed but a broadcast exists that specifies both the asset &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a>-style process but with SHA-1."
     },
     {
-        "file": "<img alt='A11195214516847549420 by ?' height='95px' src='assets/A11195214516847549420-unhashed.png' width='95px'/>",
+        "file": "<img alt='A11195214516847549420 Joe Looney' height='95px' src='assets/A11195214516847549420-unhashed.png' width='95px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/9e6fa5422e3854f959d40d019335426ed67da1d7f6427aefb7eb68acc107b832' target='_blank'>2019-06-29 13:10:32</a>",
         "names": "A11195214516847549420",
         "supply": "10 🔒",
         "hash": "SHA-1 (Base64)",
-        "project_author": "? <br /> ?",
+        "project_author": "? <br /> <a href='https://x.com/wasthatawolf' target='_blank'>Joe Looney</a>",
         "type": "png",
         "status": "🔈⚠️",
         "notes": "The asset is not hashed but a broadcast exists that specifies both the asset &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a>-style process but with SHA-1."
@@ -1375,23 +1375,23 @@
         "notes": "Unable to locate hash-matching file. Displaying current asset image instead. PDF was originally archived at <a href='https://archive.org/details/cryptoart' target='_blank'>https://archive.org/details/cryptoart</a>."
     },
     {
-        "file": "<img alt='A11147213771851283391 by ?' height='95px' src='assets/A11147213771851283391-unhashed.gif' width='80px'/>",
+        "file": "<img alt='A11147213771851283391 by Luxmeta' height='95px' src='assets/A11147213771851283391-unhashed.gif' width='80px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/95f5c8ec4df97c1d088b3ed6a2778cc348b3901cb8dc540e4867097b18925e8a' target='_blank'>2019-08-20 18:17:59</a>",
         "names": "A11147213771851283391",
         "supply": "101",
         "hash": "SHA-1 (Base64)",
-        "project_author": "? <br /> ?",
+        "project_author": "? <br /> <a href='https://x.com/luxmeta' target='_blank'>Luxmeta</a>",
         "type": "gif",
         "status": "🔈⚠️",
         "notes": "The asset is not hashed but a broadcast exists that specifies both the asset &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a>-style process but with SHA-1."
     },
     {
-        "file": "<img alt='A11102213780575909853 by ?' height='95px' src='assets/A11102213780575909853-unhashed.gif' width='80px'/>",
+        "file": "<img alt='A11102213780575909853 by Luxmeta' height='95px' src='assets/A11102213780575909853-unhashed.gif' width='80px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/2614ad1a0e4e77c9f4ed4479d22b2be8a24c34cc06bc0b50850ecdc4e7b12017' target='_blank'>2019-08-28 00:47:55</a>",
         "names": "A11102213780575909853",
         "supply": "101",
         "hash": "SHA-1 (Base64)",
-        "project_author": "? <br /> ?",
+        "project_author": "? <br /> <a href='https://x.com/luxmeta' target='_blank'>Luxmeta</a>",
         "type": "gif",
         "status": "🔈⚠️",
         "notes": "The asset is not hashed but a broadcast exists that specifies both the asset &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a>-style process but with SHA-1."
@@ -1402,18 +1402,18 @@
         "names": "A11138464185160390958",
         "supply": "101",
         "hash": "SHA-1 (Base64)",
-        "project_author": "? <br /> ?",
+        "project_author": "? <br /> <a href='https://x.com/luxmeta' target='_blank'>Luxmeta</a>",
         "type": "mp4",
         "status": "🔈⚠️",
         "notes": "The asset is not hashed but a broadcast exists that specifies both the asset &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a>-style process but with SHA-1."
     },
     {
-        "file": "<img alt='A11118415604676302000 by ?' height='95px' src='assets/A11118415604676302000-unhashed.gif' width='95px'/>",
+        "file": "<img alt='A11118415604676302000 by Luxmeta' height='95px' src='assets/A11118415604676302000-unhashed.gif' width='95px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/97cba3f310dac52a6ead2c8f53e3f33293463bb8789495130f7c5ad57d190211' target='_blank'>2019-08-28 17:19:16</a>",
         "names": "A11118415604676302000",
         "supply": "101",
         "hash": "SHA-1 (Base64)",
-        "project_author": "? <br /> ?",
+        "project_author": "? <br /> <a href='https://x.com/luxmeta' target='_blank'>Luxmeta</a>",
         "type": "gif",
         "status": "🔈⚠️",
         "notes": "The asset is not hashed but a broadcast exists that specifies both the asset &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a>-style process but with SHA-1."
@@ -1435,7 +1435,7 @@
         "names": "A11170222806929213703",
         "supply": "5",
         "hash": "SHA-1 (Base64)",
-        "project_author": "? <br /> ?",
+        "project_author": "? <br /> <a href='https://x.com/luxmeta' target='_blank'>Luxmeta</a>",
         "type": "mp4",
         "status": "🔈⚠️",
         "notes": "The asset is not hashed but a broadcast exists that specifies both the asset &amp; the image hash. Unable to locate hash-matching file. Displaying current asset image instead. Used <a href='https://github.com/loon3/pepechain' target='_blank'>Pepechain</a>-style process but with SHA-1."
