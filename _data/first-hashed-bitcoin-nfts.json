@@ -1,16 +1,5 @@
 [
     {
-        "file": "N/A",
-        "datetime": "<a href='https://horizon.market/explorer/tx/f91d5b51bb7f107ad59ecd7049e65a0cbce8738eebe94126e47ced45d6502c6f' target='_blank'>2015-01-26 19:16:56</a>",
-        "names": "SPOON + 8 Named Assets",
-        "supply": "1 - 1000",
-        "hash": "SHA-512 (Base58)",
-        "project_author": "? <br /> ?",
-        "type": "N/A",
-        "status": "🚫",
-        "notes": "Linked hashes are <a href='https://web.archive.org/web/20240615174705/https://wiki.bitmessage.org/index.php/Public_key_to_bitmessage_address' target='_blank'>Bitmessage Addresses</a>, not files. All hashed with the same Bitmessage address on the same day, first is the timestamp linked."
-    },
-    {
         "file": "<img alt='KETF by David Sterry (Weex)' height='95px' src='assets/ketf.jpg' width='80px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/7ed3b7e1a42cc3291557003d57ec0c5a3c5e7450e757aad69826b45e96b9cf18' target='_blank'>2015-02-14 17:55:39</a>",
         "names": "KETF",
