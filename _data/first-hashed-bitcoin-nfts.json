@@ -1336,7 +1336,7 @@
         "names": "A11119653976447070144",
         "supply": "1.0",
         "hash": "RIPEMD-160 (Base64)",
-        "project_author": "<a href='https://github.com/loon3/Freeport-extension' target='_blank'>Freeport</a> <br /> <a href='https://x.com/ciobooo target='_blank'>CIOBO</a>",
+        "project_author": "<a href='https://github.com/loon3/Freeport-extension' target='_blank'>Freeport</a> <br /> <a href='https://x.com/ciobooo' target='_blank'>CIOBO</a>",
         "type": "gif",
         "status": "🔈",
         "notes": "The asset is not hashed but a broadcast exists that specifies both the asset &amp; the image hash."
@@ -1419,7 +1419,7 @@
         "notes": "Originally gifted to holders of CORNBUDDHA."
     },
     {
-        "file": "<img alt='A11118415604676302000 by Luxmeta' height='95px' src='assets/A11118415604676302000.gif' width='95px'/>",
+        "file": "<img alt='A11170222806929213703 by Luxmeta' height='95px' src='assets/A11170222806929213703.gif' width='95px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/548ab0717a2e78bb42d6caad551257870d798126b83efee9be939ae490d08279' target='_blank'>2019-09-22 19:52:26</a>",
         "names": "A11170222806929213703",
         "supply": "5",
