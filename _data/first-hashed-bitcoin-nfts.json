@@ -1067,7 +1067,7 @@
         "notes": ""
     },
     {
-        "file": "<img alt='BUGS by ebx' height='95px' src='assets/BUGS.png' style='background-color: hsl(0, 0%, 90%);' width='80px'/>",
+        "file": "<img alt='BUGS by ebx' height='95px' src='assets/BUGS-preview.png' style='background-color: hsl(0, 0%, 90%);' width='80px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/2f3f140b1eb4ac7bdd2c2f07f2dfe5fbb04b75e77b115b63326ba5813af58f9f' target='_blank'>2017-04-18 00:01:02</a>",
         "names": "BUGS",
         "supply": "1000.0",
@@ -1353,15 +1353,15 @@
         "notes": "The asset is not hashed but a broadcast exists that specifies both the asset &amp; the image hash."
     },
     {
-        "file": "<img alt='CRYPTOART.Treatise by Theodore \"Duncan\" Krostue (Speak.Tech)' height='95px' src='assets/cryptoart-treatise-unhashed.png' width='80px'/>",
+        "file": "<img alt='CRYPTOART.Treatise by Theodore \"Duncan\" Krostue (Speak.Tech)' height='95px' src='assets/cryptoart-treatise-preview.png' width='80px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/7e04583d5313a83d42e130c18ccdbb446c3b96618e0e2f5886f0cd66e289394d' target='_blank'>2019-07-21 00:55:45</a>",
         "names": "CRYPTOART.Treatise",
         "supply": "2019",
         "hash": "SHA-256 (Base64)",
         "project_author": "<a href='https://www.kaleidoscopexcp.com/' target='_blank'>Kaleidoscope XCP</a> <br /> <a href='https://x.com/techiese' target='_blank'>Theodore \"Duncan\" Krostue (Speak.Tech)</a>",
-        "type": "<a href='https://nftorigins.com/timelines/first-hashed-bitcoin-nfts/assets/cryptoart-treatise-unhashed.pdf' target='_blank'>pdf</a>",
-        "status": "⚠️",
-        "notes": "Unable to locate hash-matching file. Displaying current asset image instead. PDF was originally archived at <a href='https://archive.org/details/cryptoart' target='_blank'>https://archive.org/details/cryptoart</a>."
+        "type": "<a href='https://nftorigins.com/timelines/first-hashed-bitcoin-nfts/assets/cryptoart-treatise.txt' target='_blank'>txt</a>",
+        "status": "✅",
+        "notes": "TXT file of the treatise was hashed; PDF + related files were originally archived at <a href='https://archive.org/details/cryptoart' target='_blank'>https://archive.org/details/cryptoart</a>."
     },
     {
         "file": "<img alt='A11147213771851283391 by Luxmeta' height='95px' src='assets/A11147213771851283391.gif' width='80px'/>",
