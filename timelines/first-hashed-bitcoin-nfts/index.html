@@ -11,7 +11,7 @@ title: First Hashed Bitcoin NFTs (2015-2019)
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta
-        content="NFT, Bitcoin NFTs, Counterparty, Bitcoin, XCP, Weex, David Sterry, Stephan Vogler, Rare Pepe, Spells Of Genesis"
+        content="NFT, Bitcoin NFTs, Counterparty, Bitcoin, XCP, weex, David Sterry, Stephan Vogler, Rare Pepe, Spells Of Genesis"
         name="keywords" />
 
     <title>First Hashed Bitcoin NFTs (2015-2019)</title>
@@ -61,11 +61,40 @@ title: First Hashed Bitcoin NFTs (2015-2019)
 
     <div class="pb-3">
         <small>
-            🔒 = supply locked. &nbsp; ✅ = asset hashed + matching file shown. &nbsp; 🔈 = broadcast hash (unlinked to asset). &nbsp; ⚠️ = non-matching file shown. &nbsp; 🚫 = file completely lost/unknown or other major flaw.
+            🔒 = supply locked. &nbsp; ✅ = asset hashed + matching file shown. &nbsp; 🔈 = broadcast hash (unlinked to
+            asset). &nbsp; ⚠️ = non-matching file shown. &nbsp; 🚫 = file completely lost/unknown or other major flaw.
         </small>
     </div>
 
-    <div id="wrapper" class="pb-4">
+    <div class="mb-3">
+        <select id="yearFilter" class="form-select form-select-sm bg-dark text-white border-secondary">
+            <option value="">All Years</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <select id="collectionFilter" class="form-select form-select-sm bg-dark text-white border-secondary">
+            <option value="">All Collections</option>
+            <option value="David Sterry">David Sterry (weex)</option>
+            <option value="Stephan Vogler">Stephan Vogler</option>
+            <option value="BVAM">BVAM</option>
+            <option value="Spells Of Genesis">Spells Of Genesis</option>
+            <option value="Weird 'n Wild">Weird 'n Wild</option>
+            <option value="Unknown">Unknown</option>
+            <option value="Rare Pepe">Rare Pepe</option>
+            <option value="Rare Meme World">Rare Meme World</option>
+            <option value="Bitcorn Crops">Bitcorn Crops</option>
+            <option value="Kaleidoscope XCP">Kaleidoscope XCP</option>
+            <option value="Freeport">Freeport</option>
+        </select>
+    </div>
+
+    <div class="pb-4">
         <table class="table table-dark table-striped table-bordered align-middle">
             <thead class="table-light">
                 <tr class="small">
@@ -97,6 +126,38 @@ title: First Hashed Bitcoin NFTs (2015-2019)
             </tbody>
         </table>
     </div>
+
+    <script>
+        function applyFilters() {
+            const yearValue = document.getElementById('yearFilter').value;
+            const collectionValue = document.getElementById('collectionFilter').value.toLowerCase();
+
+            const rows = document.querySelectorAll('table tbody tr');
+
+            rows.forEach(row => {
+                let yearMatch = true;
+                let collectionMatch = true;
+
+                if (yearValue) {
+                    const dateHTML = row.cells[1]?.innerHTML || "";
+                    const dateText = dateHTML.replace(/<[^>]*>/g, '').trim();
+                    const match = dateText.match(/(\d{4})-\d{2}-\d{2}/);
+                    yearMatch = match && match[1] === yearValue;
+                }
+
+                if (collectionValue) {
+                    const projectHTML = row.cells[5]?.innerHTML || "";
+                    const projectText = projectHTML.replace(/<[^>]*>/g, '').trim().toLowerCase();
+                    collectionMatch = projectText.includes(collectionValue);
+                }
+
+                row.style.display = (yearMatch && collectionMatch) ? "" : "none";
+            });
+        }
+
+        document.getElementById('yearFilter').addEventListener('change', applyFilters);
+        document.getElementById('collectionFilter').addEventListener('change', applyFilters);
+    </script>
 </body>
 
 </html>
