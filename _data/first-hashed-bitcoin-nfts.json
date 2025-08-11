@@ -1111,6 +1111,17 @@
         "notes": ""
     },
     {
+        "file": "<img alt='PEPERAREIPFS by ?' height='125px' src='assets/PEPERAREIPFS.gif' width='100px'/>",
+        "datetime": "<a href='https://horizon.market/explorer/tx/dfa251c363508105be262a7ae949a3d19debe4e87926fe1e7bf28a6b409dd969' target='_blank'>2017-05-16 06:52:24</a>",
+        "names": "PEPERAREIPFS",
+        "supply": "100",
+        "hash": "IPFS (SHA-256 (Base58))",
+        "project_author": "Unknown <br /> ?",
+        "type": "gif",
+        "status": "✅",
+        "notes": "IPFS CID still works as of May 2025."
+    },
+    {
         "file": "<img alt='PBOCPEPE by Bench' height='125px' src='assets/PBOCPEPE.png' width='100px'/>",
         "datetime": "<a href='https://horizon.market/explorer/tx/f6ce2eab888c88934b86d43532eb5692ca7f4b7304082f3b8f9d170538cd1f7a' target='_blank'>2017-07-01 18:01:03</a>",
         "names": "PBOCPEPE",

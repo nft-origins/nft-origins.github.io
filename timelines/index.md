@@ -18,12 +18,6 @@ Before the first Ordinals inscription (14th December 2022) there was already a s
 
 [View live timeline](https://nftorigins.com/timelines/pre-ordinals-onchain-bitcoin-nfts/)
 
-### First IPFS Bitcoin NFTs (2017-2018)
-
-Very few NFTs used decentralized image storage in the early days. Here are the Bitcoin NFTs that did.
-
-[View live timeline](https://nftorigins.com/timelines/first-ipfs-bitcoin-nfts/)
-
 # Ethereum NFT Timelines
 
 ---
