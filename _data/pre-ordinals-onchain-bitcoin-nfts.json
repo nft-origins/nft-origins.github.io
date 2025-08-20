@@ -1,14 +1,5 @@
 [
     {
-        "file": "<img alt='OLGA by JP Janssen' src='assets/OLGA.png' style='image-rendering: pixelated;' class='artwork' />",
-        "datetime": "<a href='https://horizon.market/explorer/tx/627ae48d6b4cffb2ea734be1016dedef4cee3f8ffefaea5602dd58c696de6b74' target='_blank'>2015-08-11 20:43:21</a>",
-        "name": "<a href='https://horizon.market/explorer/assets/OLGA' target='_blank'>OLGA</a>",
-        "supply": "1 🔒",
-        "project_author": "<a href='https://www.kaleidoscopexcp.com/' target='_blank'>Kaleidoscope XCP</a> <br /> <a href='https://x.com/jp_janssen' target='_blank'>JP Janssen</a>",
-        "type": "png",
-        "notes": "⚠️ The asset is not onchain but a broadcast, made from the same address, exists that specifies the image. While the broadcast doesn't mention the OLGA asset specifically it includes, in Russian, 'Моя дорогая вечная Ольга' (My dear eternal Olga). See <a href='https://web.archive.org/web/20241124034106/https://jpjanssen.com/faq-about-olga/' target='_blank'>OLGA FAQ</a>."
-    },
-    {
         "file": "<img alt='CCSATOSHI by Cornholio' src='assets/CCSATOSHI.png' style='image-rendering: pixelated;' class='artwork' />",
         "datetime": "<a href='https://horizon.market/explorer/tx/4c19b8f1b4dcefa27490d2a8d4b5afea2350d0b75640e402519e8aa2a628397a' target='_blank'>2021-09-28 10:52:21</a>",
         "name": "<a href='https://horizon.market/explorer/assets/CCSATOSHI' target='_blank'>CCSATOSHI</a>",

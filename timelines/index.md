@@ -12,7 +12,7 @@ Note that each timeline contains an `assets/` folder; I strive to only use the o
 
 [View live timeline](https://nftorigins.com/timelines/first-hashed-bitcoin-nfts/)
 
-### Pre-Ordinals Onchain Bitcoin NFTs (2015-2022)
+### Pre-Ordinals Onchain Bitcoin NFTs (2021-2022)
 
 Before the first Ordinals inscription (14th December 2022) there was already a small batch of entirely onchain Bitcoin NFTs. Here they are.
 
