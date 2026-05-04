@@ -23,14 +23,15 @@ title: First Hashed Bitcoin NFTs (2015-2019)
     <link href="/styles.css" rel="stylesheet" />
 </head>
 
-<body class="p-1 m-2">
+<body>
+    <main class="page-shell">
     <div class="row pb-2 align-items-center">
         <div class="col">
-            <h1>First Hashed Bitcoin NFTs (2015-2019)</h1>
+            <h1 class="page-title">First Hashed Bitcoin NFTs (2015-2019)</h1>
         </div>
     </div>
 
-    <div class="pb-2">
+    <div class="page-actions pb-2">
         <a href="../" class="github-btn">
             <svg height="20" width="20" style="fill: white;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true">
@@ -39,10 +40,8 @@ title: First Hashed Bitcoin NFTs (2015-2019)
             </svg>
             View more timelines here
         </a>
-    </div>
-
-    <div class="pb-4">
-        <a href="https://github.com/nft-origins/nft-origins.github.io/tree/main" class="github-btn">
+        <a href="https://github.com/nft-origins/nft-origins.github.io/tree/main" class="github-btn"
+            target="_blank" rel="noopener noreferrer">
             <svg height="20" width="20" style="fill: white;" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true">
                 <path
@@ -66,68 +65,87 @@ title: First Hashed Bitcoin NFTs (2015-2019)
         </small>
     </div>
 
-    <div class="mb-3">
-        <select id="yearFilter" class="form-select form-select-sm bg-dark text-white border-secondary">
-            <option value="">All Years</option>
-            <option value="2015">2015</option>
-            <option value="2016">2016</option>
-            <option value="2017">2017</option>
-            <option value="2018">2018</option>
-            <option value="2019">2019</option>
-        </select>
+    <div class="filter-stack">
+        <div>
+            <label class="visually-muted small mb-1" for="yearFilter">Filter by year</label>
+            <select id="yearFilter" class="form-select form-select-sm bg-dark text-white border-secondary">
+                <option value="">All Years</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+            </select>
+        </div>
+
+        <div>
+            <label class="visually-muted small mb-1" for="collectionFilter">Filter by collection</label>
+            <select id="collectionFilter" class="form-select form-select-sm bg-dark text-white border-secondary">
+                <option value="">All Collections</option>
+                <option value="David Sterry">David Sterry (weex)</option>
+                <option value="Stephan Vogler">Stephan Vogler</option>
+                <option value="BVAM">BVAM</option>
+                <option value="Spells Of Genesis">Spells Of Genesis</option>
+                <option value="Weird 'n Wild">Weird 'n Wild</option>
+                <option value="Unknown">Unknown</option>
+                <option value="Rare Pepe">Rare Pepe</option>
+                <option value="Rare Meme World">Rare Meme World</option>
+                <option value="Bitcorn Crops">Bitcorn Crops</option>
+                <option value="Kaleidoscope XCP">Kaleidoscope XCP</option>
+                <option value="Freeport">Freeport</option>
+            </select>
+        </div>
     </div>
 
-    <div class="mb-3">
-        <select id="collectionFilter" class="form-select form-select-sm bg-dark text-white border-secondary">
-            <option value="">All Collections</option>
-            <option value="David Sterry">David Sterry (weex)</option>
-            <option value="Stephan Vogler">Stephan Vogler</option>
-            <option value="BVAM">BVAM</option>
-            <option value="Spells Of Genesis">Spells Of Genesis</option>
-            <option value="Weird 'n Wild">Weird 'n Wild</option>
-            <option value="Unknown">Unknown</option>
-            <option value="Rare Pepe">Rare Pepe</option>
-            <option value="Rare Meme World">Rare Meme World</option>
-            <option value="Bitcorn Crops">Bitcorn Crops</option>
-            <option value="Kaleidoscope XCP">Kaleidoscope XCP</option>
-            <option value="Freeport">Freeport</option>
-        </select>
-    </div>
-
-    <div class="pb-4">
-        <table class="table table-dark table-striped table-bordered align-middle">
+    <div class="table-wrap pb-4">
+        <table class="table table-dark table-striped table-bordered align-middle responsive-table">
             <thead class="table-light">
                 <tr class="small">
                     <th style="width: 7.5%;" class="text-center small">File</th>
                     <th style="width: 10%;" class="text-center small">Hashed Datetime</th>
                     <th style="width: 15%;" class="text-center small">Name(s)</th>
-                    <th style="width: 7.5%;" class="d-none d-md-table-cell text-center small">Supply</th>
-                    <th style="width: 7.5%;" class="d-none d-md-table-cell text-center small">Hash</th>
-                    <th style="width: 12.5%;" class="d-none d-md-table-cell text-center small">Project & Author</th>
-                    <th style="width: 7.5%;" class="d-none d-md-table-cell text-center small">Type</th>
-                    <th style="width: 2.5%;" class="text-center small"> </th>
-                    <th style="width: 25%;" class="d-none d-md-table-cell small">Notes</th>
+                    <th style="width: 7.5%;" class="desktop-only text-center small">Supply</th>
+                    <th style="width: 7.5%;" class="desktop-only text-center small">Hash</th>
+                    <th style="width: 12.5%;" class="desktop-only text-center small">Project & Author</th>
+                    <th style="width: 7.5%;" class="desktop-only text-center small">Type</th>
+                    <th style="width: 2.5%;" class="desktop-only text-center small" aria-label="Status"></th>
+                    <th style="width: 25%;" class="desktop-only small">Notes</th>
                 </tr>
             </thead>
             <tbody>
                 {% for item in site.data['first-hashed-bitcoin-nfts'] %}
                 <tr class="small">
-                    <td class="text-center small">{{ item.file }}</td>
-                    <td class="text-center small">{{ item.datetime }}</td>
-                    <td class="text-center small">{{ item.names }}</td>
-                    <td class="d-none d-md-table-cell text-center small">{{ item.supply }}</td>
-                    <td class="d-none d-md-table-cell text-center small">{{ item.hash }}</td>
-                    <td class="d-none d-md-table-cell text-center small">{{ item.project_author }}</td>
-                    <td class="d-none d-md-table-cell text-center small">{{ item.type }}</td>
-                    <td class="text-center small">{{ item.status }}</td>
-                    <td class="d-none d-md-table-cell small">{{ item.notes }}</td>
+                    <td class="text-center small artwork-cell">{{ item.file }}</td>
+                    <td class="text-center small datetime-cell" data-label="Hashed datetime">{{ item.datetime }}</td>
+                    <td class="text-center small name-cell" data-label="Name">{{ item.names }}</td>
+                    <td class="desktop-only text-center small">{{ item.supply }}</td>
+                    <td class="desktop-only text-center small">{{ item.hash }}</td>
+                    <td class="desktop-only text-center small">{{ item.project_author }}</td>
+                    <td class="desktop-only text-center small">{{ item.type }}</td>
+                    <td class="desktop-only text-center small status-cell" data-label="Status">{{ item.status }}</td>
+                    <td class="desktop-only small">{{ item.notes }}</td>
+                    <td class="mobile-meta">
+                        <p><strong>Status:</strong> {{ item.status }}</p>
+                        <p><strong>Supply:</strong> {{ item.supply }}</p>
+                        <p><strong>Hash:</strong> {{ item.hash }}</p>
+                        <p><strong>Project & Author:</strong> {{ item.project_author }}</p>
+                        <p><strong>Type:</strong> {{ item.type }}</p>
+                        <p><strong>Notes:</strong> {{ item.notes | default: "-" }}</p>
+                    </td>
                 </tr>
                 {% endfor %}
             </tbody>
         </table>
     </div>
+    </main>
 
     <script>
+        function hardenExternalLinks(root = document) {
+            root.querySelectorAll('a[target="_blank"]').forEach(link => {
+                link.rel = 'noopener noreferrer';
+            });
+        }
+
         function applyFilters() {
             const yearValue = document.getElementById('yearFilter').value;
             const collectionValue = document.getElementById('collectionFilter').value.toLowerCase();
@@ -157,6 +175,7 @@ title: First Hashed Bitcoin NFTs (2015-2019)
 
         document.getElementById('yearFilter').addEventListener('change', applyFilters);
         document.getElementById('collectionFilter').addEventListener('change', applyFilters);
+        hardenExternalLinks();
     </script>
 </body>
 

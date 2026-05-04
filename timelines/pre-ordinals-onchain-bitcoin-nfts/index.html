@@ -21,14 +21,15 @@ title: Pre-Ordinals Onchain Bitcoin NFTs (2021-2022)
     <link href="/styles.css" rel="stylesheet" />
 </head>
 
-<body class="p-1 m-4">
+<body>
+    <main class="page-shell">
     <div class="row pb-2 align-items-center">
         <div class="col">
-            <h1>Pre-Ordinals Onchain Bitcoin NFTs (2021-2022)</h1>
+            <h1 class="page-title">Pre-Ordinals Onchain Bitcoin NFTs (2021-2022)</h1>
         </div>
     </div>
 
-    <div class="pb-2">
+    <div class="page-actions pb-2">
         <a href="../" class="github-btn">
             <svg height="20" width="20" style="fill: white;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true">
@@ -37,10 +38,8 @@ title: Pre-Ordinals Onchain Bitcoin NFTs (2021-2022)
             </svg>
             View more timelines here
         </a>
-    </div>
-
-    <div class="pb-4">
-        <a href="https://github.com/nft-origins/nft-origins.github.io/tree/main" class="github-btn">
+        <a href="https://github.com/nft-origins/nft-origins.github.io/tree/main" class="github-btn"
+            target="_blank" rel="noopener noreferrer">
             <svg height="20" width="20" style="fill: white;" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true">
                 <path
@@ -59,42 +58,56 @@ title: Pre-Ordinals Onchain Bitcoin NFTs (2021-2022)
 
     <div class="pb-3">
         <h6>
-            IMPORTANT:</bold> many artworks & documents were uploaded onto Bitcoin between 2011 & 2018
-            (see <a href='https://cirosantilli.com/cool-data-embedded-in-the-bitcoin-blockchain'>Ciro's Bitcoin
+            <strong>IMPORTANT:</strong> many artworks & documents were uploaded onto Bitcoin between 2011 & 2018
+            (see <a href='https://cirosantilli.com/cool-data-embedded-in-the-bitcoin-blockchain' target="_blank"
+                rel="noopener noreferrer">Ciro's Bitcoin
                 Inscription Museum</a>). Early onchain works from 2013-2018 such as AtomSea & Embii, the OLGA
             Counterparty broadcast,
             Cryptograffiti etc - while secured by Bitcoin - were etchings rather than NFTs in the sense that they were not binded directly to a token/collectible.
         </h6>
     </div>
 
-    <div id="wrapper" class="pb-4">
-        <table class="table table-dark table-striped table-bordered align-middle">
+    <div class="table-wrap pb-4">
+        <table class="table table-dark table-striped table-bordered align-middle responsive-table">
             <thead class="table-light">
                 <tr>
                     <th style="width: 7.5%;">File</th>
                     <th style="width: 12.5%;">Onchain Datetime</th>
                     <th style="width: 10%;">Name</th>
-                    <th style="width: 7.5%;" class="d-none d-md-table-cell">Supply</th>
-                    <th style="width: 10%;" class="d-none d-md-table-cell">Project & Author</th>
-                    <th style="width: 5%;" class="d-none d-md-table-cell">Type</th>
-                    <th style="width: 30%;" class="d-none d-md-table-cell">Notes</th>
+                    <th style="width: 7.5%;" class="desktop-only">Supply</th>
+                    <th style="width: 10%;" class="desktop-only">Project & Author</th>
+                    <th style="width: 5%;" class="desktop-only">Type</th>
+                    <th style="width: 30%;" class="desktop-only">Notes</th>
                 </tr>
             </thead>
             <tbody>
                 {% for item in site.data['pre-ordinals-onchain-bitcoin-nfts'] %}
                 <tr>
-                    <td>{{ item.file }}</td>
-                    <td>{{ item.datetime }}</td>
-                    <td>{{ item.name }}</td>
-                    <td class="d-none d-md-table-cell">{{ item.supply }}</td>
-                    <td class="d-none d-md-table-cell">{{ item.project_author }}</td>
-                    <td class="d-none d-md-table-cell">{{ item.type }}</td>
-                    <td class="d-none d-md-table-cell">{{ item.notes }}</td>
+                    <td class="artwork-cell">{{ item.file }}</td>
+                    <td class="datetime-cell" data-label="Onchain datetime">{{ item.datetime }}</td>
+                    <td class="name-cell" data-label="Name">{{ item.name }}</td>
+                    <td class="desktop-only">{{ item.supply }}</td>
+                    <td class="desktop-only">{{ item.project_author }}</td>
+                    <td class="desktop-only">{{ item.type }}</td>
+                    <td class="desktop-only">{{ item.notes }}</td>
+                    <td class="mobile-meta">
+                        <p><strong>Supply:</strong> {{ item.supply }}</p>
+                        <p><strong>Project & Author:</strong> {{ item.project_author }}</p>
+                        <p><strong>Type:</strong> {{ item.type }}</p>
+                        <p><strong>Notes:</strong> {{ item.notes | default: "-" }}</p>
+                    </td>
                 </tr>
                 {% endfor %}
             </tbody>
         </table>
     </div>
+    </main>
+
+    <script>
+        document.querySelectorAll('a[target="_blank"]').forEach(link => {
+            link.rel = 'noopener noreferrer';
+        });
+    </script>
 </body>
 
 </html>

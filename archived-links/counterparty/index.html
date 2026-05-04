@@ -17,14 +17,15 @@
     <link href="/styles.css" rel="stylesheet" />
 </head>
 
-<body class="p-1 m-4">
+<body>
+    <main class="page-shell">
     <div class="row pb-2 align-items-center">
         <div class="col">
-            <h1>Counterparty (2014-2020)</h1>
+            <h1 class="page-title">Counterparty (2014-2020)</h1>
         </div>
     </div>
 
-    <div class="pb-2">
+    <div class="page-actions pb-2">
         <a href="../" class="github-btn">
             <svg height="20" width="20" style="fill: white;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true">
@@ -33,11 +34,9 @@
             </svg>
             View more sets of archived links here
         </a>
-    </div>
-
-    <div class="pb-4">
+    
         <a href="https://github.com/nft-origins/nft-origins.github.io/tree/main"
-            class="github-btn">
+            class="github-btn" target="_blank" rel="noopener noreferrer">
             <svg height="20" width="20" style="fill: white;" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true">
                 <path
@@ -53,10 +52,19 @@
         </h6>
     </div>
 
-    <div id="wrapper" class="pb-4"></div>
+    <div class="gridjs-wrapper pb-4">
+        <div id="wrapper"></div>
+    </div>
+    </main>
 
     <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
     <script>
+        function hardenExternalLinks(root = document) {
+            root.querySelectorAll('a[target="_blank"]').forEach(link => {
+                link.rel = 'noopener noreferrer';
+            });
+        }
+
         fetch('data.json')
             .then(response => response.json())
             .then(data => {
@@ -71,7 +79,7 @@
                     ]),
                     search: true,
                     pagination: {
-                        limit: 100,
+                        limit: 50,
                         summary: true
                     },
                     style: {
@@ -80,6 +88,8 @@
                         }
                     }
                 }).render(document.getElementById("wrapper"));
+
+                hardenExternalLinks(document.getElementById("wrapper"));
             });
     </script>
 </body>
