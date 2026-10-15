@@ -2,7 +2,7 @@
 
 NFT Origins is a research-focused site about early blockchain collectibles and NFT history.
 
-This repository contains the source for the website, including timelines, archived links, and supporting data files covering notable early works, collections, and onchain milestones.
+This repository contains the source for the website including timelines and supporting data files covering notable early works, collections, and onchain milestones.
 
 ## Website
 
